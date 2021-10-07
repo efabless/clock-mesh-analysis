@@ -41,7 +41,13 @@ for i in list(range(iterations)):
     power_resistors.append(power_resistor)
 
 #XDC1 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12 
-    power_cap = f"XDC{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_3"
+    power_cap = f"XDC{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
+    power_caps.append(power_cap)
+    power_cap = f"XDC{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
+    power_caps.append(power_cap)
+    power_cap = f"XDC{i}_{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
+    power_caps.append(power_cap)
+    power_cap = f"XDC{i}_{i}_{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
     power_caps.append(power_cap)
 
 print_array(pulses)
