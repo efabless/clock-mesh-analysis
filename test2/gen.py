@@ -21,7 +21,8 @@ VNB       VNB  0  0
 VVGND     VGND 0  0
 """)
 
-iterations = 32
+decaps = 4
+iterations = 2
 for i in list(range(iterations)):
     skew = str(round(uniform(1, 8), 2))
     pulse = f"0 1.8 {skew}n 1n 1n 48n 100n"
@@ -31,24 +32,19 @@ for i in list(range(iterations)):
     #buffer = f"x0{i} clk{i} VGND VNB vpwr0 vpwr0 co{i} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
 
-    resistor = f"R{i} co{i} co{i+1} 50"
+    resistor = f"R{i} co{i} co{i+1} ${{RLOAD}}"
     resistors.append(resistor)
 
     leaf = f"x1{i} co{i+1} VGND VNB vpwr0 vpwr0 ff{i} sky130_fd_sc_hd__clkbuf_16"
     leafs.append(leaf)
 
-    power_resistor = f"RP{i} vpwr{i} vpwr{i+1} 50"
+    power_resistor = f"RP{i} vpwr{i} vpwr{i+1} ${{RPWR}}"
     power_resistors.append(power_resistor)
 
 #XDC1 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12 
-    power_cap = f"XDC{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
-    power_caps.append(power_cap)
-    power_cap = f"XDC{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
-    power_caps.append(power_cap)
-    power_cap = f"XDC{i}_{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
-    power_caps.append(power_cap)
-    power_cap = f"XDC{i}_{i}_{i}_{i}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
-    power_caps.append(power_cap)
+    for j in list(range(decaps)):
+        power_cap = f"XDC{j}_{i} VGND VNB vpwr{i+1} vpwr{i+1} sky130_fd_sc_hd__decap_12"
+        power_caps.append(power_cap)
 
 print_array(pulses)
 print('')
