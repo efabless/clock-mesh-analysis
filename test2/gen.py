@@ -37,7 +37,7 @@ for i in list(range(buffers_count)):
     #buffer = f"x0_{i} clk_{i} VGND VNB vpwr0 vpwr0 co_{i} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
 
-    resistor = f"R_{i} co_{i} co_{i} ${{RLOAD}}"
+    resistor = f"R_{i} co_{i} co_{i+1} ${{RLOAD}}"
     resistors.append(resistor)
 
     leaf = f"x1_{i} co_{i} VGND VNB vpwr_0 vpwr_0 ff_{i} sky130_fd_sc_hd__clkbuf_16"
