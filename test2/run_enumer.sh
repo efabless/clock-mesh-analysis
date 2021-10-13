@@ -3,8 +3,8 @@
 set -xu
 
 dir=mesh
-output_spice=mesh.spice
+output_spice=mesh32.spice
 run_template=run_template.sh
-tb=tb_mesh.spice
+tb=mesh32.spice
 cfg=mesh.cfg
-/ciic/tools/efabless/bin/enumer -v -d $dir -o $output_spice -r $run_template $tb $cfg
+../utils/enumer.py -v -d $dir -o $output_spice -r $run_template $tb $cfg

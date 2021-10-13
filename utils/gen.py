@@ -24,7 +24,7 @@ for i in list(range(branches)):
 
 
 for i in list(range(buffers_count)):
-    skew = str(round(uniform(1, 8), 2))
+    skew = str(round(uniform(0, 2), 2))
     pulse = f"0 1.8 {skew}n 1n 1n 48n 100n"
     pulses.append(f"VC_{i} clk_{i} VGND pulse {pulse}")
 

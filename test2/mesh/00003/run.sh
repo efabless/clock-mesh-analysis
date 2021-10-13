@@ -6,7 +6,7 @@ srcp=$rund/$src
 logp=$rund/run.log
 
 # rawFile="out.raw"
-rawFile="RO:${RLOAD}_RB:${R_BASE}_RBUF:${R_BUFF}.raw"
+rawFile="RO:20_RB:20_RBUF:20.raw"
 
 \cp -f ../../.spiceinit .
 

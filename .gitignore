@@ -1,0 +1,10 @@
+# docs
+**/_build/
+**/.vscode/
+
+# CI
+**/*.out
+
+# Simulation
+# **/*.raw
+# **/*.vcd
