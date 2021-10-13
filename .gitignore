@@ -6,5 +6,5 @@
 **/*.out
 
 # Simulation
-# **/*.raw
-# **/*.vcd
+**/*.raw
+**/*.vcd

@@ -8,13 +8,12 @@ logp=$rund/run.log
 # rawFile="out.raw"
 rawFile="RO:20_RB:10_RBUF:50.raw"
 
-\cp -f ../../.spiceinit .
-
 echo log: $logp
 echo src: $srcp
 echo in dir: $rund
 echo
-cd           $rund
+cd $rund
+echo "set ngbehavior=hsa" > .spiceinit
 echo running " ngspice -b $src -r $rawFile >& $logp"
 exec ngspice -b $src -r $rawFile  >& $logp
 # 
