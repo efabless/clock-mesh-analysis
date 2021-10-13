@@ -1,0 +1,300 @@
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00000/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00000/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00000
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00000/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00001/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00001/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00001
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00001/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00002/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00002/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00002
+
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00003/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00003/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00003
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00002/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00003/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00004/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00004/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00004
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00004/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00005/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00005/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00005
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00005/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00007/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00007/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00007
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00007/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00008/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00008/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00008
+
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00006/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00006/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00006
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00008/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00006/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00009/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00009/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00009
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00009/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00010/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00010/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00010
+
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00011/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00010/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00011/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00011
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00011/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00012/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00012/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00012
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00012/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00014/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00013/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00014/mesh32.spice-b
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00013/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00014
+
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00013
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00014/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00013/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00016/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00016/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00016
+
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00015/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00015/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00015
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00016/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00015/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00019/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00017/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00019/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00019
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00017/mesh32.spice-b
+
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00017
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00019/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:20_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00017/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00018/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00018/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00018
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00018/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00020/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00020/mesh32.spice-b
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00021/run.log
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00020
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00021/mesh32.spice-b
+
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00021
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00021/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00020/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00024/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00024/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00024
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00024/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00022/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00022/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00022
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00022/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00023/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00023/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00023
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00023/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00026/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00026/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00026
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00026/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00028/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00028/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00028
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00028/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00025/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00025/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00025
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:20_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00025/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00027/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00027/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00027
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00027/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00029/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00029/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00029
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00029/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00030/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00030/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00030
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00030/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00032/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00031/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00032/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00032
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00031/mesh32.spice-b
+
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00031
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00032/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00031/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00033/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00033/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00033
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00033/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00034/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00034/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00034
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00034/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00036/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00036/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00036
+
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00035/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00035/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00035
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00036/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:30_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00035/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00037/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00037/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00037
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00037/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00038/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00038/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00038
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00038/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00039/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00040/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00039/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00039
+
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00040/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00040
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00039/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00040/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00042/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00042/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00042
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00041/run.log
+
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00041/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00041
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00041/run.log
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00042/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00043/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00043/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00043
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00043/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00044/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00044/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00044
+
+running  ngspice -b mesh32.spice-b -r CORNER:tt_RO:20_RB:10_RBUF:30_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00044/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00045/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00045/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00045
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00045/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00047/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00047/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00047
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00047/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00046/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00046/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00046
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00046/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00048/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00048/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00048
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00048/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00049/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00049/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00049
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00049/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00050/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00050/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00050
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00050/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00051/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00051/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00051
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00051/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00052/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00052/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00052
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:100_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00052/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00055/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00055/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00055
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:-40_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00055/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00056/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00056/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00056
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:-40_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00056/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00053/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00053/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00053
+
+running  ngspice -b mesh32.spice-b -r CORNER:ff_RO:20_RB:10_RBUF:30_TEMP:100_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00053/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00058/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00058/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00058
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00058/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00054/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00054/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00054
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:-40_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00054/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00057/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00057/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00057
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:25_VDD:1.6.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00057/run.log
+log: /ciic/designs/clock-meshing-analysis/test4/mesh/00059/run.log
+src: /ciic/designs/clock-meshing-analysis/test4/mesh/00059/mesh32.spice-b
+in dir: /ciic/designs/clock-meshing-analysis/test4/mesh/00059
+
+running  ngspice -b mesh32.spice-b -r CORNER:ss_RO:20_RB:10_RBUF:50_TEMP:25_VDD:2.0.raw >& /ciic/designs/clock-meshing-analysis/test4/mesh/00059/run.log

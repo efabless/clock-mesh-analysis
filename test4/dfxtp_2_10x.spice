@@ -1,0 +1,16 @@
+
+.subckt DFXTP_2_10X VPWR VGND ffc Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 
+
+XDF0 ffc  VGND VGND VGND vpwr vpwr Q0  sky130_fd_sc_hd__dfxtp_2
+XDF1 ffc  VGND VGND VGND vpwr vpwr Q1  sky130_fd_sc_hd__dfxtp_2
+XDF2 ffc  VGND VGND VGND vpwr vpwr Q2  sky130_fd_sc_hd__dfxtp_2
+XDF3 ffc  VGND VGND VGND vpwr vpwr Q3  sky130_fd_sc_hd__dfxtp_2
+XDF4 ffc  VGND VGND VGND vpwr vpwr Q4  sky130_fd_sc_hd__dfxtp_2
+XDF5 ffc  VGND VGND VGND vpwr vpwr Q5  sky130_fd_sc_hd__dfxtp_2
+XDF6 ffc  VGND VGND VGND vpwr vpwr Q6  sky130_fd_sc_hd__dfxtp_2
+XDF7 ffc  VGND VGND VGND vpwr vpwr Q7  sky130_fd_sc_hd__dfxtp_2
+XDF8 ffc  VGND VGND VGND vpwr vpwr Q8  sky130_fd_sc_hd__dfxtp_2
+XDF9 ffc  VGND VGND VGND vpwr vpwr Q9  sky130_fd_sc_hd__dfxtp_2
+.ends
+
+ 

@@ -1,0 +1,266 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: vc_31: no DC value, transient time 0 value used
+Warning: vc_30: no DC value, transient time 0 value used
+Warning: vc_29: no DC value, transient time 0 value used
+Warning: vc_28: no DC value, transient time 0 value used
+Warning: vc_27: no DC value, transient time 0 value used
+Warning: vc_26: no DC value, transient time 0 value used
+Warning: vc_25: no DC value, transient time 0 value used
+Warning: vc_24: no DC value, transient time 0 value used
+Warning: vc_23: no DC value, transient time 0 value used
+Warning: vc_22: no DC value, transient time 0 value used
+Warning: vc_21: no DC value, transient time 0 value used
+Warning: vc_20: no DC value, transient time 0 value used
+Warning: vc_19: no DC value, transient time 0 value used
+Warning: vc_18: no DC value, transient time 0 value used
+Warning: vc_17: no DC value, transient time 0 value used
+Warning: vc_16: no DC value, transient time 0 value used
+Warning: vc_15: no DC value, transient time 0 value used
+Warning: vc_14: no DC value, transient time 0 value used
+Warning: vc_13: no DC value, transient time 0 value used
+Warning: vc_12: no DC value, transient time 0 value used
+Warning: vc_11: no DC value, transient time 0 value used
+Warning: vc_10: no DC value, transient time 0 value used
+Warning: vc_9: no DC value, transient time 0 value used
+Warning: vc_8: no DC value, transient time 0 value used
+Warning: vc_7: no DC value, transient time 0 value used
+Warning: vc_6: no DC value, transient time 0 value used
+Warning: vc_5: no DC value, transient time 0 value used
+Warning: vc_4: no DC value, transient time 0 value used
+Warning: vc_3: no DC value, transient time 0 value used
+Warning: vc_2: no DC value, transient time 0 value used
+Warning: vc_1: no DC value, transient time 0 value used
+Warning: vc_0: no DC value, transient time 0 value used
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: True gmin stepping completed
+
+Compatibility modes selected: hs a
+
+
+Circuit: 
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+binary raw file "CORNER:ff_RO:20_RB:20_RBUF:50_TEMP:25_VDD:1.8.raw"
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+No. of Data Columns : 6295  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vpwr_0                                     1.8
+vnb                                          0
+vgnd                                         0
+clk_0                                        0
+clk_1                                        0
+clk_2                                        0
+clk_3                                        0
+clk_4                                        0
+clk_5                                        0
+clk_6                                        0
+clk_7                                        0
+clk_8                                        0
+clk_9                                        0
+clk_10                                       0
+clk_11                                       0
+clk_12                                       0
+clk_13                                       0
+clk_14                                       0
+clk_15                                       0
+clk_16                                       0
+clk_17                                       0
+clk_18                                       0
+clk_19                                       0
+clk_20                                       0
+clk_21                                       0
+clk_22                                       0
+clk_23                                       0
+clk_24                                       0
+clk_25                                       0
+clk_26                                       0
+clk_27                                       0
+clk_28                                       0
+clk_29                                       0
+clk_30                                       0
+clk_31                                       0
+vpwr_branch_0                              1.8
+vpwr_branch_1                              1.8
+vpwr_branch_2                              1.8
+vpwr_branch_3                              1.8
+vpwr_branch_4                              1.8
+vpwr_branch_5                              1.8
+vpwr_branch_6                              1.8
+vpwr_buff_0                                1.8
+vpwr_buff_1                                1.8
+vpwr_buff_2                                1.8
+vpwr_buff_3                                1.8
+vpwr_buff_4                                1.8
+vpwr_buff_5                                1.8
+vpwr_buff_6                                1.8
+vpwr_buff_7                                1.8
+vpwr_buff_8                                1.8
+vpwr_buff_9                                1.8
+vpwr_buff_10                               1.8
+vpwr_buff_11                               1.8
+vpwr_buff_12                               1.8
+vpwr_buff_13                               1.8
+vpwr_buff_14                               1.8
+vpwr_buff_15                               1.8
+vpwr_buff_16                               1.8
+vpwr_buff_17                               1.8
+vpwr_buff_18                               1.8
+vpwr_buff_19                               1.8
+vpwr_buff_20                               1.8
+vpwr_buff_21                               1.8
+vpwr_buff_22                               1.8
+vpwr_buff_23                               1.8
+vpwr_buff_24                               1.8
+vpwr_buff_25                               1.8
+vpwr_buff_26                               1.8
+vpwr_buff_27                               1.8
+vpwr_buff_28                               1.8
+vpwr_buff_29                               1.8
+vpwr_buff_30                               1.8
+vpwr_buff_31                               1.8
+co_0                               8.77972e-09
+co_1                               8.77972e-09
+co_2                               8.77972e-09
+co_3                               8.77972e-09
+co_4                               8.77972e-09
+co_5                               8.77972e-09
+co_6                               8.77972e-09
+co_7                               8.77972e-09
+co_8                               8.77972e-09
+co_9                               8.77972e-09
+co_10                              8.77972e-09
+co_11                              8.77972e-09
+co_12                              8.77972e-09
+co_13                              8.77972e-09
+co_14                              8.77972e-09
+co_15                              8.77972e-09
+co_16                              8.77972e-09
+co_17                              8.77972e-09
+co_18                              8.77972e-09
+co_19                              8.77972e-09
+co_20                              8.77972e-09
+co_21                              8.77972e-09
+co_22                              8.77972e-09
+co_23                              8.77972e-09
+co_24                              8.77972e-09
+co_25                              8.77972e-09
+co_26                              8.77972e-09
+co_27                              8.77972e-09
+co_28                              8.77972e-09
+co_29                              8.77972e-09
+co_30                              8.77972e-09
+co_31                              8.77972e-09
+q0                                         1.8
+q1                                         1.8
+q2                                         1.8
+q3                                         1.8
+ff_0                               1.05705e-08
+q4                                         1.8
+q5                                         1.8
+q6                                         1.8
+q7                                         1.8
+q8                                         1.8
+q9                                         1.8
+co_32                              8.77972e-09
+ff_1                               1.05705e-08
+ff_2                               1.05705e-08
+ff_3                               1.05705e-08
+ff_4                               1.05705e-08
+ff_5                               1.05705e-08
+ff_6                               1.05705e-08
+ff_7                               1.05705e-08
+ff_8                               1.05705e-08
+ff_9                               1.05705e-08
+ff_10                              1.05705e-08
+ff_11                              1.05705e-08
+ff_12                              1.05705e-08
+ff_13                              1.05705e-08
+ff_14                              1.05705e-08
+ff_15                              1.05705e-08
+ff_16                              1.05705e-08
+ff_17                              1.05705e-08
+ff_18                              1.05705e-08
+ff_19                              1.05705e-08
+ff_20                              1.05705e-08
+ff_21                              1.05705e-08
+ff_22                              1.05705e-08
+ff_23                              1.05705e-08
+ff_24                              1.05705e-08
+ff_25                              1.05705e-08
+ff_26                              1.05705e-08
+ff_27                              1.05705e-08
+ff_28                              1.05705e-08
+ff_29                              1.05705e-08
+ff_30                              1.05705e-08
+ff_31                              1.05705e-08
+vc_31#branch                                 0
+vc_30#branch                                 0
+vc_29#branch                                 0
+vc_28#branch                                 0
+vc_27#branch                                 0
+vc_26#branch                                 0
+vc_25#branch                                 0
+vc_24#branch                                 0
+vc_23#branch                                 0
+vc_22#branch                                 0
+vc_21#branch                                 0
+vc_20#branch                                 0
+vc_19#branch                                 0
+vc_18#branch                                 0
+vc_17#branch                                 0
+vc_16#branch                                 0
+vc_15#branch                                 0
+vc_14#branch                                 0
+vc_13#branch                                 0
+vc_12#branch                                 0
+vc_11#branch                                 0
+vc_10#branch                                 0
+vc_9#branch                                  0
+vc_8#branch                                  0
+vc_7#branch                                  0
+vc_6#branch                                  0
+vc_5#branch                                  0
+vc_4#branch                                  0
+vc_3#branch                                  0
+vc_2#branch                                  0
+vc_1#branch                                  0
+vc_0#branch                                  0
+vvgnd#branch                       5.55731e-09
+vnb#branch                         2.89766e-10
+vvdd#branch                        -5.8475e-09
+
+ Reference value :  0.00000e+00 Reference value :  6.40000e-11 Reference value :  7.28000e-10 Reference value :  1.12800e-09 Reference value :  1.20360e-09 Reference value :  1.40400e-09 Reference value :  1.42000e-09 Reference value :  1.44480e-09 Reference value :  1.69000e-09 Reference value :  1.84000e-09 Reference value :  2.11600e-09 Reference value :  2.18440e-09 Reference value :  2.39000e-09 Reference value :  2.41100e-09 Reference value :  2.42560e-09 Reference value :  2.58000e-09 Reference value :  2.71400e-09 Reference value :  3.11000e-09 Reference value :  3.46000e-09 Reference value :  3.58100e-09 Reference value :  3.59560e-09 Reference value :  3.81000e-09 Reference value :  4.06000e-09 Reference value :  4.27000e-09 Reference value :  4.49000e-09 Reference value :  4.63200e-09 Reference value :  4.72200e-09 Reference value :  4.81160e-09 Reference value :  4.85256e-09 Reference value :  4.89434e-09 Reference value :  5.12000e-09 Reference value :  5.22000e-09 Reference value :  5.44000e-09 Reference value :  5.65500e-09 Reference value :  5.70300e-09 Reference value :  5.73480e-09 Reference value :  5.82500e-09 Reference value :  5.85080e-09 Reference value :  5.88256e-09 Reference value :  5.94410e-09 Reference value :  6.16698e-09 Reference value :  6.24800e-09 Reference value :  6.35000e-09 Reference value :  6.41410e-09 Reference value :  6.61000e-09 Reference value :  6.70100e-09 Reference value :  6.71240e-09 Reference value :  6.81160e-09 Reference value :  6.94000e-09 Reference value :  6.98000e-09 Reference value :  7.02800e-09 Reference value :  7.09300e-09 Reference value :  7.11200e-09 Reference value :  7.18764e-09 Reference value :  7.26573e-09 Reference value :  7.35200e-09 Reference value :  7.38120e-09 Reference value :  7.42792e-09 Reference value :  7.57400e-09 Reference value :  7.61960e-09 Reference value :  7.80920e-09 Reference value :  7.96300e-09 Reference value :  7.98064e-09 Reference value :  8.02032e-09 Reference value :  8.10000e-09 Reference value :  8.12480e-09 Reference value :  8.38000e-09 Reference value :  8.57000e-09 Reference value :  8.82000e-09 Reference value :  8.96700e-09 Reference value :  8.98200e-09 Reference value :  9.27160e-09 Reference value :  9.77160e-09 Reference value :  1.02716e-08 Reference value :  1.07716e-08 Reference value :  1.12716e-08 Reference value :  1.17716e-08 Reference value :  1.22716e-08 Reference value :  1.27716e-08 Reference value :  1.32716e-08 Reference value :  1.37716e-08 Reference value :  1.42716e-08 Reference value :  1.48716e-08 Reference value :  1.54716e-08 Reference value :  1.60716e-08 Reference value :  1.66716e-08 Reference value :  1.72716e-08 Reference value :  1.78716e-08 Reference value :  1.84716e-08 Reference value :  1.90716e-08 Reference value :  1.96716e-08 Reference value :  2.03716e-08 Reference value :  2.11716e-08 Reference value :  2.19716e-08 Reference value :  2.27716e-08 Reference value :  2.34716e-08 Reference value :  2.41716e-08 Reference value :  2.48716e-08 Reference value :  2.55716e-08 Reference value :  2.63716e-08 Reference value :  2.71716e-08 Reference value :  2.78716e-08 Reference value :  2.85716e-08 Reference value :  2.92716e-08 Reference value :  3.00716e-08 Reference value :  3.08716e-08 Reference value :  3.15716e-08 Reference value :  3.22716e-08 Reference value :  3.29716e-08 Reference value :  3.37716e-08 Reference value :  3.45716e-08 Reference value :  3.53716e-08 Reference value :  3.60716e-08 Reference value :  3.67716e-08 Reference value :  3.74716e-08 Reference value :  3.81716e-08 Reference value :  3.88716e-08 Reference value :  3.96716e-08 Reference value :  4.03716e-08 Reference value :  4.10716e-08 Reference value :  4.17716e-08 Reference value :  4.25716e-08 Reference value :  4.32716e-08 Reference value :  4.39716e-08 Reference value :  4.46716e-08 Reference value :  4.53716e-08 Reference value :  4.61716e-08 Reference value :  4.69716e-08 Reference value :  4.77716e-08 Reference value :  4.84716e-08 Reference value :  4.91716e-08 Reference value :  4.99716e-08 Reference value :  5.01700e-08 Reference value :  5.03188e-08 Reference value :  5.04100e-08 Reference value :  5.04208e-08 Reference value :  5.05216e-08 Reference value :  5.07600e-08 Reference value :  5.11100e-08 Reference value :  5.11748e-08 Reference value :  5.13900e-08 Reference value :  5.14170e-08 Reference value :  5.14704e-08 Reference value :  5.16500e-08 Reference value :  5.18100e-08 Reference value :  5.22100e-08 Reference value :  5.24700e-08 Reference value :  5.25870e-08 Reference value :  5.26404e-08 Reference value :  5.28400e-08 Reference value :  5.31200e-08 Reference value :  5.32700e-08 Reference value :  5.34900e-08 Reference value :  5.36080e-08 Reference value :  5.36836e-08 Reference value :  5.37960e-08 Reference value :  5.38212e-08 Reference value :  5.38679e-08 Reference value :  5.39107e-08 Reference value :  5.40714e-08 Reference value :  5.42200e-08 Reference value :  5.44350e-08 Reference value :  5.46550e-08 Reference value :  5.47070e-08 Reference value :  5.47604e-08 Reference value :  5.48400e-08 Reference value :  5.48556e-08 Reference value :  5.48979e-08 Reference value :  5.50014e-08 Reference value :  5.52480e-08 Reference value :  5.53080e-08 Reference value :  5.54141e-08 Reference value :  5.56100e-08 Reference value :  5.57010e-08 Reference value :  5.57156e-08 Reference value :  5.58400e-08 Reference value :  5.59440e-08 Reference value :  5.60024e-08 Reference value :  5.60970e-08 Reference value :  5.61248e-08 Reference value :  5.62690e-08 Reference value :  5.63560e-08 Reference value :  5.63940e-08 Reference value :  5.64484e-08 Reference value :  5.65980e-08 Reference value :  5.67092e-08 Reference value :  5.69630e-08 Reference value :  5.69806e-08 Reference value :  5.70613e-08 Reference value :  5.71000e-08 Reference value :  5.71504e-08 Reference value :  5.73800e-08 Reference value :  5.75800e-08 Reference value :  5.78200e-08 Reference value :  5.79670e-08 Reference value :  5.79820e-08 Reference value :  5.82716e-08 Reference value :  5.87716e-08 Reference value :  5.92716e-08 Reference value :  5.97716e-08 Reference value :  6.02716e-08 Reference value :  6.08716e-08 Reference value :  6.13716e-08 Reference value :  6.18716e-08 Reference value :  6.23716e-08 Reference value :  6.28716e-08 Reference value :  6.34716e-08 Reference value :  6.39716e-08 Reference value :  6.44716e-08 Reference value :  6.49716e-08 Reference value :  6.54716e-08 Reference value :  6.59716e-08 Reference value :  6.64716e-08 Reference value :  6.68716e-08 Reference value :  6.73716e-08 Reference value :  6.78716e-08 Reference value :  6.83716e-08 Reference value :  6.88716e-08 Reference value :  6.93716e-08 Reference value :  6.99716e-08 Reference value :  7.05716e-08 Reference value :  7.10716e-08 Reference value :  7.15716e-08 Reference value :  7.20716e-08 Reference value :  7.25716e-08 Reference value :  7.30716e-08 Reference value :  7.37716e-08 Reference value :  7.44716e-08 Reference value :  7.51716e-08 Reference value :  7.59716e-08 Reference value :  7.66716e-08 Reference value :  7.73716e-08 Reference value :  7.81716e-08 Reference value :  7.89716e-08 Reference value :  7.96716e-08 Reference value :  8.04716e-08 Reference value :  8.11716e-08 Reference value :  8.18716e-08 Reference value :  8.25716e-08 Reference value :  8.32716e-08 Reference value :  8.38716e-08 Reference value :  8.45716e-08 Reference value :  8.52716e-08 Reference value :  8.59716e-08 Reference value :  8.66716e-08 Reference value :  8.72716e-08 Reference value :  8.80716e-08 Reference value :  8.88716e-08 Reference value :  8.95716e-08 Reference value :  9.02716e-08 Reference value :  9.09716e-08 Reference value :  9.17716e-08 Reference value :  9.25716e-08 Reference value :  9.33716e-08 Reference value :  9.41716e-08 Reference value :  9.48716e-08 Reference value :  9.56716e-08 Reference value :  9.63716e-08 Reference value :  9.71716e-08 Reference value :  9.79716e-08 Reference value :  9.86716e-08 Reference value :  9.93716e-08
+No. of Data Rows : 1522
+
+Total analysis time (seconds) = 75.881
+
+Total elapsed time (seconds) = 109.068 
+
+Total DRAM available = 241823.398 MB.
+DRAM currently available = 169062.598 MB.
+Maximum ngspice program size =  700.363 MB.
+Current ngspice program size =  667.336 MB.
+
+Shared ngspice pages =   10.297 MB.
+Text (code) pages =    5.609 MB.
+Stack = 0 bytes.
+Library pages =  659.320 MB.
+
