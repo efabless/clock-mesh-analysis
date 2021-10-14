@@ -63,7 +63,7 @@ for i in list(range(buffers_count)):
     buffer = f"x0_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
 
-    resistor = f"R_{i} co_{i} co_{i+1} ${{RLOAD}}"
+    resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{RLOAD}}"
     resistors.append(resistor)
 
     leaf = f"x1_{i:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i:<2} sky130_fd_sc_hd__clkbuf_16"
@@ -90,6 +90,7 @@ VVGND     VGND 0  0
 
 netlist.append(pulses)
 netlist.append(buffers)
+netlist.append(resistors)
 netlist.append(leafs)
 netlist.append(load_flipflops)
 for component in netlist:
