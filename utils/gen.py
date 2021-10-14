@@ -40,10 +40,9 @@ load_caps = []
 decaps_count = 3
 branches = 7
 buffers_count = 32
-Xflipflop_count = 32
 ff_output_ports_count = 10
 
-ff_output_ports_iterator = 0
+ff_output_ports_index = 0
 
 power_network = gen_power_network(
     power_source="vpwr_0",
@@ -69,14 +68,12 @@ for i in list(range(buffers_count)):
     load_cap = f"Cp_{i:<2} co_{i:<2} VGND ${{CP_LOAD}}"
     load_caps.append(load_cap)
 
-    for k in list(range(Xflipflop_count)):
-        ff_output_ports = ""
-        ff_output_ports_iterator += 1
-
-        for x in list(range(ff_output_ports_count)):
-            ff_output_ports += f"Q{ff_output_ports_iterator:<4} "
-
-    load_flipflop = f"X10F_{i:<2} vpwr_0 ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
+    ff_output_ports = ""
+    for x in list(range(ff_output_ports_count)):
+        ff_output_ports_index = int(ff_output_ports_index) + int(1)
+        ff_output_ports += f"Q{ff_output_ports_index:<3} "
+# X10F0 vpwr_0 VGND ff_0  Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12  DFXTP_2_10X
+    load_flipflop = f"X10F_{i:<2} vpwr_0 VGND ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
     load_flipflops.append(load_flipflop)
 
 
