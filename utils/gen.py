@@ -18,7 +18,7 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
     for i in list(range(load_count)):
         branch_index = (i % branches)
         branch = f"vpwr_{prefix}_branch_{branch_index}"
-        output = f"vpwr_{prefix}_buff_{i}"
+        output = f"vpwr_{prefix}_{i}"
         load_resistor = f"RP_{prefix}_LOAD_{i}"
         R = f"{load_resistor:20} {branch:23} {output:23} ${{R_{prefix}_BUFF}}"
         resistors.append(R)
