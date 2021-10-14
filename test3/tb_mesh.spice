@@ -1,0 +1,51 @@
+
+VVDD      vpwr0 0  1.8
+VNB       VNB  0  0
+VVGND     VGND 0  0
+
+VC0 clk0 VGND pulse 0 1.8 2.14n 1n 1n 48n 100n
+VC1 clk1 VGND pulse 0 1.8 3.06n 1n 1n 48n 100n
+
+x00 clk0 VGND VNB vpwr1 vpwr1 co0 sky130_fd_sc_hd__clkbuf_1
+x01 clk1 VGND VNB vpwr2 vpwr2 co1 sky130_fd_sc_hd__clkbuf_1
+
+R0 co0 co1 ${RLOAD}
+R1 co1 co2 ${RLOAD}
+
+x10 co1 VGND VNB vpwr0 vpwr0 ff0 sky130_fd_sc_hd__clkbuf_16
+x11 co2 VGND VNB vpwr0 vpwr0 ff1 sky130_fd_sc_hd__clkbuf_16
+
+RP0 vpwr0 vpwr1 ${RPWR}
+RP1 vpwr1 vpwr2 ${RPWR}
+
+XDC0_0 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12
+XDC1_0 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12
+XDC2_0 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12
+XDC3_0 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_12
+XDC0_1 VGND VNB vpwr2 vpwr2 sky130_fd_sc_hd__decap_12
+XDC1_1 VGND VNB vpwr2 vpwr2 sky130_fd_sc_hd__decap_12
+XDC2_1 VGND VNB vpwr2 vpwr2 sky130_fd_sc_hd__decap_12
+XDC3_1 VGND VNB vpwr2 vpwr2 sky130_fd_sc_hd__decap_12
+
+.lib /ciic/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /ciic/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.save clk0
+.save clk1
+
+.save co0
+.save co1
+.save co2
+
+.save ff0
+.save ff1
+
+.save vpwr0
+.save vpwr1
+
+
+.save all
+.options savecurrents
+.tran 2n 250n
+
+.end
