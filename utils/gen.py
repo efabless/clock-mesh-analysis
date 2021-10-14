@@ -33,6 +33,7 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
 netlist = []
 pulses = []
 buffers = []
+resistors = []
 leafs = []
 load_flipflops = []
 load_caps = []
@@ -61,6 +62,9 @@ for i in list(range(buffers_count)):
 
     buffer = f"x0_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
+
+    resistor = f"R_{i} co_{i} co_{i+1} ${{RLOAD}}"
+    resistors.append(resistor)
 
     leaf = f"x1_{i:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i:<2} sky130_fd_sc_hd__clkbuf_16"
     leafs.append(leaf)
