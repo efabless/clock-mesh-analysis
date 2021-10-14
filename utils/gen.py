@@ -33,12 +33,9 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
 netlist = []
 pulses = []
 buffers = []
-resistors = []
 leafs = []
-power_resistors = []
-power_caps = []
-load_caps = []
 load_flipflops = []
+load_caps = []
 
 decaps_count = 3
 branches = 7
@@ -60,16 +57,16 @@ netlist.append(power_network)
 
 for i in list(range(buffers_count)):
     skew = str(round(uniform(0, 2), 2))
-    pulse = f"0 1.8 {skew}n 1n 1n 48n 100n"
-    pulses.append(f"VC_{i} clk_{i} VGND pulse {pulse}")
+    pulse = f"0 1.8 {skew:>4}n 1n 1n 48n 100n"
+    pulses.append(f"VC_{i:<2} clk_{i:<2} VGND pulse {pulse}")
 
-    buffer = f"x0_{i} clk_{i} VGND VNB vpwr_clk_buf1_{i} vpwr_clk_buf1_{i} co_{i} sky130_fd_sc_hd__clkbuf_1"
+    buffer = f"x0_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
 
-    leaf = f"x1_{i} co_{i} VGND VNB vpwr_clk_buf1_{i} vpwr_clk_buf1_{i} ff_{i} sky130_fd_sc_hd__clkbuf_16"
+    leaf = f"x1_{i:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i:<2} sky130_fd_sc_hd__clkbuf_16"
     leafs.append(leaf)
 
-    load_cap = f"Cp_{i} co_{i} VGND ${{CP_LOAD}}"
+    load_cap = f"Cp_{i:<2} co_{i:<2} VGND ${{CP_LOAD}}"
     load_caps.append(load_cap)
 
     for k in list(range(Xflipflop_count)):
@@ -77,9 +74,9 @@ for i in list(range(buffers_count)):
         ff_output_ports_iterator += 1
 
         for x in list(range(ff_output_ports_count)):
-            ff_output_ports += f"Q{ff_output_ports_iterator} "
+            ff_output_ports += f"Q{ff_output_ports_iterator:<3} "
 
-    load_flipflop = f"X10F_{i} vpwr_0 ff_{i} {ff_output_ports} DFXTP_2_10X"
+    load_flipflop = f"X10F_{i:<2} vpwr_0 ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
     load_flipflops.append(load_flipflop)
 
 
@@ -90,16 +87,13 @@ VNB       VNB  0  0
 VVGND     VGND 0  0
     """)
 
-# netlist.append(pulses)
-# netlist.append(power_resistors)
-# netlist.append(buffers)
-# netlist.append(resistors)
-# netlist.append(buffers)
-# netlist.append(leafs)
-# netlist.append(power_caps)
-# netlist.append(load_flipflops)
+netlist.append(pulses)
+netlist.append(buffers)
+netlist.append(leafs)
+netlist.append(load_flipflops)
 for component in netlist:
     print_array(component)
+    print('')
 
 print(
     """
