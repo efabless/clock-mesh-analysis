@@ -1,93 +1,115 @@
 #!/usr/bin/env python3
 from random import seed, uniform
 
-pulses = []
-buffers = []
-resistors = []
-leafs = []
-power_resistors = []
-power_caps = []
-
 
 def print_array(array):
     for item in array:
         print(item)
 
 
+def gen_power_network(power_source, prefix, branch_count, load_count, decaps_count):
+    resistors = []
+    decaps = []
+    for i in list(range(branch_count)):
+        branch = f"vpwr_{prefix}_branch_{i}"
+        R = f"RP_{prefix}_{i} {power_source} {branch:23} ${{R_{prefix}_BASE}}"
+        resistors.append(R)
+
+    for i in list(range(load_count)):
+        branch_index = (i % branches)
+        branch = f"vpwr_{prefix}_branch_{branch_index}"
+        output = f"vpwr_{prefix}_buff_{i}"
+        load_resistor = f"RP_{prefix}_LOAD_{i}"
+        R = f"{load_resistor:20} {branch:23} {output:23} ${{R_{prefix}_BUFF}}"
+        resistors.append(R)
+
+        for j in list(range(decaps_count)):
+            decap = f"XDC_{prefix}_{j}_{i} VGND VNB {output} {output} sky130_fd_sc_hd__decap_12"
+            decaps.append(decap)
+
+    return resistors + decaps
+
+
+netlist = []
+pulses = []
+buffers = []
+resistors = []
+leafs = []
+power_resistors = []
+power_caps = []
+load_caps = []
+load_flipflops = []
+
 decaps_count = 3
 branches = 7
 buffers_count = 32
-for i in list(range(branches)):
-    power_resistors.append(
-        f"RP_{i} vpwr_0 vpwr_branch_{i} ${{R_BASE}}"
-    )
+Xflipflop_count = 32
+ff_output_ports_count = 10
 
+ff_output_ports_iterator = 0
+
+power_network = gen_power_network(
+    power_source="vpwr_0",
+    prefix="clk_buf1",
+    branch_count=branches,
+    load_count=buffers_count,
+    decaps_count=decaps_count
+)
+
+netlist.append(power_network)
 
 for i in list(range(buffers_count)):
     skew = str(round(uniform(0, 2), 2))
     pulse = f"0 1.8 {skew}n 1n 1n 48n 100n"
     pulses.append(f"VC_{i} clk_{i} VGND pulse {pulse}")
 
-    branch = (i % branches)
-    power_resistors.append(
-        f"RP_BUFF_{i} vpwr_branch_{branch} vpwr_buff_{i} ${{R_BUFF}}"
-    )
-
-    buffer = f"x0_{i} clk_{i} VGND VNB vpwr_buff_{i} vpwr_buff_{i} co_{i} sky130_fd_sc_hd__clkbuf_1"
-    #buffer = f"x0_{i} clk_{i} VGND VNB vpwr0 vpwr0 co_{i} sky130_fd_sc_hd__clkbuf_1"
+    buffer = f"x0_{i} clk_{i} VGND VNB vpwr_clk_buf1_{i} vpwr_clk_buf1_{i} co_{i} sky130_fd_sc_hd__clkbuf_1"
     buffers.append(buffer)
 
-    resistor = f"R_{i} co_{i} co_{i+1} ${{RLOAD}}"
-    resistors.append(resistor)
-
-    leaf = f"x1_{i} co_{i} VGND VNB vpwr_0 vpwr_0 ff_{i} sky130_fd_sc_hd__clkbuf_16"
+    leaf = f"x1_{i} co_{i} VGND VNB vpwr_clk_buf1_{i} vpwr_clk_buf1_{i} ff_{i} sky130_fd_sc_hd__clkbuf_16"
     leafs.append(leaf)
 
-    # power_resistor = f"RP_{i} vpwr_{i} vpwr_{i} ${{RPWR}}"
-    # power_resistors.append(power_resistor)
+    load_cap = f"Cp_{i} co_{i} VGND ${{CP_LOAD}}"
+    load_caps.append(load_cap)
 
-    for j in list(range(decaps_count)):
-        power_cap = f"XDC{j}_{i} VGND VNB vpwr_buff_{i} vpwr_buff_{i} sky130_fd_sc_hd__decap_12"
-        power_caps.append(power_cap)
+    for k in list(range(Xflipflop_count)):
+        ff_output_ports = ""
+        ff_output_ports_iterator += 1
+
+        for x in list(range(ff_output_ports_count)):
+            ff_output_ports += f"Q{ff_output_ports_iterator} "
+
+    load_flipflop = f"X10F_{i} vpwr_0 ff_{i} {ff_output_ports} DFXTP_2_10X"
+    load_flipflops.append(load_flipflop)
 
 
 print(
     """
-VVDD      vpwr_0 0  1.8
+VVDD      vpwr_0 0  ${VDDD}
 VNB       VNB  0  0
 VVGND     VGND 0  0
     """)
-print_array(pulses)
-print('')
-print_array(power_resistors)
-print('')
-print_array(buffers)
-print('')
-print_array(resistors)
-print('')
-print_array(leafs)
-print('')
-print_array(power_caps)
+
+# netlist.append(pulses)
+# netlist.append(power_resistors)
+# netlist.append(buffers)
+# netlist.append(resistors)
+# netlist.append(buffers)
+# netlist.append(leafs)
+# netlist.append(power_caps)
+# netlist.append(load_flipflops)
+for component in netlist:
+    print_array(component)
 
 print(
     """
-.lib /ciic/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.include /ciic/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
-""")
-# print("""
-# .GLOBAL GND
-# .GLOBAL VNB
-# .GLOBAL VGND
-# .GLOBAL VPWR
-# .GLOBAL VPB
-# """)
+.lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
+.include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include ../../dfxtp_2_10x.spice
 
-
-print(
-    """
+.temp ${TEMP}
 .save all
 .options savecurrents
-.tran 2n 250n
+.tran 0.1n 100n
 
-.end"""
-)
+.end""")
