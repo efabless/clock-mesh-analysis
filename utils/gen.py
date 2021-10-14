@@ -74,7 +74,7 @@ for i in list(range(buffers_count)):
         ff_output_ports_iterator += 1
 
         for x in list(range(ff_output_ports_count)):
-            ff_output_ports += f"Q{ff_output_ports_iterator:<3} "
+            ff_output_ports += f"Q{ff_output_ports_iterator:<4} "
 
     load_flipflop = f"X10F_{i:<2} vpwr_0 ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
     load_flipflops.append(load_flipflop)
