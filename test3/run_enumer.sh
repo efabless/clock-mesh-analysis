@@ -2,7 +2,7 @@
 
 set -xu
 
-dir=mesh
+dir=mesh_saveall
 output_spice=mesh.spice
 run_template=run_template.sh
 tb=tb_mesh.spice

@@ -1,12 +1,12 @@
 #!/bin/bash
 rund=$(readlink -f $(dirname $0))
 runn=$(basename $rund)
-src=mesh32.spice
+src=mesh.spice
 srcp=$rund/$src
 logp=$rund/run.log
 
 # rawFile="out.raw"
-rawFile="RO:${RLOAD}_RB:${R_BASE}_RBUF:${R_BUFF}.raw"
+rawFile="CORNER:${CORNER}_RO:${RLOAD}_RB:${R_BASE}_RBUF:${R_BUFF}_TEMP:${TEMP}_VDD:${VDDD}.raw"
 
 echo log: $logp
 echo src: $srcp
