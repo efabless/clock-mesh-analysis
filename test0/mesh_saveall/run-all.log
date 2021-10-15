@@ -1,0 +1,5 @@
+log: /home/karim/clock-meshing-analysis/test0/mesh_saveall/00000/run.log
+src: /home/karim/clock-meshing-analysis/test0/mesh_saveall/00000/mesh.spice
+in dir: /home/karim/clock-meshing-analysis/test0/mesh_saveall/00000
+
+running  ngspice -b mesh.spice -r CORNER:tt_RO:50_RB:_RBUF:_TEMP:25_VDD:2.0.raw >& /home/karim/clock-meshing-analysis/test0/mesh_saveall/00000/run.log
