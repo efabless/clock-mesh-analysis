@@ -90,9 +90,9 @@ VVGND     VGND 0  0
 
 netlist.append(pulses)
 netlist.append(buffers)
-netlist.append(resistors)
+# netlist.append(resistors)
 netlist.append(leafs)
-netlist.append(load_flipflops)
+# netlist.append(load_flipflops)
 for component in netlist:
     print_array(component)
     print('')
@@ -105,7 +105,6 @@ print(
 
 .temp ${TEMP}
 .save all
-.options savecurrents
 .tran 0.1n 100n
 
 .end""")
