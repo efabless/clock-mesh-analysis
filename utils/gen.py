@@ -76,7 +76,7 @@ for i in list(range(buffers_count)):
 
     # diodes connected to buffer inputs
     #  .subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
-    diode = f"xdiode_{i:<2} VGND VNB co_{i:<2} vpwr_0 sky130_fd_sc_hd__diode_2"
+    diode = f"xdiode_{i:<2} co_{i:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2 "
     buffer_diodes.append(diode)
 
     # load resistors between shorted net (mesh)
@@ -92,7 +92,7 @@ for i in list(range(buffers_count)):
     for x in list(range(ff_output_ports_count)):
         ff_output_ports_index = int(ff_output_ports_index) + int(1)
         ff_output_ports += f"Q{ff_output_ports_index:<3} "
-    
+
     load_flipflop = f"X10F_{i:<2} vpwr_0 VGND ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
     load_flipflops.append(load_flipflop)
 
