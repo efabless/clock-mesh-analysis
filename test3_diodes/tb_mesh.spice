@@ -2,7 +2,7 @@
 VVDD      vpwr_0 0  ${VDDD}
 VNB       VNB  0  0
 VVGND     VGND 0  0
-    
+
 RP_clk_buf1_0 vpwr_0 vpwr_clk_buf1_branch_0  ${R_clk_buf1_BASE}
 RP_clk_buf1_1 vpwr_0 vpwr_clk_buf1_branch_1  ${R_clk_buf1_BASE}
 RP_clk_buf1_2 vpwr_0 vpwr_clk_buf1_branch_2  ${R_clk_buf1_BASE}
@@ -10,38 +10,38 @@ RP_clk_buf1_3 vpwr_0 vpwr_clk_buf1_branch_3  ${R_clk_buf1_BASE}
 RP_clk_buf1_4 vpwr_0 vpwr_clk_buf1_branch_4  ${R_clk_buf1_BASE}
 RP_clk_buf1_5 vpwr_0 vpwr_clk_buf1_branch_5  ${R_clk_buf1_BASE}
 RP_clk_buf1_6 vpwr_0 vpwr_clk_buf1_branch_6  ${R_clk_buf1_BASE}
-RP_clk_buf1_LOAD_0   vpwr_clk_buf1_branch_0  vpwr_clk_buf1_0         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_1   vpwr_clk_buf1_branch_1  vpwr_clk_buf1_1         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_2   vpwr_clk_buf1_branch_2  vpwr_clk_buf1_2         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_3   vpwr_clk_buf1_branch_3  vpwr_clk_buf1_3         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_4   vpwr_clk_buf1_branch_4  vpwr_clk_buf1_4         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_5   vpwr_clk_buf1_branch_5  vpwr_clk_buf1_5         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_6   vpwr_clk_buf1_branch_6  vpwr_clk_buf1_6         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_7   vpwr_clk_buf1_branch_0  vpwr_clk_buf1_7         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_8   vpwr_clk_buf1_branch_1  vpwr_clk_buf1_8         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_9   vpwr_clk_buf1_branch_2  vpwr_clk_buf1_9         ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_10  vpwr_clk_buf1_branch_3  vpwr_clk_buf1_10        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_11  vpwr_clk_buf1_branch_4  vpwr_clk_buf1_11        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_12  vpwr_clk_buf1_branch_5  vpwr_clk_buf1_12        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_13  vpwr_clk_buf1_branch_6  vpwr_clk_buf1_13        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_14  vpwr_clk_buf1_branch_0  vpwr_clk_buf1_14        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_15  vpwr_clk_buf1_branch_1  vpwr_clk_buf1_15        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_16  vpwr_clk_buf1_branch_2  vpwr_clk_buf1_16        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_17  vpwr_clk_buf1_branch_3  vpwr_clk_buf1_17        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_18  vpwr_clk_buf1_branch_4  vpwr_clk_buf1_18        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_19  vpwr_clk_buf1_branch_5  vpwr_clk_buf1_19        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_20  vpwr_clk_buf1_branch_6  vpwr_clk_buf1_20        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_21  vpwr_clk_buf1_branch_0  vpwr_clk_buf1_21        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_22  vpwr_clk_buf1_branch_1  vpwr_clk_buf1_22        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_23  vpwr_clk_buf1_branch_2  vpwr_clk_buf1_23        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_24  vpwr_clk_buf1_branch_3  vpwr_clk_buf1_24        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_25  vpwr_clk_buf1_branch_4  vpwr_clk_buf1_25        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_26  vpwr_clk_buf1_branch_5  vpwr_clk_buf1_26        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_27  vpwr_clk_buf1_branch_6  vpwr_clk_buf1_27        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_28  vpwr_clk_buf1_branch_0  vpwr_clk_buf1_28        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_29  vpwr_clk_buf1_branch_1  vpwr_clk_buf1_29        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_30  vpwr_clk_buf1_branch_2  vpwr_clk_buf1_30        ${R_clk_buf1_BUFF}
-RP_clk_buf1_LOAD_31  vpwr_clk_buf1_branch_3  vpwr_clk_buf1_31        ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_0  vpwr_clk_buf1_branch_0 vpwr_clk_buf1_0 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_1  vpwr_clk_buf1_branch_1 vpwr_clk_buf1_1 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_2  vpwr_clk_buf1_branch_2 vpwr_clk_buf1_2 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_3  vpwr_clk_buf1_branch_3 vpwr_clk_buf1_3 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_4  vpwr_clk_buf1_branch_4 vpwr_clk_buf1_4 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_5  vpwr_clk_buf1_branch_5 vpwr_clk_buf1_5 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_6  vpwr_clk_buf1_branch_6 vpwr_clk_buf1_6 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_7  vpwr_clk_buf1_branch_0 vpwr_clk_buf1_7 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_8  vpwr_clk_buf1_branch_1 vpwr_clk_buf1_8 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_9  vpwr_clk_buf1_branch_2 vpwr_clk_buf1_9 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_10 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_10 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_11 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_11 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_12 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_12 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_13 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_13 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_14 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_14 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_15 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_15 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_16 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_16 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_17 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_17 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_18 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_18 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_19 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_19 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_20 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_20 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_21 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_21 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_22 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_22 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_23 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_23 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_24 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_24 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_25 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_25 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_26 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_26 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_27 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_27 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_28 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_28 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_29 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_29 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_30 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_30 ${R_clk_buf1_BUFF}
+RP_clk_buf1_LOAD_31 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_31 ${R_clk_buf1_BUFF}
 XDC_clk_buf1_0_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
 XDC_clk_buf1_1_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
 XDC_clk_buf1_2_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
@@ -139,38 +139,38 @@ XDC_clk_buf1_0_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__de
 XDC_clk_buf1_1_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__decap_12
 XDC_clk_buf1_2_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__decap_12
 
-VC_0  clk_0  VGND pulse 0 1.8 0.89n 1n 1n 48n 100n
-VC_1  clk_1  VGND pulse 0 1.8 0.52n 1n 1n 48n 100n
-VC_2  clk_2  VGND pulse 0 1.8 0.05n 1n 1n 48n 100n
-VC_3  clk_3  VGND pulse 0 1.8 0.83n 1n 1n 48n 100n
-VC_4  clk_4  VGND pulse 0 1.8 1.08n 1n 1n 48n 100n
-VC_5  clk_5  VGND pulse 0 1.8 1.65n 1n 1n 48n 100n
-VC_6  clk_6  VGND pulse 0 1.8 1.73n 1n 1n 48n 100n
-VC_7  clk_7  VGND pulse 0 1.8 0.71n 1n 1n 48n 100n
-VC_8  clk_8  VGND pulse 0 1.8 0.79n 1n 1n 48n 100n
-VC_9  clk_9  VGND pulse 0 1.8 1.68n 1n 1n 48n 100n
-VC_10 clk_10 VGND pulse 0 1.8  1.2n 1n 1n 48n 100n
-VC_11 clk_11 VGND pulse 0 1.8 1.75n 1n 1n 48n 100n
-VC_12 clk_12 VGND pulse 0 1.8 0.73n 1n 1n 48n 100n
-VC_13 clk_13 VGND pulse 0 1.8 0.06n 1n 1n 48n 100n
-VC_14 clk_14 VGND pulse 0 1.8 0.55n 1n 1n 48n 100n
-VC_15 clk_15 VGND pulse 0 1.8  1.5n 1n 1n 48n 100n
-VC_16 clk_16 VGND pulse 0 1.8 1.35n 1n 1n 48n 100n
-VC_17 clk_17 VGND pulse 0 1.8 1.55n 1n 1n 48n 100n
-VC_18 clk_18 VGND pulse 0 1.8  0.1n 1n 1n 48n 100n
-VC_19 clk_19 VGND pulse 0 1.8 0.36n 1n 1n 48n 100n
-VC_20 clk_20 VGND pulse 0 1.8 0.27n 1n 1n 48n 100n
-VC_21 clk_21 VGND pulse 0 1.8 1.25n 1n 1n 48n 100n
-VC_22 clk_22 VGND pulse 0 1.8 1.03n 1n 1n 48n 100n
-VC_23 clk_23 VGND pulse 0 1.8 1.16n 1n 1n 48n 100n
-VC_24 clk_24 VGND pulse 0 1.8 0.75n 1n 1n 48n 100n
-VC_25 clk_25 VGND pulse 0 1.8  1.7n 1n 1n 48n 100n
-VC_26 clk_26 VGND pulse 0 1.8 0.57n 1n 1n 48n 100n
-VC_27 clk_27 VGND pulse 0 1.8  0.1n 1n 1n 48n 100n
-VC_28 clk_28 VGND pulse 0 1.8 1.19n 1n 1n 48n 100n
-VC_29 clk_29 VGND pulse 0 1.8 1.16n 1n 1n 48n 100n
-VC_30 clk_30 VGND pulse 0 1.8 1.29n 1n 1n 48n 100n
-VC_31 clk_31 VGND pulse 0 1.8 1.59n 1n 1n 48n 100n
+VC_0  clk_0  VGND pulse 0 1.8 0.65n 1n 1n 48n 100n
+VC_1  clk_1  VGND pulse 0 1.8 0.63n 1n 1n 48n 100n
+VC_2  clk_2  VGND pulse 0 1.8 1.11n 1n 1n 48n 100n
+VC_3  clk_3  VGND pulse 0 1.8 1.41n 1n 1n 48n 100n
+VC_4  clk_4  VGND pulse 0 1.8 1.64n 1n 1n 48n 100n
+VC_5  clk_5  VGND pulse 0 1.8 1.12n 1n 1n 48n 100n
+VC_6  clk_6  VGND pulse 0 1.8  1.2n 1n 1n 48n 100n
+VC_7  clk_7  VGND pulse 0 1.8 1.42n 1n 1n 48n 100n
+VC_8  clk_8  VGND pulse 0 1.8 1.55n 1n 1n 48n 100n
+VC_9  clk_9  VGND pulse 0 1.8 1.33n 1n 1n 48n 100n
+VC_10 clk_10 VGND pulse 0 1.8 1.45n 1n 1n 48n 100n
+VC_11 clk_11 VGND pulse 0 1.8 1.78n 1n 1n 48n 100n
+VC_12 clk_12 VGND pulse 0 1.8 0.82n 1n 1n 48n 100n
+VC_13 clk_13 VGND pulse 0 1.8 1.31n 1n 1n 48n 100n
+VC_14 clk_14 VGND pulse 0 1.8  2.0n 1n 1n 48n 100n
+VC_15 clk_15 VGND pulse 0 1.8 1.35n 1n 1n 48n 100n
+VC_16 clk_16 VGND pulse 0 1.8 0.71n 1n 1n 48n 100n
+VC_17 clk_17 VGND pulse 0 1.8  1.1n 1n 1n 48n 100n
+VC_18 clk_18 VGND pulse 0 1.8 0.61n 1n 1n 48n 100n
+VC_19 clk_19 VGND pulse 0 1.8 1.35n 1n 1n 48n 100n
+VC_20 clk_20 VGND pulse 0 1.8 1.89n 1n 1n 48n 100n
+VC_21 clk_21 VGND pulse 0 1.8  0.8n 1n 1n 48n 100n
+VC_22 clk_22 VGND pulse 0 1.8 0.65n 1n 1n 48n 100n
+VC_23 clk_23 VGND pulse 0 1.8 0.78n 1n 1n 48n 100n
+VC_24 clk_24 VGND pulse 0 1.8 0.61n 1n 1n 48n 100n
+VC_25 clk_25 VGND pulse 0 1.8  1.8n 1n 1n 48n 100n
+VC_26 clk_26 VGND pulse 0 1.8 0.62n 1n 1n 48n 100n
+VC_27 clk_27 VGND pulse 0 1.8 1.04n 1n 1n 48n 100n
+VC_28 clk_28 VGND pulse 0 1.8 1.17n 1n 1n 48n 100n
+VC_29 clk_29 VGND pulse 0 1.8 1.97n 1n 1n 48n 100n
+VC_30 clk_30 VGND pulse 0 1.8 0.69n 1n 1n 48n 100n
+VC_31 clk_31 VGND pulse 0 1.8 0.88n 1n 1n 48n 100n
 
 x0_0  clk_0  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  co_0  sky130_fd_sc_hd__clkbuf_1
 x0_1  clk_1  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  co_1  sky130_fd_sc_hd__clkbuf_1
@@ -204,6 +204,39 @@ x0_28 clk_28 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 co_28 sky130_fd_sc_hd__c
 x0_29 clk_29 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 co_29 sky130_fd_sc_hd__clkbuf_1
 x0_30 clk_30 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 co_30 sky130_fd_sc_hd__clkbuf_1
 x0_31 clk_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 co_31 sky130_fd_sc_hd__clkbuf_1
+
+xdiode_0  VGND VNB co_0  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_1  VGND VNB co_1  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_2  VGND VNB co_2  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_3  VGND VNB co_3  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_4  VGND VNB co_4  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_5  VGND VNB co_5  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_6  VGND VNB co_6  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_7  VGND VNB co_7  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_8  VGND VNB co_8  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_9  VGND VNB co_9  vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_10 VGND VNB co_10 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_11 VGND VNB co_11 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_12 VGND VNB co_12 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_13 VGND VNB co_13 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_14 VGND VNB co_14 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_15 VGND VNB co_15 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_16 VGND VNB co_16 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_17 VGND VNB co_17 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_18 VGND VNB co_18 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_19 VGND VNB co_19 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_20 VGND VNB co_20 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_21 VGND VNB co_21 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_22 VGND VNB co_22 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_23 VGND VNB co_23 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_24 VGND VNB co_24 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_25 VGND VNB co_25 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_26 VGND VNB co_26 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_27 VGND VNB co_27 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_28 VGND VNB co_28 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_29 VGND VNB co_29 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_30 VGND VNB co_30 vpwr_0 sky130_fd_sc_hd__diode_2
+xdiode_31 VGND VNB co_31 vpwr_0 sky130_fd_sc_hd__diode_2
 
 R_0  co_0  co_1  ${RLOAD}
 R_1  co_1  co_2  ${RLOAD}
@@ -310,8 +343,7 @@ X10F_31 vpwr_0 VGND ff_31 Q311 Q312 Q313 Q314 Q315 Q316 Q317 Q318 Q319 Q320  DFX
 .include ../../dfxtp_2_10x.spice
 
 .temp ${TEMP}
-.tran 1n 100n
-
-
 .save all
+.tran 0.1n 100n
+
 .end

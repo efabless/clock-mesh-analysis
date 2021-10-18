@@ -22,8 +22,8 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
         branch_index = (i % branches)
         branch = f"vpwr_{prefix}_branch_{branch_index}"
         output = f"vpwr_{prefix}_{i}"
-        load_resistor = f"RP_{prefix}_LOAD_{i}"
-        R = f"{load_resistor:20} {branch:23} {output:23} ${{R_{prefix}_BUFF}}"
+        load_resistor = f"RP_{prefix}_LOAD_{i:<2}"
+        R = f"{load_resistor:<2} {branch:<2} {output:<2} ${{R_{prefix}_BUFF}}"
         resistors.append(R)
 
         for j in list(range(decaps_count)):
@@ -40,6 +40,7 @@ load_resistors = []
 leafs = []
 load_flipflops = []
 load_caps = []
+buffer_diodes = []
 
 decaps_count = 3
 branches = 7
@@ -73,6 +74,11 @@ for i in list(range(buffers_count)):
     leaf = f"x1_{i:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i:<2} sky130_fd_sc_hd__clkbuf_16"
     leafs.append(leaf)
 
+    # diodes connected to buffer inputs
+    #  .subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
+    diode = f"xdiode_{i:<2} VGND VNB co_{i:<2} vpwr_0 sky130_fd_sc_hd__diode_2"
+    buffer_diodes.append(diode)
+
     # load resistors between shorted net (mesh)
     resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{RLOAD}}"
     load_resistors.append(resistor)
@@ -99,6 +105,7 @@ print(textwrap.dedent("""
 
 netlist.append(pulses)
 netlist.append(buffers)
+netlist.append(buffer_diodes)
 netlist.append(load_resistors)
 netlist.append(leafs)
 netlist.append(load_flipflops)
