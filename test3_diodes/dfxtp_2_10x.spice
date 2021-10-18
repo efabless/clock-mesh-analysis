@@ -1,0 +1,28 @@
+
+.subckt DFXTP_2_10X VPWR VGND ffc Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 
+
+XDF0 ffc  VGND VGND VGND vpwr vpwr Q0  sky130_fd_sc_hd__dfxtp_2
+XDF1 ffc  VGND VGND VGND vpwr vpwr Q1  sky130_fd_sc_hd__dfxtp_2
+XDF2 ffc  VGND VGND VGND vpwr vpwr Q2  sky130_fd_sc_hd__dfxtp_2
+XDF3 ffc  VGND VGND VGND vpwr vpwr Q3  sky130_fd_sc_hd__dfxtp_2
+XDF4 ffc  VGND VGND VGND vpwr vpwr Q4  sky130_fd_sc_hd__dfxtp_2
+XDF5 ffc  VGND VGND VGND vpwr vpwr Q5  sky130_fd_sc_hd__dfxtp_2
+XDF6 ffc  VGND VGND VGND vpwr vpwr Q6  sky130_fd_sc_hd__dfxtp_2
+XDF7 ffc  VGND VGND VGND vpwr vpwr Q7  sky130_fd_sc_hd__dfxtp_2
+XDF8 ffc  VGND VGND VGND vpwr vpwr Q8  sky130_fd_sc_hd__dfxtp_2
+XDF9 ffc  VGND VGND VGND vpwr vpwr Q9  sky130_fd_sc_hd__dfxtp_2
+
+xdiode_0 VGND VNB Q0 vpwr sky130_fd_sc_hd__diode_2
+xdiode_1 VGND VNB Q1 vpwr sky130_fd_sc_hd__diode_2
+xdiode_2 VGND VNB Q2 vpwr sky130_fd_sc_hd__diode_2
+xdiode_3 VGND VNB Q3 vpwr sky130_fd_sc_hd__diode_2
+xdiode_4 VGND VNB Q4 vpwr sky130_fd_sc_hd__diode_2
+xdiode_5 VGND VNB Q5 vpwr sky130_fd_sc_hd__diode_2
+xdiode_6 VGND VNB Q6 vpwr sky130_fd_sc_hd__diode_2
+xdiode_7 VGND VNB Q7 vpwr sky130_fd_sc_hd__diode_2
+xdiode_8 VGND VNB Q8 vpwr sky130_fd_sc_hd__diode_2
+xdiode_9 VGND VNB Q9 vpwr sky130_fd_sc_hd__diode_2
+
+.ends
+
+ 
