@@ -35,66 +35,65 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
 
 netlist = []
 pulses = []
-buffers = []
-load_resistors = []
+buf16 = []
+buf1 = []
+co_resistor = []
 leafs = []
-load_flipflops = []
+buf16_ff = []
 load_caps = []
-buffer_diodes = []
+diodes_buf = []
+diodes_ff = []
+
 
 decaps_count = 3
 branches = 7
 buffers_count = 32
+buffer_fanout = 15
 max_skew = 2
 ff_output_ports_count = 10
 
+clock_source_count = 32
+clock_buffer_per_source = 2
+clock_buffer_load_flipflop = 2
+
 ff_output_ports_index = 0
+power_index = 0
+ff_index = 0
 
 power_network = gen_power_network(
     power_source="vpwr_0",
     prefix="clk_buf1",
     branch_count=branches,
-    load_count=buffers_count,
+    load_count=clock_source_count,
     decaps_count=decaps_count
 )
 
-netlist.append(power_network)
 
-for i in list(range(buffers_count)):
-    # random clock pulse between 0 and max_skew value
+for i in list(range(clock_source_count)):
     skew = str(round(uniform(0, max_skew), 2))
     pulse = f"0 1.8 {skew:>4}n 1n 1n 48n 100n"
     pulses.append(f"VC_{i:<2} clk_{i:<2} VGND pulse {pulse}")
 
-    # buffers directly connected to clock sources
-    buffer = f"x0_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
-    buffers.append(buffer)
+    buffer = f"x1_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
+    buf1.append(buffer)
 
-    # (load) clock buffers connected to the mesh at different points
-    leaf = f"x1_{i:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i:<2} sky130_fd_sc_hd__clkbuf_16"
-    leafs.append(leaf)
+    resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{R_LOAD}}"
+    co_resistor.append(resistor)
 
-    # diodes connected to buffer inputs
-    #  .subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
-    diode = f"xdiode_{i:<2} co_{i:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2 "
-    buffer_diodes.append(diode)
+    for j in list(range(clock_buffer_per_source)):
+        buffer = f"x16_{i}_{j:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
+        buf16.append(buffer)
 
-    # load resistors between shorted net (mesh)
-    resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{RLOAD}}"
-    load_resistors.append(resistor)
+        diode = f"xdiode_{i}_{j:<2} co_{i:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
+        diodes_buf.append(diode)
 
-    # load capacitance
-    load_cap = f"Cp_{i:<2} co_{i:<2} VGND ${{CP_LOAD}}"
-    load_caps.append(load_cap)
+        for k in list(range(clock_buffer_load_flipflop)):
+            flipflop = f"xf_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VGDN VGND vpwr_0 vpwr_0 Q{ff_index} sky130_fd_sc_hd__dfxtp_2"
+            buf16_ff.append(flipflop)
+            ff_index += 1
 
-    # each load buffer is connected to multiple flipflops
-    ff_output_ports = ""
-    for x in list(range(ff_output_ports_count)):
-        ff_output_ports_index = int(ff_output_ports_index) + int(1)
-        ff_output_ports += f"Q{ff_output_ports_index:<3} "
-
-    load_flipflop = f"X10F_{i:<2} vpwr_0 VGND ff_{i:<2} {ff_output_ports} DFXTP_2_10X"
-    load_flipflops.append(load_flipflop)
+            diode = f"xdiode_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
+            diodes_ff.append(diode)
 
 
 print(textwrap.dedent("""
@@ -103,12 +102,14 @@ print(textwrap.dedent("""
     VVGND     VGND 0  0
     """))
 
+netlist.append(power_network)
 netlist.append(pulses)
-netlist.append(buffers)
-netlist.append(buffer_diodes)
-netlist.append(load_resistors)
-netlist.append(leafs)
-netlist.append(load_flipflops)
+netlist.append(co_resistor)
+netlist.append(buf1)
+netlist.append(buf16)
+netlist.append(buf16_ff)
+netlist.append(diodes_ff)
+netlist.append(diodes_buf)
 for component in netlist:
     print_array(component)
     print('')
@@ -116,7 +117,6 @@ for component in netlist:
 print(textwrap.dedent("""
     .lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
     .include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
-    .include ../../dfxtp_2_10x.spice
 
     .temp ${TEMP}
     .save all
