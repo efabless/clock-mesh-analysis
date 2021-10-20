@@ -1,0 +1,5 @@
+log: /ciic/designs/clock-meshing-analysis-karim/test10/mesh_saveall/00000/run.log
+src: /ciic/designs/clock-meshing-analysis-karim/test10/mesh_saveall/00000/mesh.spice
+in dir: /ciic/designs/clock-meshing-analysis-karim/test10/mesh_saveall/00000
+
+running  ngspice -b mesh.spice -r CORNER:tt_RO:_RB:_RBUF:_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis-karim/test10/mesh_saveall/00000/run.log

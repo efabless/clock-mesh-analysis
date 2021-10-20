@@ -1,0 +1,157 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: vc_1: no DC value, transient time 0 value used
+Warning: vc_0: no DC value, transient time 0 value used
+
+Compatibility modes selected: hs a
+
+
+Circuit: 
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+binary raw file "CORNER:tt_RO:_RB:_RBUF:_TEMP:25_VDD:1.8.raw"
+Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+
+No. of Data Columns : 4245  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vpwr_0                                     1.8
+vnb                                          0
+vgnd                                         0
+vpwr_clk_buf1_branch_0                     1.8
+vpwr_clk_buf1_branch_1                     1.8
+vpwr_clk_buf1_branch_2                     1.8
+vpwr_clk_buf1_branch_3                     1.8
+vpwr_clk_buf1_branch_4                     1.8
+vpwr_clk_buf1_branch_5                     1.8
+vpwr_clk_buf1_branch_6                     1.8
+vpwr_clk_buf1_0                            1.8
+vpwr_clk_buf1_1                            1.8
+clk_0                                        0
+clk_1                                        0
+co_0                               2.57049e-09
+co_1                               2.57049e-09
+co_2                               2.57049e-09
+co_i_0_0                           2.57049e-09
+co_i_0_1                           2.57049e-09
+co_i_0_2                           2.57049e-09
+co_i_0_3                           2.57049e-09
+co_i_0_4                           2.57049e-09
+co_i_0_5                           2.57049e-09
+co_i_0_6                           2.57049e-09
+co_i_0_7                           2.57049e-09
+co_i_0_8                           2.57049e-09
+co_i_0_9                           2.57049e-09
+co_i_0_10                          2.57049e-09
+co_i_0_11                          2.57049e-09
+co_i_0_12                          2.57049e-09
+co_i_0_13                          2.57049e-09
+co_i_0_14                          2.57049e-09
+co_i_0_15                          2.57049e-09
+co_i_1_0                           2.57049e-09
+co_i_1_1                           2.57049e-09
+co_i_1_2                           2.57049e-09
+co_i_1_3                           2.57049e-09
+co_i_1_4                           2.57049e-09
+co_i_1_5                           2.57049e-09
+co_i_1_6                           2.57049e-09
+co_i_1_7                           2.57049e-09
+co_i_1_8                           2.57049e-09
+co_i_1_9                           2.57049e-09
+co_i_1_10                          2.57049e-09
+co_i_1_11                          2.57049e-09
+co_i_1_12                          2.57049e-09
+co_i_1_13                          2.57049e-09
+co_i_1_14                          2.57049e-09
+co_i_1_15                          2.57049e-09
+ff_0_0                             4.90093e-09
+ff_0_1                             4.90093e-09
+ff_0_2                             4.90093e-09
+ff_0_3                             4.90093e-09
+ff_0_4                             4.90093e-09
+ff_0_5                             4.90093e-09
+ff_0_6                             4.90093e-09
+ff_0_7                             4.90093e-09
+ff_0_8                             4.90093e-09
+ff_0_9                             4.90093e-09
+ff_0_10                            4.90093e-09
+ff_0_11                            4.90093e-09
+ff_0_12                            4.90093e-09
+ff_0_13                            4.90093e-09
+ff_0_14                            4.90093e-09
+ff_0_15                            4.90093e-09
+ff_1_0                             4.90093e-09
+ff_1_1                             4.90093e-09
+ff_1_2                             4.90093e-09
+ff_1_3                             4.90093e-09
+ff_1_4                             4.90093e-09
+ff_1_5                             4.90093e-09
+ff_1_6                             4.90093e-09
+ff_1_7                             4.90093e-09
+ff_1_8                             4.90093e-09
+ff_1_9                             4.90093e-09
+ff_1_10                            4.90093e-09
+ff_1_11                            4.90093e-09
+ff_1_12                            4.90093e-09
+ff_1_13                            4.90093e-09
+ff_1_14                            4.90093e-09
+ff_1_15                            4.90093e-09
+ff_clk_0_0                         4.90093e-09
+ff_clk_0_1                         4.90093e-09
+ff_clk_0_2                         4.90093e-09
+ff_clk_0_3                         4.90093e-09
+ff_clk_0_4                         4.90093e-09
+ff_clk_0_5                         4.90093e-09
+ff_clk_0_6                         4.90093e-09
+ff_clk_0_7                         4.90093e-09
+ff_clk_0_8                         4.90093e-09
+ff_clk_0_9                         4.90093e-09
+ff_clk_0_10                        4.90093e-09
+ff_clk_0_11                        4.90093e-09
+ff_clk_0_12                        4.90093e-09
+ff_clk_0_13                        4.90093e-09
+ff_clk_0_14                        4.90093e-09
+ff_clk_0_15                        4.90093e-09
+ff_clk_1_0                         4.90093e-09
+ff_clk_1_1                         4.90093e-09
+ff_clk_1_2                         4.90093e-09
+ff_clk_1_3                         4.90093e-09
+ff_clk_1_4                         4.90093e-09
+ff_clk_1_5                         4.90093e-09
+ff_clk_1_6                         4.90093e-09
+ff_clk_1_7                         4.90093e-09
+ff_clk_1_8                         4.90093e-09
+ff_clk_1_9                         4.90093e-09
+ff_clk_1_10                        4.90093e-09
+ff_clk_1_11                        4.90093e-09
+ff_clk_1_12                        4.90093e-09
+ff_clk_1_13                        4.90093e-09
+ff_clk_1_14                        4.90093e-09
+ff_clk_1_15                        4.90093e-09
+vc_1#branch                                  0
+vc_0#branch                                  0
+vvgnd#branch                        1.3571e-09
+vnb#branch                         2.35303e-10
+vvdd#branch                       -1.59159e-09
+
+ Reference value :  1.60000e-11 Reference value :  1.44000e-09 Reference value :  2.92000e-09 Reference value :  4.92000e-09 Reference value :  7.62000e-09 Reference value :  1.05200e-08 Reference value :  1.27200e-08 Reference value :  1.47200e-08 Reference value :  1.68200e-08 Reference value :  1.89200e-08 Reference value :  2.10200e-08 Reference value :  2.31200e-08 Reference value :  2.52200e-08 Reference value :  2.73200e-08 Reference value :  2.94200e-08 Reference value :  3.14200e-08 Reference value :  3.35200e-08 Reference value :  3.55200e-08 Reference value :  3.76200e-08 Reference value :  3.97200e-08 Reference value :  4.18200e-08 Reference value :  4.39200e-08 Reference value :  4.59200e-08 Reference value :  4.80200e-08 Reference value :  4.98400e-08
+No. of Data Rows : 523
+
+Total analysis time (seconds) = 3.386
+
+Total elapsed time (seconds) = 18.680 
+
+Total DRAM available = 241823.398 MB.
+DRAM currently available = 109589.383 MB.
+Maximum ngspice program size =  704.219 MB.
+Current ngspice program size =  666.938 MB.
+
+Shared ngspice pages =   10.023 MB.
+Text (code) pages =    5.609 MB.
+Stack = 0 bytes.
+Library pages =  665.203 MB.
+

@@ -46,14 +46,11 @@ buf16_load_cap = []
 buf1_16_intcon = []
 
 
-decaps_count = 3
+decaps_count = 19
 branches = 7
-buffers_count = 32
-buffer_fanout = 15
 max_skew = 2
-ff_output_ports_count = 10
 
-clock_source_count = 32
+clock_source_count = 2
 clock_buffer_per_source = 16
 clock_buffer_load_flipflop = 20
 
@@ -135,6 +132,6 @@ print(textwrap.dedent("""
 
     .temp ${TEMP}
     .save all
-    .tran 0.1n 100n
+    .tran 0.1n 50n
 
     .end"""))
