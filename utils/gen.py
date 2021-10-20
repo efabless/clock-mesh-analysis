@@ -42,7 +42,8 @@ leafs = []
 buf16_ff = []
 load_caps = []
 diodes_buf = []
-diodes_ff = []
+buf16_load_cap = []
+buf1_16_intcon = []
 
 
 decaps_count = 3
@@ -53,8 +54,8 @@ max_skew = 2
 ff_output_ports_count = 10
 
 clock_source_count = 32
-clock_buffer_per_source = 2
-clock_buffer_load_flipflop = 2
+clock_buffer_per_source = 16
+clock_buffer_load_flipflop = 20
 
 ff_output_ports_index = 0
 power_index = 0
@@ -67,6 +68,10 @@ power_network = gen_power_network(
     load_count=clock_source_count,
     decaps_count=decaps_count
 )
+
+ff_clk_pin_cap = 0.00178
+diode_pin_cap = 0.000878
+load_cap = ff_clk_pin_cap + diode_pin_cap
 
 
 for i in list(range(clock_source_count)):
@@ -81,19 +86,28 @@ for i in list(range(clock_source_count)):
     co_resistor.append(resistor)
 
     for j in list(range(clock_buffer_per_source)):
-        buffer = f"x16_{i}_{j:<2} co_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
+        # .subckt int_con IN OUT GND C=2F R=30
+        int_con = f"x_buf1_buf16_intcon_{i}_{j:<2} co_{i} co_i_{i}_{j:<2} VGND int_con C=8F R=120"
+        buf1_16_intcon.append(int_con)
+
+        buffer = f"x16_{i}_{j:<2} co_i_{i}_{j:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         buf16.append(buffer)
 
-        diode = f"xdiode_{i}_{j:<2} co_{i:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
+# C1 IN GND {C/2}
+        diode = f"C_{i}_{j} co_i_{i}_{j:<2} VGND 0.9F"
         diodes_buf.append(diode)
 
-        for k in list(range(clock_buffer_load_flipflop)):
-            flipflop = f"xf_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VGDN VGND vpwr_0 vpwr_0 Q{ff_index} sky130_fd_sc_hd__dfxtp_2"
-            buf16_ff.append(flipflop)
-            ff_index += 1
+    # .subckt ff_rc IN CLK GND
+        flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={clock_buffer_load_flipflop}"
+        buf16_ff.append(flipflop)
 
-            diode = f"xdiode_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
-            diodes_ff.append(diode)
+#        for k in list(range(clock_buffer_load_flipflop)):
+#            flipflop = f"xf_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VGDN VGND vpwr_0 vpwr_0 Q{ff_index} sky130_fd_sc_hd__dfxtp_2"
+#            buf16_ff.append(flipflop)
+#            ff_index += 1
+#
+#            diode = f"xdiode_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
+#            diodes_ff.append(diode)
 
 
 print(textwrap.dedent("""
@@ -104,11 +118,11 @@ print(textwrap.dedent("""
 
 netlist.append(power_network)
 netlist.append(pulses)
-netlist.append(co_resistor)
 netlist.append(buf1)
+netlist.append(co_resistor)
+netlist.append(buf1_16_intcon)
 netlist.append(buf16)
 netlist.append(buf16_ff)
-netlist.append(diodes_ff)
 netlist.append(diodes_buf)
 for component in netlist:
     print_array(component)
@@ -117,6 +131,7 @@ for component in netlist:
 print(textwrap.dedent("""
     .lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
     .include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+    .include ../../subckts.spice
 
     .temp ${TEMP}
     .save all

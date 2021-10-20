@@ -1,0 +1,16 @@
+.subckt ff_load IN GND C_ANTENNA=0.9F C_FF_CLK=1.8F
+C1 IN GND {C_ANTENNA}
+C2 IN GND {C_FF_CLK}
+x_int_con IN 
+.ends
+
+.subckt int_con IN OUT GND C=2F R=30
+C1 IN GND {C/2}
+R_c1_c2 IN OUT {R}
+C2 OUT GND {C/2}
+.ends
+
+.subckt ff_rc IN CLK GND
+x_ff CLK GND ff_load 
+x_int IN CLK GND int_con
+.ends
