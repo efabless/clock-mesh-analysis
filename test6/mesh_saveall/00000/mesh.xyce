@@ -1,0 +1,2307 @@
+
+VVDD      vpwr_0 0  1.8
+VNB       VNB  0  0
+VVGND     VGND 0  0
+
+RP_clk_buf1_0 vpwr_0 vpwr_clk_buf1_branch_0  30
+RP_clk_buf1_1 vpwr_0 vpwr_clk_buf1_branch_1  30
+RP_clk_buf1_2 vpwr_0 vpwr_clk_buf1_branch_2  30
+RP_clk_buf1_3 vpwr_0 vpwr_clk_buf1_branch_3  30
+RP_clk_buf1_4 vpwr_0 vpwr_clk_buf1_branch_4  30
+RP_clk_buf1_5 vpwr_0 vpwr_clk_buf1_branch_5  30
+RP_clk_buf1_6 vpwr_0 vpwr_clk_buf1_branch_6  30
+RP_clk_buf1_LOAD_0  vpwr_clk_buf1_branch_0 vpwr_clk_buf1_0 50
+RP_clk_buf1_LOAD_1  vpwr_clk_buf1_branch_1 vpwr_clk_buf1_1 50
+RP_clk_buf1_LOAD_2  vpwr_clk_buf1_branch_2 vpwr_clk_buf1_2 50
+RP_clk_buf1_LOAD_3  vpwr_clk_buf1_branch_3 vpwr_clk_buf1_3 50
+RP_clk_buf1_LOAD_4  vpwr_clk_buf1_branch_4 vpwr_clk_buf1_4 50
+RP_clk_buf1_LOAD_5  vpwr_clk_buf1_branch_5 vpwr_clk_buf1_5 50
+RP_clk_buf1_LOAD_6  vpwr_clk_buf1_branch_6 vpwr_clk_buf1_6 50
+RP_clk_buf1_LOAD_7  vpwr_clk_buf1_branch_0 vpwr_clk_buf1_7 50
+RP_clk_buf1_LOAD_8  vpwr_clk_buf1_branch_1 vpwr_clk_buf1_8 50
+RP_clk_buf1_LOAD_9  vpwr_clk_buf1_branch_2 vpwr_clk_buf1_9 50
+RP_clk_buf1_LOAD_10 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_10 50
+RP_clk_buf1_LOAD_11 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_11 50
+RP_clk_buf1_LOAD_12 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_12 50
+RP_clk_buf1_LOAD_13 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_13 50
+RP_clk_buf1_LOAD_14 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_14 50
+RP_clk_buf1_LOAD_15 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_15 50
+RP_clk_buf1_LOAD_16 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_16 50
+RP_clk_buf1_LOAD_17 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_17 50
+RP_clk_buf1_LOAD_18 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_18 50
+RP_clk_buf1_LOAD_19 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_19 50
+RP_clk_buf1_LOAD_20 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_20 50
+RP_clk_buf1_LOAD_21 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_21 50
+RP_clk_buf1_LOAD_22 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_22 50
+RP_clk_buf1_LOAD_23 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_23 50
+RP_clk_buf1_LOAD_24 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_24 50
+RP_clk_buf1_LOAD_25 vpwr_clk_buf1_branch_4 vpwr_clk_buf1_25 50
+RP_clk_buf1_LOAD_26 vpwr_clk_buf1_branch_5 vpwr_clk_buf1_26 50
+RP_clk_buf1_LOAD_27 vpwr_clk_buf1_branch_6 vpwr_clk_buf1_27 50
+RP_clk_buf1_LOAD_28 vpwr_clk_buf1_branch_0 vpwr_clk_buf1_28 50
+RP_clk_buf1_LOAD_29 vpwr_clk_buf1_branch_1 vpwr_clk_buf1_29 50
+RP_clk_buf1_LOAD_30 vpwr_clk_buf1_branch_2 vpwr_clk_buf1_30 50
+RP_clk_buf1_LOAD_31 vpwr_clk_buf1_branch_3 vpwr_clk_buf1_31 50
+XDC_clk_buf1_0_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_0 VGND VNB vpwr_clk_buf1_0 vpwr_clk_buf1_0 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_2 VGND VNB vpwr_clk_buf1_2 vpwr_clk_buf1_2 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_2 VGND VNB vpwr_clk_buf1_2 vpwr_clk_buf1_2 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_2 VGND VNB vpwr_clk_buf1_2 vpwr_clk_buf1_2 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_3 VGND VNB vpwr_clk_buf1_3 vpwr_clk_buf1_3 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_3 VGND VNB vpwr_clk_buf1_3 vpwr_clk_buf1_3 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_3 VGND VNB vpwr_clk_buf1_3 vpwr_clk_buf1_3 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_4 VGND VNB vpwr_clk_buf1_4 vpwr_clk_buf1_4 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_4 VGND VNB vpwr_clk_buf1_4 vpwr_clk_buf1_4 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_4 VGND VNB vpwr_clk_buf1_4 vpwr_clk_buf1_4 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_5 VGND VNB vpwr_clk_buf1_5 vpwr_clk_buf1_5 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_5 VGND VNB vpwr_clk_buf1_5 vpwr_clk_buf1_5 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_5 VGND VNB vpwr_clk_buf1_5 vpwr_clk_buf1_5 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_6 VGND VNB vpwr_clk_buf1_6 vpwr_clk_buf1_6 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_6 VGND VNB vpwr_clk_buf1_6 vpwr_clk_buf1_6 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_6 VGND VNB vpwr_clk_buf1_6 vpwr_clk_buf1_6 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_7 VGND VNB vpwr_clk_buf1_7 vpwr_clk_buf1_7 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_7 VGND VNB vpwr_clk_buf1_7 vpwr_clk_buf1_7 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_7 VGND VNB vpwr_clk_buf1_7 vpwr_clk_buf1_7 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_8 VGND VNB vpwr_clk_buf1_8 vpwr_clk_buf1_8 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_8 VGND VNB vpwr_clk_buf1_8 vpwr_clk_buf1_8 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_8 VGND VNB vpwr_clk_buf1_8 vpwr_clk_buf1_8 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_9 VGND VNB vpwr_clk_buf1_9 vpwr_clk_buf1_9 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_9 VGND VNB vpwr_clk_buf1_9 vpwr_clk_buf1_9 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_9 VGND VNB vpwr_clk_buf1_9 vpwr_clk_buf1_9 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_10 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_10 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_10 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_11 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_11 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_11 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_12 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_12 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_12 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_13 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_13 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_13 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_14 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_14 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_14 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_15 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_15 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_15 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_16 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_16 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_16 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_17 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_17 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_17 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_18 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_18 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_18 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_19 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_19 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_19 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_20 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_20 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_20 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_21 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_21 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_21 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_22 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_22 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_22 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_23 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_23 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_23 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_24 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_24 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_24 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_25 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_25 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_25 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_26 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_26 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_26 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_27 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_27 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_27 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_28 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_28 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_28 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_29 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_29 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_29 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_30 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_30 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_30 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_0_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_1_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__decap_12
+XDC_clk_buf1_2_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 sky130_fd_sc_hd__decap_12
+
+VC_0  clk_0  VGND pulse 0 1.8  1.3n 1n 1n 48n 100n
+VC_1  clk_1  VGND pulse 0 1.8 0.46n 1n 1n 48n 100n
+VC_2  clk_2  VGND pulse 0 1.8 0.21n 1n 1n 48n 100n
+VC_3  clk_3  VGND pulse 0 1.8 0.64n 1n 1n 48n 100n
+VC_4  clk_4  VGND pulse 0 1.8 1.71n 1n 1n 48n 100n
+VC_5  clk_5  VGND pulse 0 1.8 1.51n 1n 1n 48n 100n
+VC_6  clk_6  VGND pulse 0 1.8 0.66n 1n 1n 48n 100n
+VC_7  clk_7  VGND pulse 0 1.8 0.62n 1n 1n 48n 100n
+VC_8  clk_8  VGND pulse 0 1.8 0.97n 1n 1n 48n 100n
+VC_9  clk_9  VGND pulse 0 1.8 0.51n 1n 1n 48n 100n
+VC_10 clk_10 VGND pulse 0 1.8  1.0n 1n 1n 48n 100n
+VC_11 clk_11 VGND pulse 0 1.8  1.2n 1n 1n 48n 100n
+VC_12 clk_12 VGND pulse 0 1.8 1.81n 1n 1n 48n 100n
+VC_13 clk_13 VGND pulse 0 1.8 0.53n 1n 1n 48n 100n
+VC_14 clk_14 VGND pulse 0 1.8 1.43n 1n 1n 48n 100n
+VC_15 clk_15 VGND pulse 0 1.8 1.37n 1n 1n 48n 100n
+VC_16 clk_16 VGND pulse 0 1.8 1.65n 1n 1n 48n 100n
+VC_17 clk_17 VGND pulse 0 1.8 0.13n 1n 1n 48n 100n
+VC_18 clk_18 VGND pulse 0 1.8 0.25n 1n 1n 48n 100n
+VC_19 clk_19 VGND pulse 0 1.8 0.31n 1n 1n 48n 100n
+VC_20 clk_20 VGND pulse 0 1.8 1.04n 1n 1n 48n 100n
+VC_21 clk_21 VGND pulse 0 1.8 0.94n 1n 1n 48n 100n
+VC_22 clk_22 VGND pulse 0 1.8 0.84n 1n 1n 48n 100n
+VC_23 clk_23 VGND pulse 0 1.8 0.89n 1n 1n 48n 100n
+VC_24 clk_24 VGND pulse 0 1.8 1.99n 1n 1n 48n 100n
+VC_25 clk_25 VGND pulse 0 1.8  1.1n 1n 1n 48n 100n
+VC_26 clk_26 VGND pulse 0 1.8 0.71n 1n 1n 48n 100n
+VC_27 clk_27 VGND pulse 0 1.8 0.13n 1n 1n 48n 100n
+VC_28 clk_28 VGND pulse 0 1.8 1.36n 1n 1n 48n 100n
+VC_29 clk_29 VGND pulse 0 1.8 1.16n 1n 1n 48n 100n
+VC_30 clk_30 VGND pulse 0 1.8 1.31n 1n 1n 48n 100n
+VC_31 clk_31 VGND pulse 0 1.8 1.52n 1n 1n 48n 100n
+
+x1_0  clk_0  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  co_0  sky130_fd_sc_hd__clkbuf_1
+x1_1  clk_1  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  co_1  sky130_fd_sc_hd__clkbuf_1
+x1_2  clk_2  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  co_2  sky130_fd_sc_hd__clkbuf_1
+x1_3  clk_3  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  co_3  sky130_fd_sc_hd__clkbuf_1
+x1_4  clk_4  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  co_4  sky130_fd_sc_hd__clkbuf_1
+x1_5  clk_5  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  co_5  sky130_fd_sc_hd__clkbuf_1
+x1_6  clk_6  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  co_6  sky130_fd_sc_hd__clkbuf_1
+x1_7  clk_7  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  co_7  sky130_fd_sc_hd__clkbuf_1
+x1_8  clk_8  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  co_8  sky130_fd_sc_hd__clkbuf_1
+x1_9  clk_9  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  co_9  sky130_fd_sc_hd__clkbuf_1
+x1_10 clk_10 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 co_10 sky130_fd_sc_hd__clkbuf_1
+x1_11 clk_11 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 co_11 sky130_fd_sc_hd__clkbuf_1
+x1_12 clk_12 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 co_12 sky130_fd_sc_hd__clkbuf_1
+x1_13 clk_13 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 co_13 sky130_fd_sc_hd__clkbuf_1
+x1_14 clk_14 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 co_14 sky130_fd_sc_hd__clkbuf_1
+x1_15 clk_15 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 co_15 sky130_fd_sc_hd__clkbuf_1
+x1_16 clk_16 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 co_16 sky130_fd_sc_hd__clkbuf_1
+x1_17 clk_17 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 co_17 sky130_fd_sc_hd__clkbuf_1
+x1_18 clk_18 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 co_18 sky130_fd_sc_hd__clkbuf_1
+x1_19 clk_19 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 co_19 sky130_fd_sc_hd__clkbuf_1
+x1_20 clk_20 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 co_20 sky130_fd_sc_hd__clkbuf_1
+x1_21 clk_21 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 co_21 sky130_fd_sc_hd__clkbuf_1
+x1_22 clk_22 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 co_22 sky130_fd_sc_hd__clkbuf_1
+x1_23 clk_23 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 co_23 sky130_fd_sc_hd__clkbuf_1
+x1_24 clk_24 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 co_24 sky130_fd_sc_hd__clkbuf_1
+x1_25 clk_25 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 co_25 sky130_fd_sc_hd__clkbuf_1
+x1_26 clk_26 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 co_26 sky130_fd_sc_hd__clkbuf_1
+x1_27 clk_27 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 co_27 sky130_fd_sc_hd__clkbuf_1
+x1_28 clk_28 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 co_28 sky130_fd_sc_hd__clkbuf_1
+x1_29 clk_29 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 co_29 sky130_fd_sc_hd__clkbuf_1
+x1_30 clk_30 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 co_30 sky130_fd_sc_hd__clkbuf_1
+x1_31 clk_31 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 co_31 sky130_fd_sc_hd__clkbuf_1
+
+R_0  co_0  co_1  70
+R_1  co_1  co_2  70
+R_2  co_2  co_3  70
+R_3  co_3  co_4  70
+R_4  co_4  co_5  70
+R_5  co_5  co_6  70
+R_6  co_6  co_7  70
+R_7  co_7  co_8  70
+R_8  co_8  co_9  70
+R_9  co_9  co_10 70
+R_10 co_10 co_11 70
+R_11 co_11 co_12 70
+R_12 co_12 co_13 70
+R_13 co_13 co_14 70
+R_14 co_14 co_15 70
+R_15 co_15 co_16 70
+R_16 co_16 co_17 70
+R_17 co_17 co_18 70
+R_18 co_18 co_19 70
+R_19 co_19 co_20 70
+R_20 co_20 co_21 70
+R_21 co_21 co_22 70
+R_22 co_22 co_23 70
+R_23 co_23 co_24 70
+R_24 co_24 co_25 70
+R_25 co_25 co_26 70
+R_26 co_26 co_27 70
+R_27 co_27 co_28 70
+R_28 co_28 co_29 70
+R_29 co_29 co_30 70
+R_30 co_30 co_31 70
+R_31 co_31 co_32 70
+
+x_buf1_buf16_intcon_0_0  co_0 co_i_0_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_1  co_0 co_i_0_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_2  co_0 co_i_0_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_3  co_0 co_i_0_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_4  co_0 co_i_0_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_5  co_0 co_i_0_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_6  co_0 co_i_0_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_7  co_0 co_i_0_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_8  co_0 co_i_0_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_9  co_0 co_i_0_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_10 co_0 co_i_0_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_11 co_0 co_i_0_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_12 co_0 co_i_0_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_13 co_0 co_i_0_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_14 co_0 co_i_0_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_15 co_0 co_i_0_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_0  co_1 co_i_1_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_1  co_1 co_i_1_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_2  co_1 co_i_1_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_3  co_1 co_i_1_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_4  co_1 co_i_1_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_5  co_1 co_i_1_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_6  co_1 co_i_1_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_7  co_1 co_i_1_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_8  co_1 co_i_1_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_9  co_1 co_i_1_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_10 co_1 co_i_1_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_11 co_1 co_i_1_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_12 co_1 co_i_1_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_13 co_1 co_i_1_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_14 co_1 co_i_1_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_15 co_1 co_i_1_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_0  co_2 co_i_2_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_1  co_2 co_i_2_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_2  co_2 co_i_2_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_3  co_2 co_i_2_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_4  co_2 co_i_2_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_5  co_2 co_i_2_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_6  co_2 co_i_2_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_7  co_2 co_i_2_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_8  co_2 co_i_2_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_9  co_2 co_i_2_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_10 co_2 co_i_2_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_11 co_2 co_i_2_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_12 co_2 co_i_2_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_13 co_2 co_i_2_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_14 co_2 co_i_2_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_2_15 co_2 co_i_2_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_0  co_3 co_i_3_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_1  co_3 co_i_3_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_2  co_3 co_i_3_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_3  co_3 co_i_3_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_4  co_3 co_i_3_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_5  co_3 co_i_3_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_6  co_3 co_i_3_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_7  co_3 co_i_3_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_8  co_3 co_i_3_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_9  co_3 co_i_3_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_10 co_3 co_i_3_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_11 co_3 co_i_3_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_12 co_3 co_i_3_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_13 co_3 co_i_3_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_14 co_3 co_i_3_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_3_15 co_3 co_i_3_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_0  co_4 co_i_4_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_1  co_4 co_i_4_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_2  co_4 co_i_4_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_3  co_4 co_i_4_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_4  co_4 co_i_4_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_5  co_4 co_i_4_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_6  co_4 co_i_4_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_7  co_4 co_i_4_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_8  co_4 co_i_4_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_9  co_4 co_i_4_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_10 co_4 co_i_4_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_11 co_4 co_i_4_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_12 co_4 co_i_4_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_13 co_4 co_i_4_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_14 co_4 co_i_4_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_4_15 co_4 co_i_4_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_0  co_5 co_i_5_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_1  co_5 co_i_5_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_2  co_5 co_i_5_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_3  co_5 co_i_5_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_4  co_5 co_i_5_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_5  co_5 co_i_5_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_6  co_5 co_i_5_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_7  co_5 co_i_5_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_8  co_5 co_i_5_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_9  co_5 co_i_5_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_10 co_5 co_i_5_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_11 co_5 co_i_5_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_12 co_5 co_i_5_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_13 co_5 co_i_5_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_14 co_5 co_i_5_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_5_15 co_5 co_i_5_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_0  co_6 co_i_6_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_1  co_6 co_i_6_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_2  co_6 co_i_6_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_3  co_6 co_i_6_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_4  co_6 co_i_6_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_5  co_6 co_i_6_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_6  co_6 co_i_6_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_7  co_6 co_i_6_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_8  co_6 co_i_6_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_9  co_6 co_i_6_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_10 co_6 co_i_6_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_11 co_6 co_i_6_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_12 co_6 co_i_6_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_13 co_6 co_i_6_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_14 co_6 co_i_6_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_6_15 co_6 co_i_6_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_0  co_7 co_i_7_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_1  co_7 co_i_7_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_2  co_7 co_i_7_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_3  co_7 co_i_7_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_4  co_7 co_i_7_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_5  co_7 co_i_7_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_6  co_7 co_i_7_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_7  co_7 co_i_7_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_8  co_7 co_i_7_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_9  co_7 co_i_7_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_10 co_7 co_i_7_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_11 co_7 co_i_7_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_12 co_7 co_i_7_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_13 co_7 co_i_7_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_14 co_7 co_i_7_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_7_15 co_7 co_i_7_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_0  co_8 co_i_8_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_1  co_8 co_i_8_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_2  co_8 co_i_8_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_3  co_8 co_i_8_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_4  co_8 co_i_8_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_5  co_8 co_i_8_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_6  co_8 co_i_8_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_7  co_8 co_i_8_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_8  co_8 co_i_8_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_9  co_8 co_i_8_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_10 co_8 co_i_8_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_11 co_8 co_i_8_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_12 co_8 co_i_8_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_13 co_8 co_i_8_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_14 co_8 co_i_8_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_8_15 co_8 co_i_8_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_0  co_9 co_i_9_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_1  co_9 co_i_9_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_2  co_9 co_i_9_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_3  co_9 co_i_9_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_4  co_9 co_i_9_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_5  co_9 co_i_9_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_6  co_9 co_i_9_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_7  co_9 co_i_9_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_8  co_9 co_i_9_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_9  co_9 co_i_9_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_10 co_9 co_i_9_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_11 co_9 co_i_9_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_12 co_9 co_i_9_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_13 co_9 co_i_9_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_14 co_9 co_i_9_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_9_15 co_9 co_i_9_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_0  co_10 co_i_10_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_1  co_10 co_i_10_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_2  co_10 co_i_10_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_3  co_10 co_i_10_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_4  co_10 co_i_10_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_5  co_10 co_i_10_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_6  co_10 co_i_10_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_7  co_10 co_i_10_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_8  co_10 co_i_10_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_9  co_10 co_i_10_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_10 co_10 co_i_10_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_11 co_10 co_i_10_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_12 co_10 co_i_10_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_13 co_10 co_i_10_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_14 co_10 co_i_10_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_10_15 co_10 co_i_10_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_0  co_11 co_i_11_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_1  co_11 co_i_11_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_2  co_11 co_i_11_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_3  co_11 co_i_11_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_4  co_11 co_i_11_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_5  co_11 co_i_11_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_6  co_11 co_i_11_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_7  co_11 co_i_11_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_8  co_11 co_i_11_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_9  co_11 co_i_11_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_10 co_11 co_i_11_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_11 co_11 co_i_11_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_12 co_11 co_i_11_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_13 co_11 co_i_11_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_14 co_11 co_i_11_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_11_15 co_11 co_i_11_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_0  co_12 co_i_12_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_1  co_12 co_i_12_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_2  co_12 co_i_12_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_3  co_12 co_i_12_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_4  co_12 co_i_12_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_5  co_12 co_i_12_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_6  co_12 co_i_12_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_7  co_12 co_i_12_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_8  co_12 co_i_12_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_9  co_12 co_i_12_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_10 co_12 co_i_12_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_11 co_12 co_i_12_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_12 co_12 co_i_12_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_13 co_12 co_i_12_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_14 co_12 co_i_12_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_12_15 co_12 co_i_12_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_0  co_13 co_i_13_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_1  co_13 co_i_13_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_2  co_13 co_i_13_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_3  co_13 co_i_13_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_4  co_13 co_i_13_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_5  co_13 co_i_13_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_6  co_13 co_i_13_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_7  co_13 co_i_13_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_8  co_13 co_i_13_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_9  co_13 co_i_13_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_10 co_13 co_i_13_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_11 co_13 co_i_13_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_12 co_13 co_i_13_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_13 co_13 co_i_13_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_14 co_13 co_i_13_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_13_15 co_13 co_i_13_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_0  co_14 co_i_14_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_1  co_14 co_i_14_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_2  co_14 co_i_14_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_3  co_14 co_i_14_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_4  co_14 co_i_14_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_5  co_14 co_i_14_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_6  co_14 co_i_14_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_7  co_14 co_i_14_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_8  co_14 co_i_14_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_9  co_14 co_i_14_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_10 co_14 co_i_14_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_11 co_14 co_i_14_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_12 co_14 co_i_14_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_13 co_14 co_i_14_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_14 co_14 co_i_14_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_14_15 co_14 co_i_14_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_0  co_15 co_i_15_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_1  co_15 co_i_15_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_2  co_15 co_i_15_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_3  co_15 co_i_15_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_4  co_15 co_i_15_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_5  co_15 co_i_15_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_6  co_15 co_i_15_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_7  co_15 co_i_15_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_8  co_15 co_i_15_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_9  co_15 co_i_15_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_10 co_15 co_i_15_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_11 co_15 co_i_15_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_12 co_15 co_i_15_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_13 co_15 co_i_15_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_14 co_15 co_i_15_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_15_15 co_15 co_i_15_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_0  co_16 co_i_16_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_1  co_16 co_i_16_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_2  co_16 co_i_16_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_3  co_16 co_i_16_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_4  co_16 co_i_16_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_5  co_16 co_i_16_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_6  co_16 co_i_16_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_7  co_16 co_i_16_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_8  co_16 co_i_16_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_9  co_16 co_i_16_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_10 co_16 co_i_16_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_11 co_16 co_i_16_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_12 co_16 co_i_16_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_13 co_16 co_i_16_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_14 co_16 co_i_16_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_16_15 co_16 co_i_16_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_0  co_17 co_i_17_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_1  co_17 co_i_17_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_2  co_17 co_i_17_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_3  co_17 co_i_17_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_4  co_17 co_i_17_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_5  co_17 co_i_17_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_6  co_17 co_i_17_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_7  co_17 co_i_17_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_8  co_17 co_i_17_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_9  co_17 co_i_17_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_10 co_17 co_i_17_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_11 co_17 co_i_17_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_12 co_17 co_i_17_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_13 co_17 co_i_17_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_14 co_17 co_i_17_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_17_15 co_17 co_i_17_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_0  co_18 co_i_18_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_1  co_18 co_i_18_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_2  co_18 co_i_18_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_3  co_18 co_i_18_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_4  co_18 co_i_18_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_5  co_18 co_i_18_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_6  co_18 co_i_18_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_7  co_18 co_i_18_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_8  co_18 co_i_18_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_9  co_18 co_i_18_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_10 co_18 co_i_18_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_11 co_18 co_i_18_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_12 co_18 co_i_18_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_13 co_18 co_i_18_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_14 co_18 co_i_18_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_18_15 co_18 co_i_18_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_0  co_19 co_i_19_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_1  co_19 co_i_19_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_2  co_19 co_i_19_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_3  co_19 co_i_19_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_4  co_19 co_i_19_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_5  co_19 co_i_19_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_6  co_19 co_i_19_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_7  co_19 co_i_19_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_8  co_19 co_i_19_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_9  co_19 co_i_19_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_10 co_19 co_i_19_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_11 co_19 co_i_19_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_12 co_19 co_i_19_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_13 co_19 co_i_19_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_14 co_19 co_i_19_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_19_15 co_19 co_i_19_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_0  co_20 co_i_20_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_1  co_20 co_i_20_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_2  co_20 co_i_20_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_3  co_20 co_i_20_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_4  co_20 co_i_20_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_5  co_20 co_i_20_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_6  co_20 co_i_20_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_7  co_20 co_i_20_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_8  co_20 co_i_20_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_9  co_20 co_i_20_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_10 co_20 co_i_20_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_11 co_20 co_i_20_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_12 co_20 co_i_20_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_13 co_20 co_i_20_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_14 co_20 co_i_20_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_20_15 co_20 co_i_20_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_0  co_21 co_i_21_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_1  co_21 co_i_21_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_2  co_21 co_i_21_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_3  co_21 co_i_21_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_4  co_21 co_i_21_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_5  co_21 co_i_21_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_6  co_21 co_i_21_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_7  co_21 co_i_21_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_8  co_21 co_i_21_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_9  co_21 co_i_21_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_10 co_21 co_i_21_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_11 co_21 co_i_21_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_12 co_21 co_i_21_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_13 co_21 co_i_21_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_14 co_21 co_i_21_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_21_15 co_21 co_i_21_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_0  co_22 co_i_22_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_1  co_22 co_i_22_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_2  co_22 co_i_22_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_3  co_22 co_i_22_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_4  co_22 co_i_22_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_5  co_22 co_i_22_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_6  co_22 co_i_22_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_7  co_22 co_i_22_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_8  co_22 co_i_22_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_9  co_22 co_i_22_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_10 co_22 co_i_22_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_11 co_22 co_i_22_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_12 co_22 co_i_22_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_13 co_22 co_i_22_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_14 co_22 co_i_22_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_22_15 co_22 co_i_22_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_0  co_23 co_i_23_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_1  co_23 co_i_23_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_2  co_23 co_i_23_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_3  co_23 co_i_23_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_4  co_23 co_i_23_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_5  co_23 co_i_23_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_6  co_23 co_i_23_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_7  co_23 co_i_23_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_8  co_23 co_i_23_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_9  co_23 co_i_23_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_10 co_23 co_i_23_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_11 co_23 co_i_23_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_12 co_23 co_i_23_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_13 co_23 co_i_23_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_14 co_23 co_i_23_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_23_15 co_23 co_i_23_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_0  co_24 co_i_24_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_1  co_24 co_i_24_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_2  co_24 co_i_24_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_3  co_24 co_i_24_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_4  co_24 co_i_24_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_5  co_24 co_i_24_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_6  co_24 co_i_24_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_7  co_24 co_i_24_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_8  co_24 co_i_24_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_9  co_24 co_i_24_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_10 co_24 co_i_24_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_11 co_24 co_i_24_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_12 co_24 co_i_24_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_13 co_24 co_i_24_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_14 co_24 co_i_24_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_24_15 co_24 co_i_24_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_0  co_25 co_i_25_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_1  co_25 co_i_25_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_2  co_25 co_i_25_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_3  co_25 co_i_25_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_4  co_25 co_i_25_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_5  co_25 co_i_25_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_6  co_25 co_i_25_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_7  co_25 co_i_25_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_8  co_25 co_i_25_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_9  co_25 co_i_25_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_10 co_25 co_i_25_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_11 co_25 co_i_25_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_12 co_25 co_i_25_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_13 co_25 co_i_25_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_14 co_25 co_i_25_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_25_15 co_25 co_i_25_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_0  co_26 co_i_26_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_1  co_26 co_i_26_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_2  co_26 co_i_26_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_3  co_26 co_i_26_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_4  co_26 co_i_26_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_5  co_26 co_i_26_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_6  co_26 co_i_26_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_7  co_26 co_i_26_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_8  co_26 co_i_26_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_9  co_26 co_i_26_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_10 co_26 co_i_26_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_11 co_26 co_i_26_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_12 co_26 co_i_26_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_13 co_26 co_i_26_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_14 co_26 co_i_26_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_26_15 co_26 co_i_26_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_0  co_27 co_i_27_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_1  co_27 co_i_27_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_2  co_27 co_i_27_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_3  co_27 co_i_27_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_4  co_27 co_i_27_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_5  co_27 co_i_27_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_6  co_27 co_i_27_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_7  co_27 co_i_27_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_8  co_27 co_i_27_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_9  co_27 co_i_27_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_10 co_27 co_i_27_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_11 co_27 co_i_27_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_12 co_27 co_i_27_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_13 co_27 co_i_27_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_14 co_27 co_i_27_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_27_15 co_27 co_i_27_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_0  co_28 co_i_28_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_1  co_28 co_i_28_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_2  co_28 co_i_28_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_3  co_28 co_i_28_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_4  co_28 co_i_28_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_5  co_28 co_i_28_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_6  co_28 co_i_28_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_7  co_28 co_i_28_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_8  co_28 co_i_28_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_9  co_28 co_i_28_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_10 co_28 co_i_28_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_11 co_28 co_i_28_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_12 co_28 co_i_28_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_13 co_28 co_i_28_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_14 co_28 co_i_28_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_28_15 co_28 co_i_28_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_0  co_29 co_i_29_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_1  co_29 co_i_29_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_2  co_29 co_i_29_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_3  co_29 co_i_29_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_4  co_29 co_i_29_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_5  co_29 co_i_29_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_6  co_29 co_i_29_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_7  co_29 co_i_29_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_8  co_29 co_i_29_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_9  co_29 co_i_29_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_10 co_29 co_i_29_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_11 co_29 co_i_29_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_12 co_29 co_i_29_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_13 co_29 co_i_29_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_14 co_29 co_i_29_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_29_15 co_29 co_i_29_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_0  co_30 co_i_30_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_1  co_30 co_i_30_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_2  co_30 co_i_30_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_3  co_30 co_i_30_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_4  co_30 co_i_30_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_5  co_30 co_i_30_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_6  co_30 co_i_30_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_7  co_30 co_i_30_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_8  co_30 co_i_30_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_9  co_30 co_i_30_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_10 co_30 co_i_30_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_11 co_30 co_i_30_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_12 co_30 co_i_30_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_13 co_30 co_i_30_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_14 co_30 co_i_30_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_30_15 co_30 co_i_30_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_0  co_31 co_i_31_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_1  co_31 co_i_31_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_2  co_31 co_i_31_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_3  co_31 co_i_31_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_4  co_31 co_i_31_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_5  co_31 co_i_31_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_6  co_31 co_i_31_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_7  co_31 co_i_31_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_8  co_31 co_i_31_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_9  co_31 co_i_31_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_10 co_31 co_i_31_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_11 co_31 co_i_31_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_12 co_31 co_i_31_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_13 co_31 co_i_31_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_14 co_31 co_i_31_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_31_15 co_31 co_i_31_15 VGND int_con C=8F R=120
+
+x16_0_0  co_i_0_0  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_0  sky130_fd_sc_hd__clkbuf_16
+x16_0_1  co_i_0_1  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_1  sky130_fd_sc_hd__clkbuf_16
+x16_0_2  co_i_0_2  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_2  sky130_fd_sc_hd__clkbuf_16
+x16_0_3  co_i_0_3  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_3  sky130_fd_sc_hd__clkbuf_16
+x16_0_4  co_i_0_4  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_4  sky130_fd_sc_hd__clkbuf_16
+x16_0_5  co_i_0_5  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_5  sky130_fd_sc_hd__clkbuf_16
+x16_0_6  co_i_0_6  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_6  sky130_fd_sc_hd__clkbuf_16
+x16_0_7  co_i_0_7  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_7  sky130_fd_sc_hd__clkbuf_16
+x16_0_8  co_i_0_8  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_8  sky130_fd_sc_hd__clkbuf_16
+x16_0_9  co_i_0_9  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_9  sky130_fd_sc_hd__clkbuf_16
+x16_0_10 co_i_0_10 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_10 sky130_fd_sc_hd__clkbuf_16
+x16_0_11 co_i_0_11 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_11 sky130_fd_sc_hd__clkbuf_16
+x16_0_12 co_i_0_12 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_12 sky130_fd_sc_hd__clkbuf_16
+x16_0_13 co_i_0_13 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_13 sky130_fd_sc_hd__clkbuf_16
+x16_0_14 co_i_0_14 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_14 sky130_fd_sc_hd__clkbuf_16
+x16_0_15 co_i_0_15 VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_15 sky130_fd_sc_hd__clkbuf_16
+x16_1_0  co_i_1_0  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_0  sky130_fd_sc_hd__clkbuf_16
+x16_1_1  co_i_1_1  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_1  sky130_fd_sc_hd__clkbuf_16
+x16_1_2  co_i_1_2  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_2  sky130_fd_sc_hd__clkbuf_16
+x16_1_3  co_i_1_3  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_3  sky130_fd_sc_hd__clkbuf_16
+x16_1_4  co_i_1_4  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_4  sky130_fd_sc_hd__clkbuf_16
+x16_1_5  co_i_1_5  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_5  sky130_fd_sc_hd__clkbuf_16
+x16_1_6  co_i_1_6  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_6  sky130_fd_sc_hd__clkbuf_16
+x16_1_7  co_i_1_7  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_7  sky130_fd_sc_hd__clkbuf_16
+x16_1_8  co_i_1_8  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_8  sky130_fd_sc_hd__clkbuf_16
+x16_1_9  co_i_1_9  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_9  sky130_fd_sc_hd__clkbuf_16
+x16_1_10 co_i_1_10 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_10 sky130_fd_sc_hd__clkbuf_16
+x16_1_11 co_i_1_11 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_11 sky130_fd_sc_hd__clkbuf_16
+x16_1_12 co_i_1_12 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_12 sky130_fd_sc_hd__clkbuf_16
+x16_1_13 co_i_1_13 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_13 sky130_fd_sc_hd__clkbuf_16
+x16_1_14 co_i_1_14 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_14 sky130_fd_sc_hd__clkbuf_16
+x16_1_15 co_i_1_15 VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  ff_1_15 sky130_fd_sc_hd__clkbuf_16
+x16_2_0  co_i_2_0  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_0  sky130_fd_sc_hd__clkbuf_16
+x16_2_1  co_i_2_1  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_1  sky130_fd_sc_hd__clkbuf_16
+x16_2_2  co_i_2_2  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_2  sky130_fd_sc_hd__clkbuf_16
+x16_2_3  co_i_2_3  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_3  sky130_fd_sc_hd__clkbuf_16
+x16_2_4  co_i_2_4  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_4  sky130_fd_sc_hd__clkbuf_16
+x16_2_5  co_i_2_5  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_5  sky130_fd_sc_hd__clkbuf_16
+x16_2_6  co_i_2_6  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_6  sky130_fd_sc_hd__clkbuf_16
+x16_2_7  co_i_2_7  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_7  sky130_fd_sc_hd__clkbuf_16
+x16_2_8  co_i_2_8  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_8  sky130_fd_sc_hd__clkbuf_16
+x16_2_9  co_i_2_9  VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_9  sky130_fd_sc_hd__clkbuf_16
+x16_2_10 co_i_2_10 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_10 sky130_fd_sc_hd__clkbuf_16
+x16_2_11 co_i_2_11 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_11 sky130_fd_sc_hd__clkbuf_16
+x16_2_12 co_i_2_12 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_12 sky130_fd_sc_hd__clkbuf_16
+x16_2_13 co_i_2_13 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_13 sky130_fd_sc_hd__clkbuf_16
+x16_2_14 co_i_2_14 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_14 sky130_fd_sc_hd__clkbuf_16
+x16_2_15 co_i_2_15 VGND VNB vpwr_clk_buf1_2  vpwr_clk_buf1_2  ff_2_15 sky130_fd_sc_hd__clkbuf_16
+x16_3_0  co_i_3_0  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_0  sky130_fd_sc_hd__clkbuf_16
+x16_3_1  co_i_3_1  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_1  sky130_fd_sc_hd__clkbuf_16
+x16_3_2  co_i_3_2  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_2  sky130_fd_sc_hd__clkbuf_16
+x16_3_3  co_i_3_3  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_3  sky130_fd_sc_hd__clkbuf_16
+x16_3_4  co_i_3_4  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_4  sky130_fd_sc_hd__clkbuf_16
+x16_3_5  co_i_3_5  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_5  sky130_fd_sc_hd__clkbuf_16
+x16_3_6  co_i_3_6  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_6  sky130_fd_sc_hd__clkbuf_16
+x16_3_7  co_i_3_7  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_7  sky130_fd_sc_hd__clkbuf_16
+x16_3_8  co_i_3_8  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_8  sky130_fd_sc_hd__clkbuf_16
+x16_3_9  co_i_3_9  VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_9  sky130_fd_sc_hd__clkbuf_16
+x16_3_10 co_i_3_10 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_10 sky130_fd_sc_hd__clkbuf_16
+x16_3_11 co_i_3_11 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_11 sky130_fd_sc_hd__clkbuf_16
+x16_3_12 co_i_3_12 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_12 sky130_fd_sc_hd__clkbuf_16
+x16_3_13 co_i_3_13 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_13 sky130_fd_sc_hd__clkbuf_16
+x16_3_14 co_i_3_14 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_14 sky130_fd_sc_hd__clkbuf_16
+x16_3_15 co_i_3_15 VGND VNB vpwr_clk_buf1_3  vpwr_clk_buf1_3  ff_3_15 sky130_fd_sc_hd__clkbuf_16
+x16_4_0  co_i_4_0  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_0  sky130_fd_sc_hd__clkbuf_16
+x16_4_1  co_i_4_1  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_1  sky130_fd_sc_hd__clkbuf_16
+x16_4_2  co_i_4_2  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_2  sky130_fd_sc_hd__clkbuf_16
+x16_4_3  co_i_4_3  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_3  sky130_fd_sc_hd__clkbuf_16
+x16_4_4  co_i_4_4  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_4  sky130_fd_sc_hd__clkbuf_16
+x16_4_5  co_i_4_5  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_5  sky130_fd_sc_hd__clkbuf_16
+x16_4_6  co_i_4_6  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_6  sky130_fd_sc_hd__clkbuf_16
+x16_4_7  co_i_4_7  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_7  sky130_fd_sc_hd__clkbuf_16
+x16_4_8  co_i_4_8  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_8  sky130_fd_sc_hd__clkbuf_16
+x16_4_9  co_i_4_9  VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_9  sky130_fd_sc_hd__clkbuf_16
+x16_4_10 co_i_4_10 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_10 sky130_fd_sc_hd__clkbuf_16
+x16_4_11 co_i_4_11 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_11 sky130_fd_sc_hd__clkbuf_16
+x16_4_12 co_i_4_12 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_12 sky130_fd_sc_hd__clkbuf_16
+x16_4_13 co_i_4_13 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_13 sky130_fd_sc_hd__clkbuf_16
+x16_4_14 co_i_4_14 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_14 sky130_fd_sc_hd__clkbuf_16
+x16_4_15 co_i_4_15 VGND VNB vpwr_clk_buf1_4  vpwr_clk_buf1_4  ff_4_15 sky130_fd_sc_hd__clkbuf_16
+x16_5_0  co_i_5_0  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_0  sky130_fd_sc_hd__clkbuf_16
+x16_5_1  co_i_5_1  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_1  sky130_fd_sc_hd__clkbuf_16
+x16_5_2  co_i_5_2  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_2  sky130_fd_sc_hd__clkbuf_16
+x16_5_3  co_i_5_3  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_3  sky130_fd_sc_hd__clkbuf_16
+x16_5_4  co_i_5_4  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_4  sky130_fd_sc_hd__clkbuf_16
+x16_5_5  co_i_5_5  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_5  sky130_fd_sc_hd__clkbuf_16
+x16_5_6  co_i_5_6  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_6  sky130_fd_sc_hd__clkbuf_16
+x16_5_7  co_i_5_7  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_7  sky130_fd_sc_hd__clkbuf_16
+x16_5_8  co_i_5_8  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_8  sky130_fd_sc_hd__clkbuf_16
+x16_5_9  co_i_5_9  VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_9  sky130_fd_sc_hd__clkbuf_16
+x16_5_10 co_i_5_10 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_10 sky130_fd_sc_hd__clkbuf_16
+x16_5_11 co_i_5_11 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_11 sky130_fd_sc_hd__clkbuf_16
+x16_5_12 co_i_5_12 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_12 sky130_fd_sc_hd__clkbuf_16
+x16_5_13 co_i_5_13 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_13 sky130_fd_sc_hd__clkbuf_16
+x16_5_14 co_i_5_14 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_14 sky130_fd_sc_hd__clkbuf_16
+x16_5_15 co_i_5_15 VGND VNB vpwr_clk_buf1_5  vpwr_clk_buf1_5  ff_5_15 sky130_fd_sc_hd__clkbuf_16
+x16_6_0  co_i_6_0  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_0  sky130_fd_sc_hd__clkbuf_16
+x16_6_1  co_i_6_1  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_1  sky130_fd_sc_hd__clkbuf_16
+x16_6_2  co_i_6_2  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_2  sky130_fd_sc_hd__clkbuf_16
+x16_6_3  co_i_6_3  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_3  sky130_fd_sc_hd__clkbuf_16
+x16_6_4  co_i_6_4  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_4  sky130_fd_sc_hd__clkbuf_16
+x16_6_5  co_i_6_5  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_5  sky130_fd_sc_hd__clkbuf_16
+x16_6_6  co_i_6_6  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_6  sky130_fd_sc_hd__clkbuf_16
+x16_6_7  co_i_6_7  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_7  sky130_fd_sc_hd__clkbuf_16
+x16_6_8  co_i_6_8  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_8  sky130_fd_sc_hd__clkbuf_16
+x16_6_9  co_i_6_9  VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_9  sky130_fd_sc_hd__clkbuf_16
+x16_6_10 co_i_6_10 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_10 sky130_fd_sc_hd__clkbuf_16
+x16_6_11 co_i_6_11 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_11 sky130_fd_sc_hd__clkbuf_16
+x16_6_12 co_i_6_12 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_12 sky130_fd_sc_hd__clkbuf_16
+x16_6_13 co_i_6_13 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_13 sky130_fd_sc_hd__clkbuf_16
+x16_6_14 co_i_6_14 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_14 sky130_fd_sc_hd__clkbuf_16
+x16_6_15 co_i_6_15 VGND VNB vpwr_clk_buf1_6  vpwr_clk_buf1_6  ff_6_15 sky130_fd_sc_hd__clkbuf_16
+x16_7_0  co_i_7_0  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_0  sky130_fd_sc_hd__clkbuf_16
+x16_7_1  co_i_7_1  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_1  sky130_fd_sc_hd__clkbuf_16
+x16_7_2  co_i_7_2  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_2  sky130_fd_sc_hd__clkbuf_16
+x16_7_3  co_i_7_3  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_3  sky130_fd_sc_hd__clkbuf_16
+x16_7_4  co_i_7_4  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_4  sky130_fd_sc_hd__clkbuf_16
+x16_7_5  co_i_7_5  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_5  sky130_fd_sc_hd__clkbuf_16
+x16_7_6  co_i_7_6  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_6  sky130_fd_sc_hd__clkbuf_16
+x16_7_7  co_i_7_7  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_7  sky130_fd_sc_hd__clkbuf_16
+x16_7_8  co_i_7_8  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_8  sky130_fd_sc_hd__clkbuf_16
+x16_7_9  co_i_7_9  VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_9  sky130_fd_sc_hd__clkbuf_16
+x16_7_10 co_i_7_10 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_10 sky130_fd_sc_hd__clkbuf_16
+x16_7_11 co_i_7_11 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_11 sky130_fd_sc_hd__clkbuf_16
+x16_7_12 co_i_7_12 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_12 sky130_fd_sc_hd__clkbuf_16
+x16_7_13 co_i_7_13 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_13 sky130_fd_sc_hd__clkbuf_16
+x16_7_14 co_i_7_14 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_14 sky130_fd_sc_hd__clkbuf_16
+x16_7_15 co_i_7_15 VGND VNB vpwr_clk_buf1_7  vpwr_clk_buf1_7  ff_7_15 sky130_fd_sc_hd__clkbuf_16
+x16_8_0  co_i_8_0  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_0  sky130_fd_sc_hd__clkbuf_16
+x16_8_1  co_i_8_1  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_1  sky130_fd_sc_hd__clkbuf_16
+x16_8_2  co_i_8_2  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_2  sky130_fd_sc_hd__clkbuf_16
+x16_8_3  co_i_8_3  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_3  sky130_fd_sc_hd__clkbuf_16
+x16_8_4  co_i_8_4  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_4  sky130_fd_sc_hd__clkbuf_16
+x16_8_5  co_i_8_5  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_5  sky130_fd_sc_hd__clkbuf_16
+x16_8_6  co_i_8_6  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_6  sky130_fd_sc_hd__clkbuf_16
+x16_8_7  co_i_8_7  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_7  sky130_fd_sc_hd__clkbuf_16
+x16_8_8  co_i_8_8  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_8  sky130_fd_sc_hd__clkbuf_16
+x16_8_9  co_i_8_9  VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_9  sky130_fd_sc_hd__clkbuf_16
+x16_8_10 co_i_8_10 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_10 sky130_fd_sc_hd__clkbuf_16
+x16_8_11 co_i_8_11 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_11 sky130_fd_sc_hd__clkbuf_16
+x16_8_12 co_i_8_12 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_12 sky130_fd_sc_hd__clkbuf_16
+x16_8_13 co_i_8_13 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_13 sky130_fd_sc_hd__clkbuf_16
+x16_8_14 co_i_8_14 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_14 sky130_fd_sc_hd__clkbuf_16
+x16_8_15 co_i_8_15 VGND VNB vpwr_clk_buf1_8  vpwr_clk_buf1_8  ff_8_15 sky130_fd_sc_hd__clkbuf_16
+x16_9_0  co_i_9_0  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_0  sky130_fd_sc_hd__clkbuf_16
+x16_9_1  co_i_9_1  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_1  sky130_fd_sc_hd__clkbuf_16
+x16_9_2  co_i_9_2  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_2  sky130_fd_sc_hd__clkbuf_16
+x16_9_3  co_i_9_3  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_3  sky130_fd_sc_hd__clkbuf_16
+x16_9_4  co_i_9_4  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_4  sky130_fd_sc_hd__clkbuf_16
+x16_9_5  co_i_9_5  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_5  sky130_fd_sc_hd__clkbuf_16
+x16_9_6  co_i_9_6  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_6  sky130_fd_sc_hd__clkbuf_16
+x16_9_7  co_i_9_7  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_7  sky130_fd_sc_hd__clkbuf_16
+x16_9_8  co_i_9_8  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_8  sky130_fd_sc_hd__clkbuf_16
+x16_9_9  co_i_9_9  VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_9  sky130_fd_sc_hd__clkbuf_16
+x16_9_10 co_i_9_10 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_10 sky130_fd_sc_hd__clkbuf_16
+x16_9_11 co_i_9_11 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_11 sky130_fd_sc_hd__clkbuf_16
+x16_9_12 co_i_9_12 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_12 sky130_fd_sc_hd__clkbuf_16
+x16_9_13 co_i_9_13 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_13 sky130_fd_sc_hd__clkbuf_16
+x16_9_14 co_i_9_14 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_14 sky130_fd_sc_hd__clkbuf_16
+x16_9_15 co_i_9_15 VGND VNB vpwr_clk_buf1_9  vpwr_clk_buf1_9  ff_9_15 sky130_fd_sc_hd__clkbuf_16
+x16_10_0  co_i_10_0  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_0  sky130_fd_sc_hd__clkbuf_16
+x16_10_1  co_i_10_1  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_1  sky130_fd_sc_hd__clkbuf_16
+x16_10_2  co_i_10_2  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_2  sky130_fd_sc_hd__clkbuf_16
+x16_10_3  co_i_10_3  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_3  sky130_fd_sc_hd__clkbuf_16
+x16_10_4  co_i_10_4  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_4  sky130_fd_sc_hd__clkbuf_16
+x16_10_5  co_i_10_5  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_5  sky130_fd_sc_hd__clkbuf_16
+x16_10_6  co_i_10_6  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_6  sky130_fd_sc_hd__clkbuf_16
+x16_10_7  co_i_10_7  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_7  sky130_fd_sc_hd__clkbuf_16
+x16_10_8  co_i_10_8  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_8  sky130_fd_sc_hd__clkbuf_16
+x16_10_9  co_i_10_9  VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_9  sky130_fd_sc_hd__clkbuf_16
+x16_10_10 co_i_10_10 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_10 sky130_fd_sc_hd__clkbuf_16
+x16_10_11 co_i_10_11 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_11 sky130_fd_sc_hd__clkbuf_16
+x16_10_12 co_i_10_12 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_12 sky130_fd_sc_hd__clkbuf_16
+x16_10_13 co_i_10_13 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_13 sky130_fd_sc_hd__clkbuf_16
+x16_10_14 co_i_10_14 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_14 sky130_fd_sc_hd__clkbuf_16
+x16_10_15 co_i_10_15 VGND VNB vpwr_clk_buf1_10 vpwr_clk_buf1_10 ff_10_15 sky130_fd_sc_hd__clkbuf_16
+x16_11_0  co_i_11_0  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_0  sky130_fd_sc_hd__clkbuf_16
+x16_11_1  co_i_11_1  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_1  sky130_fd_sc_hd__clkbuf_16
+x16_11_2  co_i_11_2  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_2  sky130_fd_sc_hd__clkbuf_16
+x16_11_3  co_i_11_3  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_3  sky130_fd_sc_hd__clkbuf_16
+x16_11_4  co_i_11_4  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_4  sky130_fd_sc_hd__clkbuf_16
+x16_11_5  co_i_11_5  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_5  sky130_fd_sc_hd__clkbuf_16
+x16_11_6  co_i_11_6  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_6  sky130_fd_sc_hd__clkbuf_16
+x16_11_7  co_i_11_7  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_7  sky130_fd_sc_hd__clkbuf_16
+x16_11_8  co_i_11_8  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_8  sky130_fd_sc_hd__clkbuf_16
+x16_11_9  co_i_11_9  VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_9  sky130_fd_sc_hd__clkbuf_16
+x16_11_10 co_i_11_10 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_10 sky130_fd_sc_hd__clkbuf_16
+x16_11_11 co_i_11_11 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_11 sky130_fd_sc_hd__clkbuf_16
+x16_11_12 co_i_11_12 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_12 sky130_fd_sc_hd__clkbuf_16
+x16_11_13 co_i_11_13 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_13 sky130_fd_sc_hd__clkbuf_16
+x16_11_14 co_i_11_14 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_14 sky130_fd_sc_hd__clkbuf_16
+x16_11_15 co_i_11_15 VGND VNB vpwr_clk_buf1_11 vpwr_clk_buf1_11 ff_11_15 sky130_fd_sc_hd__clkbuf_16
+x16_12_0  co_i_12_0  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_0  sky130_fd_sc_hd__clkbuf_16
+x16_12_1  co_i_12_1  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_1  sky130_fd_sc_hd__clkbuf_16
+x16_12_2  co_i_12_2  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_2  sky130_fd_sc_hd__clkbuf_16
+x16_12_3  co_i_12_3  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_3  sky130_fd_sc_hd__clkbuf_16
+x16_12_4  co_i_12_4  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_4  sky130_fd_sc_hd__clkbuf_16
+x16_12_5  co_i_12_5  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_5  sky130_fd_sc_hd__clkbuf_16
+x16_12_6  co_i_12_6  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_6  sky130_fd_sc_hd__clkbuf_16
+x16_12_7  co_i_12_7  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_7  sky130_fd_sc_hd__clkbuf_16
+x16_12_8  co_i_12_8  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_8  sky130_fd_sc_hd__clkbuf_16
+x16_12_9  co_i_12_9  VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_9  sky130_fd_sc_hd__clkbuf_16
+x16_12_10 co_i_12_10 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_10 sky130_fd_sc_hd__clkbuf_16
+x16_12_11 co_i_12_11 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_11 sky130_fd_sc_hd__clkbuf_16
+x16_12_12 co_i_12_12 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_12 sky130_fd_sc_hd__clkbuf_16
+x16_12_13 co_i_12_13 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_13 sky130_fd_sc_hd__clkbuf_16
+x16_12_14 co_i_12_14 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_14 sky130_fd_sc_hd__clkbuf_16
+x16_12_15 co_i_12_15 VGND VNB vpwr_clk_buf1_12 vpwr_clk_buf1_12 ff_12_15 sky130_fd_sc_hd__clkbuf_16
+x16_13_0  co_i_13_0  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_0  sky130_fd_sc_hd__clkbuf_16
+x16_13_1  co_i_13_1  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_1  sky130_fd_sc_hd__clkbuf_16
+x16_13_2  co_i_13_2  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_2  sky130_fd_sc_hd__clkbuf_16
+x16_13_3  co_i_13_3  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_3  sky130_fd_sc_hd__clkbuf_16
+x16_13_4  co_i_13_4  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_4  sky130_fd_sc_hd__clkbuf_16
+x16_13_5  co_i_13_5  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_5  sky130_fd_sc_hd__clkbuf_16
+x16_13_6  co_i_13_6  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_6  sky130_fd_sc_hd__clkbuf_16
+x16_13_7  co_i_13_7  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_7  sky130_fd_sc_hd__clkbuf_16
+x16_13_8  co_i_13_8  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_8  sky130_fd_sc_hd__clkbuf_16
+x16_13_9  co_i_13_9  VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_9  sky130_fd_sc_hd__clkbuf_16
+x16_13_10 co_i_13_10 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_10 sky130_fd_sc_hd__clkbuf_16
+x16_13_11 co_i_13_11 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_11 sky130_fd_sc_hd__clkbuf_16
+x16_13_12 co_i_13_12 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_12 sky130_fd_sc_hd__clkbuf_16
+x16_13_13 co_i_13_13 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_13 sky130_fd_sc_hd__clkbuf_16
+x16_13_14 co_i_13_14 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_14 sky130_fd_sc_hd__clkbuf_16
+x16_13_15 co_i_13_15 VGND VNB vpwr_clk_buf1_13 vpwr_clk_buf1_13 ff_13_15 sky130_fd_sc_hd__clkbuf_16
+x16_14_0  co_i_14_0  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_0  sky130_fd_sc_hd__clkbuf_16
+x16_14_1  co_i_14_1  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_1  sky130_fd_sc_hd__clkbuf_16
+x16_14_2  co_i_14_2  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_2  sky130_fd_sc_hd__clkbuf_16
+x16_14_3  co_i_14_3  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_3  sky130_fd_sc_hd__clkbuf_16
+x16_14_4  co_i_14_4  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_4  sky130_fd_sc_hd__clkbuf_16
+x16_14_5  co_i_14_5  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_5  sky130_fd_sc_hd__clkbuf_16
+x16_14_6  co_i_14_6  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_6  sky130_fd_sc_hd__clkbuf_16
+x16_14_7  co_i_14_7  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_7  sky130_fd_sc_hd__clkbuf_16
+x16_14_8  co_i_14_8  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_8  sky130_fd_sc_hd__clkbuf_16
+x16_14_9  co_i_14_9  VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_9  sky130_fd_sc_hd__clkbuf_16
+x16_14_10 co_i_14_10 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_10 sky130_fd_sc_hd__clkbuf_16
+x16_14_11 co_i_14_11 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_11 sky130_fd_sc_hd__clkbuf_16
+x16_14_12 co_i_14_12 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_12 sky130_fd_sc_hd__clkbuf_16
+x16_14_13 co_i_14_13 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_13 sky130_fd_sc_hd__clkbuf_16
+x16_14_14 co_i_14_14 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_14 sky130_fd_sc_hd__clkbuf_16
+x16_14_15 co_i_14_15 VGND VNB vpwr_clk_buf1_14 vpwr_clk_buf1_14 ff_14_15 sky130_fd_sc_hd__clkbuf_16
+x16_15_0  co_i_15_0  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_0  sky130_fd_sc_hd__clkbuf_16
+x16_15_1  co_i_15_1  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_1  sky130_fd_sc_hd__clkbuf_16
+x16_15_2  co_i_15_2  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_2  sky130_fd_sc_hd__clkbuf_16
+x16_15_3  co_i_15_3  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_3  sky130_fd_sc_hd__clkbuf_16
+x16_15_4  co_i_15_4  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_4  sky130_fd_sc_hd__clkbuf_16
+x16_15_5  co_i_15_5  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_5  sky130_fd_sc_hd__clkbuf_16
+x16_15_6  co_i_15_6  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_6  sky130_fd_sc_hd__clkbuf_16
+x16_15_7  co_i_15_7  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_7  sky130_fd_sc_hd__clkbuf_16
+x16_15_8  co_i_15_8  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_8  sky130_fd_sc_hd__clkbuf_16
+x16_15_9  co_i_15_9  VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_9  sky130_fd_sc_hd__clkbuf_16
+x16_15_10 co_i_15_10 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_10 sky130_fd_sc_hd__clkbuf_16
+x16_15_11 co_i_15_11 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_11 sky130_fd_sc_hd__clkbuf_16
+x16_15_12 co_i_15_12 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_12 sky130_fd_sc_hd__clkbuf_16
+x16_15_13 co_i_15_13 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_13 sky130_fd_sc_hd__clkbuf_16
+x16_15_14 co_i_15_14 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_14 sky130_fd_sc_hd__clkbuf_16
+x16_15_15 co_i_15_15 VGND VNB vpwr_clk_buf1_15 vpwr_clk_buf1_15 ff_15_15 sky130_fd_sc_hd__clkbuf_16
+x16_16_0  co_i_16_0  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_0  sky130_fd_sc_hd__clkbuf_16
+x16_16_1  co_i_16_1  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_1  sky130_fd_sc_hd__clkbuf_16
+x16_16_2  co_i_16_2  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_2  sky130_fd_sc_hd__clkbuf_16
+x16_16_3  co_i_16_3  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_3  sky130_fd_sc_hd__clkbuf_16
+x16_16_4  co_i_16_4  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_4  sky130_fd_sc_hd__clkbuf_16
+x16_16_5  co_i_16_5  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_5  sky130_fd_sc_hd__clkbuf_16
+x16_16_6  co_i_16_6  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_6  sky130_fd_sc_hd__clkbuf_16
+x16_16_7  co_i_16_7  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_7  sky130_fd_sc_hd__clkbuf_16
+x16_16_8  co_i_16_8  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_8  sky130_fd_sc_hd__clkbuf_16
+x16_16_9  co_i_16_9  VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_9  sky130_fd_sc_hd__clkbuf_16
+x16_16_10 co_i_16_10 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_10 sky130_fd_sc_hd__clkbuf_16
+x16_16_11 co_i_16_11 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_11 sky130_fd_sc_hd__clkbuf_16
+x16_16_12 co_i_16_12 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_12 sky130_fd_sc_hd__clkbuf_16
+x16_16_13 co_i_16_13 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_13 sky130_fd_sc_hd__clkbuf_16
+x16_16_14 co_i_16_14 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_14 sky130_fd_sc_hd__clkbuf_16
+x16_16_15 co_i_16_15 VGND VNB vpwr_clk_buf1_16 vpwr_clk_buf1_16 ff_16_15 sky130_fd_sc_hd__clkbuf_16
+x16_17_0  co_i_17_0  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_0  sky130_fd_sc_hd__clkbuf_16
+x16_17_1  co_i_17_1  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_1  sky130_fd_sc_hd__clkbuf_16
+x16_17_2  co_i_17_2  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_2  sky130_fd_sc_hd__clkbuf_16
+x16_17_3  co_i_17_3  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_3  sky130_fd_sc_hd__clkbuf_16
+x16_17_4  co_i_17_4  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_4  sky130_fd_sc_hd__clkbuf_16
+x16_17_5  co_i_17_5  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_5  sky130_fd_sc_hd__clkbuf_16
+x16_17_6  co_i_17_6  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_6  sky130_fd_sc_hd__clkbuf_16
+x16_17_7  co_i_17_7  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_7  sky130_fd_sc_hd__clkbuf_16
+x16_17_8  co_i_17_8  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_8  sky130_fd_sc_hd__clkbuf_16
+x16_17_9  co_i_17_9  VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_9  sky130_fd_sc_hd__clkbuf_16
+x16_17_10 co_i_17_10 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_10 sky130_fd_sc_hd__clkbuf_16
+x16_17_11 co_i_17_11 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_11 sky130_fd_sc_hd__clkbuf_16
+x16_17_12 co_i_17_12 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_12 sky130_fd_sc_hd__clkbuf_16
+x16_17_13 co_i_17_13 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_13 sky130_fd_sc_hd__clkbuf_16
+x16_17_14 co_i_17_14 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_14 sky130_fd_sc_hd__clkbuf_16
+x16_17_15 co_i_17_15 VGND VNB vpwr_clk_buf1_17 vpwr_clk_buf1_17 ff_17_15 sky130_fd_sc_hd__clkbuf_16
+x16_18_0  co_i_18_0  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_0  sky130_fd_sc_hd__clkbuf_16
+x16_18_1  co_i_18_1  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_1  sky130_fd_sc_hd__clkbuf_16
+x16_18_2  co_i_18_2  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_2  sky130_fd_sc_hd__clkbuf_16
+x16_18_3  co_i_18_3  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_3  sky130_fd_sc_hd__clkbuf_16
+x16_18_4  co_i_18_4  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_4  sky130_fd_sc_hd__clkbuf_16
+x16_18_5  co_i_18_5  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_5  sky130_fd_sc_hd__clkbuf_16
+x16_18_6  co_i_18_6  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_6  sky130_fd_sc_hd__clkbuf_16
+x16_18_7  co_i_18_7  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_7  sky130_fd_sc_hd__clkbuf_16
+x16_18_8  co_i_18_8  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_8  sky130_fd_sc_hd__clkbuf_16
+x16_18_9  co_i_18_9  VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_9  sky130_fd_sc_hd__clkbuf_16
+x16_18_10 co_i_18_10 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_10 sky130_fd_sc_hd__clkbuf_16
+x16_18_11 co_i_18_11 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_11 sky130_fd_sc_hd__clkbuf_16
+x16_18_12 co_i_18_12 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_12 sky130_fd_sc_hd__clkbuf_16
+x16_18_13 co_i_18_13 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_13 sky130_fd_sc_hd__clkbuf_16
+x16_18_14 co_i_18_14 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_14 sky130_fd_sc_hd__clkbuf_16
+x16_18_15 co_i_18_15 VGND VNB vpwr_clk_buf1_18 vpwr_clk_buf1_18 ff_18_15 sky130_fd_sc_hd__clkbuf_16
+x16_19_0  co_i_19_0  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_0  sky130_fd_sc_hd__clkbuf_16
+x16_19_1  co_i_19_1  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_1  sky130_fd_sc_hd__clkbuf_16
+x16_19_2  co_i_19_2  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_2  sky130_fd_sc_hd__clkbuf_16
+x16_19_3  co_i_19_3  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_3  sky130_fd_sc_hd__clkbuf_16
+x16_19_4  co_i_19_4  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_4  sky130_fd_sc_hd__clkbuf_16
+x16_19_5  co_i_19_5  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_5  sky130_fd_sc_hd__clkbuf_16
+x16_19_6  co_i_19_6  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_6  sky130_fd_sc_hd__clkbuf_16
+x16_19_7  co_i_19_7  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_7  sky130_fd_sc_hd__clkbuf_16
+x16_19_8  co_i_19_8  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_8  sky130_fd_sc_hd__clkbuf_16
+x16_19_9  co_i_19_9  VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_9  sky130_fd_sc_hd__clkbuf_16
+x16_19_10 co_i_19_10 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_10 sky130_fd_sc_hd__clkbuf_16
+x16_19_11 co_i_19_11 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_11 sky130_fd_sc_hd__clkbuf_16
+x16_19_12 co_i_19_12 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_12 sky130_fd_sc_hd__clkbuf_16
+x16_19_13 co_i_19_13 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_13 sky130_fd_sc_hd__clkbuf_16
+x16_19_14 co_i_19_14 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_14 sky130_fd_sc_hd__clkbuf_16
+x16_19_15 co_i_19_15 VGND VNB vpwr_clk_buf1_19 vpwr_clk_buf1_19 ff_19_15 sky130_fd_sc_hd__clkbuf_16
+x16_20_0  co_i_20_0  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_0  sky130_fd_sc_hd__clkbuf_16
+x16_20_1  co_i_20_1  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_1  sky130_fd_sc_hd__clkbuf_16
+x16_20_2  co_i_20_2  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_2  sky130_fd_sc_hd__clkbuf_16
+x16_20_3  co_i_20_3  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_3  sky130_fd_sc_hd__clkbuf_16
+x16_20_4  co_i_20_4  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_4  sky130_fd_sc_hd__clkbuf_16
+x16_20_5  co_i_20_5  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_5  sky130_fd_sc_hd__clkbuf_16
+x16_20_6  co_i_20_6  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_6  sky130_fd_sc_hd__clkbuf_16
+x16_20_7  co_i_20_7  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_7  sky130_fd_sc_hd__clkbuf_16
+x16_20_8  co_i_20_8  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_8  sky130_fd_sc_hd__clkbuf_16
+x16_20_9  co_i_20_9  VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_9  sky130_fd_sc_hd__clkbuf_16
+x16_20_10 co_i_20_10 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_10 sky130_fd_sc_hd__clkbuf_16
+x16_20_11 co_i_20_11 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_11 sky130_fd_sc_hd__clkbuf_16
+x16_20_12 co_i_20_12 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_12 sky130_fd_sc_hd__clkbuf_16
+x16_20_13 co_i_20_13 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_13 sky130_fd_sc_hd__clkbuf_16
+x16_20_14 co_i_20_14 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_14 sky130_fd_sc_hd__clkbuf_16
+x16_20_15 co_i_20_15 VGND VNB vpwr_clk_buf1_20 vpwr_clk_buf1_20 ff_20_15 sky130_fd_sc_hd__clkbuf_16
+x16_21_0  co_i_21_0  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_0  sky130_fd_sc_hd__clkbuf_16
+x16_21_1  co_i_21_1  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_1  sky130_fd_sc_hd__clkbuf_16
+x16_21_2  co_i_21_2  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_2  sky130_fd_sc_hd__clkbuf_16
+x16_21_3  co_i_21_3  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_3  sky130_fd_sc_hd__clkbuf_16
+x16_21_4  co_i_21_4  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_4  sky130_fd_sc_hd__clkbuf_16
+x16_21_5  co_i_21_5  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_5  sky130_fd_sc_hd__clkbuf_16
+x16_21_6  co_i_21_6  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_6  sky130_fd_sc_hd__clkbuf_16
+x16_21_7  co_i_21_7  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_7  sky130_fd_sc_hd__clkbuf_16
+x16_21_8  co_i_21_8  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_8  sky130_fd_sc_hd__clkbuf_16
+x16_21_9  co_i_21_9  VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_9  sky130_fd_sc_hd__clkbuf_16
+x16_21_10 co_i_21_10 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_10 sky130_fd_sc_hd__clkbuf_16
+x16_21_11 co_i_21_11 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_11 sky130_fd_sc_hd__clkbuf_16
+x16_21_12 co_i_21_12 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_12 sky130_fd_sc_hd__clkbuf_16
+x16_21_13 co_i_21_13 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_13 sky130_fd_sc_hd__clkbuf_16
+x16_21_14 co_i_21_14 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_14 sky130_fd_sc_hd__clkbuf_16
+x16_21_15 co_i_21_15 VGND VNB vpwr_clk_buf1_21 vpwr_clk_buf1_21 ff_21_15 sky130_fd_sc_hd__clkbuf_16
+x16_22_0  co_i_22_0  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_0  sky130_fd_sc_hd__clkbuf_16
+x16_22_1  co_i_22_1  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_1  sky130_fd_sc_hd__clkbuf_16
+x16_22_2  co_i_22_2  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_2  sky130_fd_sc_hd__clkbuf_16
+x16_22_3  co_i_22_3  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_3  sky130_fd_sc_hd__clkbuf_16
+x16_22_4  co_i_22_4  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_4  sky130_fd_sc_hd__clkbuf_16
+x16_22_5  co_i_22_5  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_5  sky130_fd_sc_hd__clkbuf_16
+x16_22_6  co_i_22_6  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_6  sky130_fd_sc_hd__clkbuf_16
+x16_22_7  co_i_22_7  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_7  sky130_fd_sc_hd__clkbuf_16
+x16_22_8  co_i_22_8  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_8  sky130_fd_sc_hd__clkbuf_16
+x16_22_9  co_i_22_9  VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_9  sky130_fd_sc_hd__clkbuf_16
+x16_22_10 co_i_22_10 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_10 sky130_fd_sc_hd__clkbuf_16
+x16_22_11 co_i_22_11 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_11 sky130_fd_sc_hd__clkbuf_16
+x16_22_12 co_i_22_12 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_12 sky130_fd_sc_hd__clkbuf_16
+x16_22_13 co_i_22_13 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_13 sky130_fd_sc_hd__clkbuf_16
+x16_22_14 co_i_22_14 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_14 sky130_fd_sc_hd__clkbuf_16
+x16_22_15 co_i_22_15 VGND VNB vpwr_clk_buf1_22 vpwr_clk_buf1_22 ff_22_15 sky130_fd_sc_hd__clkbuf_16
+x16_23_0  co_i_23_0  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_0  sky130_fd_sc_hd__clkbuf_16
+x16_23_1  co_i_23_1  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_1  sky130_fd_sc_hd__clkbuf_16
+x16_23_2  co_i_23_2  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_2  sky130_fd_sc_hd__clkbuf_16
+x16_23_3  co_i_23_3  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_3  sky130_fd_sc_hd__clkbuf_16
+x16_23_4  co_i_23_4  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_4  sky130_fd_sc_hd__clkbuf_16
+x16_23_5  co_i_23_5  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_5  sky130_fd_sc_hd__clkbuf_16
+x16_23_6  co_i_23_6  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_6  sky130_fd_sc_hd__clkbuf_16
+x16_23_7  co_i_23_7  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_7  sky130_fd_sc_hd__clkbuf_16
+x16_23_8  co_i_23_8  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_8  sky130_fd_sc_hd__clkbuf_16
+x16_23_9  co_i_23_9  VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_9  sky130_fd_sc_hd__clkbuf_16
+x16_23_10 co_i_23_10 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_10 sky130_fd_sc_hd__clkbuf_16
+x16_23_11 co_i_23_11 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_11 sky130_fd_sc_hd__clkbuf_16
+x16_23_12 co_i_23_12 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_12 sky130_fd_sc_hd__clkbuf_16
+x16_23_13 co_i_23_13 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_13 sky130_fd_sc_hd__clkbuf_16
+x16_23_14 co_i_23_14 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_14 sky130_fd_sc_hd__clkbuf_16
+x16_23_15 co_i_23_15 VGND VNB vpwr_clk_buf1_23 vpwr_clk_buf1_23 ff_23_15 sky130_fd_sc_hd__clkbuf_16
+x16_24_0  co_i_24_0  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_0  sky130_fd_sc_hd__clkbuf_16
+x16_24_1  co_i_24_1  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_1  sky130_fd_sc_hd__clkbuf_16
+x16_24_2  co_i_24_2  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_2  sky130_fd_sc_hd__clkbuf_16
+x16_24_3  co_i_24_3  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_3  sky130_fd_sc_hd__clkbuf_16
+x16_24_4  co_i_24_4  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_4  sky130_fd_sc_hd__clkbuf_16
+x16_24_5  co_i_24_5  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_5  sky130_fd_sc_hd__clkbuf_16
+x16_24_6  co_i_24_6  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_6  sky130_fd_sc_hd__clkbuf_16
+x16_24_7  co_i_24_7  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_7  sky130_fd_sc_hd__clkbuf_16
+x16_24_8  co_i_24_8  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_8  sky130_fd_sc_hd__clkbuf_16
+x16_24_9  co_i_24_9  VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_9  sky130_fd_sc_hd__clkbuf_16
+x16_24_10 co_i_24_10 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_10 sky130_fd_sc_hd__clkbuf_16
+x16_24_11 co_i_24_11 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_11 sky130_fd_sc_hd__clkbuf_16
+x16_24_12 co_i_24_12 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_12 sky130_fd_sc_hd__clkbuf_16
+x16_24_13 co_i_24_13 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_13 sky130_fd_sc_hd__clkbuf_16
+x16_24_14 co_i_24_14 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_14 sky130_fd_sc_hd__clkbuf_16
+x16_24_15 co_i_24_15 VGND VNB vpwr_clk_buf1_24 vpwr_clk_buf1_24 ff_24_15 sky130_fd_sc_hd__clkbuf_16
+x16_25_0  co_i_25_0  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_0  sky130_fd_sc_hd__clkbuf_16
+x16_25_1  co_i_25_1  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_1  sky130_fd_sc_hd__clkbuf_16
+x16_25_2  co_i_25_2  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_2  sky130_fd_sc_hd__clkbuf_16
+x16_25_3  co_i_25_3  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_3  sky130_fd_sc_hd__clkbuf_16
+x16_25_4  co_i_25_4  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_4  sky130_fd_sc_hd__clkbuf_16
+x16_25_5  co_i_25_5  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_5  sky130_fd_sc_hd__clkbuf_16
+x16_25_6  co_i_25_6  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_6  sky130_fd_sc_hd__clkbuf_16
+x16_25_7  co_i_25_7  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_7  sky130_fd_sc_hd__clkbuf_16
+x16_25_8  co_i_25_8  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_8  sky130_fd_sc_hd__clkbuf_16
+x16_25_9  co_i_25_9  VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_9  sky130_fd_sc_hd__clkbuf_16
+x16_25_10 co_i_25_10 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_10 sky130_fd_sc_hd__clkbuf_16
+x16_25_11 co_i_25_11 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_11 sky130_fd_sc_hd__clkbuf_16
+x16_25_12 co_i_25_12 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_12 sky130_fd_sc_hd__clkbuf_16
+x16_25_13 co_i_25_13 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_13 sky130_fd_sc_hd__clkbuf_16
+x16_25_14 co_i_25_14 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_14 sky130_fd_sc_hd__clkbuf_16
+x16_25_15 co_i_25_15 VGND VNB vpwr_clk_buf1_25 vpwr_clk_buf1_25 ff_25_15 sky130_fd_sc_hd__clkbuf_16
+x16_26_0  co_i_26_0  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_0  sky130_fd_sc_hd__clkbuf_16
+x16_26_1  co_i_26_1  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_1  sky130_fd_sc_hd__clkbuf_16
+x16_26_2  co_i_26_2  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_2  sky130_fd_sc_hd__clkbuf_16
+x16_26_3  co_i_26_3  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_3  sky130_fd_sc_hd__clkbuf_16
+x16_26_4  co_i_26_4  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_4  sky130_fd_sc_hd__clkbuf_16
+x16_26_5  co_i_26_5  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_5  sky130_fd_sc_hd__clkbuf_16
+x16_26_6  co_i_26_6  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_6  sky130_fd_sc_hd__clkbuf_16
+x16_26_7  co_i_26_7  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_7  sky130_fd_sc_hd__clkbuf_16
+x16_26_8  co_i_26_8  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_8  sky130_fd_sc_hd__clkbuf_16
+x16_26_9  co_i_26_9  VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_9  sky130_fd_sc_hd__clkbuf_16
+x16_26_10 co_i_26_10 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_10 sky130_fd_sc_hd__clkbuf_16
+x16_26_11 co_i_26_11 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_11 sky130_fd_sc_hd__clkbuf_16
+x16_26_12 co_i_26_12 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_12 sky130_fd_sc_hd__clkbuf_16
+x16_26_13 co_i_26_13 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_13 sky130_fd_sc_hd__clkbuf_16
+x16_26_14 co_i_26_14 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_14 sky130_fd_sc_hd__clkbuf_16
+x16_26_15 co_i_26_15 VGND VNB vpwr_clk_buf1_26 vpwr_clk_buf1_26 ff_26_15 sky130_fd_sc_hd__clkbuf_16
+x16_27_0  co_i_27_0  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_0  sky130_fd_sc_hd__clkbuf_16
+x16_27_1  co_i_27_1  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_1  sky130_fd_sc_hd__clkbuf_16
+x16_27_2  co_i_27_2  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_2  sky130_fd_sc_hd__clkbuf_16
+x16_27_3  co_i_27_3  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_3  sky130_fd_sc_hd__clkbuf_16
+x16_27_4  co_i_27_4  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_4  sky130_fd_sc_hd__clkbuf_16
+x16_27_5  co_i_27_5  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_5  sky130_fd_sc_hd__clkbuf_16
+x16_27_6  co_i_27_6  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_6  sky130_fd_sc_hd__clkbuf_16
+x16_27_7  co_i_27_7  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_7  sky130_fd_sc_hd__clkbuf_16
+x16_27_8  co_i_27_8  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_8  sky130_fd_sc_hd__clkbuf_16
+x16_27_9  co_i_27_9  VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_9  sky130_fd_sc_hd__clkbuf_16
+x16_27_10 co_i_27_10 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_10 sky130_fd_sc_hd__clkbuf_16
+x16_27_11 co_i_27_11 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_11 sky130_fd_sc_hd__clkbuf_16
+x16_27_12 co_i_27_12 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_12 sky130_fd_sc_hd__clkbuf_16
+x16_27_13 co_i_27_13 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_13 sky130_fd_sc_hd__clkbuf_16
+x16_27_14 co_i_27_14 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_14 sky130_fd_sc_hd__clkbuf_16
+x16_27_15 co_i_27_15 VGND VNB vpwr_clk_buf1_27 vpwr_clk_buf1_27 ff_27_15 sky130_fd_sc_hd__clkbuf_16
+x16_28_0  co_i_28_0  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_0  sky130_fd_sc_hd__clkbuf_16
+x16_28_1  co_i_28_1  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_1  sky130_fd_sc_hd__clkbuf_16
+x16_28_2  co_i_28_2  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_2  sky130_fd_sc_hd__clkbuf_16
+x16_28_3  co_i_28_3  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_3  sky130_fd_sc_hd__clkbuf_16
+x16_28_4  co_i_28_4  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_4  sky130_fd_sc_hd__clkbuf_16
+x16_28_5  co_i_28_5  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_5  sky130_fd_sc_hd__clkbuf_16
+x16_28_6  co_i_28_6  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_6  sky130_fd_sc_hd__clkbuf_16
+x16_28_7  co_i_28_7  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_7  sky130_fd_sc_hd__clkbuf_16
+x16_28_8  co_i_28_8  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_8  sky130_fd_sc_hd__clkbuf_16
+x16_28_9  co_i_28_9  VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_9  sky130_fd_sc_hd__clkbuf_16
+x16_28_10 co_i_28_10 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_10 sky130_fd_sc_hd__clkbuf_16
+x16_28_11 co_i_28_11 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_11 sky130_fd_sc_hd__clkbuf_16
+x16_28_12 co_i_28_12 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_12 sky130_fd_sc_hd__clkbuf_16
+x16_28_13 co_i_28_13 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_13 sky130_fd_sc_hd__clkbuf_16
+x16_28_14 co_i_28_14 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_14 sky130_fd_sc_hd__clkbuf_16
+x16_28_15 co_i_28_15 VGND VNB vpwr_clk_buf1_28 vpwr_clk_buf1_28 ff_28_15 sky130_fd_sc_hd__clkbuf_16
+x16_29_0  co_i_29_0  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_0  sky130_fd_sc_hd__clkbuf_16
+x16_29_1  co_i_29_1  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_1  sky130_fd_sc_hd__clkbuf_16
+x16_29_2  co_i_29_2  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_2  sky130_fd_sc_hd__clkbuf_16
+x16_29_3  co_i_29_3  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_3  sky130_fd_sc_hd__clkbuf_16
+x16_29_4  co_i_29_4  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_4  sky130_fd_sc_hd__clkbuf_16
+x16_29_5  co_i_29_5  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_5  sky130_fd_sc_hd__clkbuf_16
+x16_29_6  co_i_29_6  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_6  sky130_fd_sc_hd__clkbuf_16
+x16_29_7  co_i_29_7  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_7  sky130_fd_sc_hd__clkbuf_16
+x16_29_8  co_i_29_8  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_8  sky130_fd_sc_hd__clkbuf_16
+x16_29_9  co_i_29_9  VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_9  sky130_fd_sc_hd__clkbuf_16
+x16_29_10 co_i_29_10 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_10 sky130_fd_sc_hd__clkbuf_16
+x16_29_11 co_i_29_11 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_11 sky130_fd_sc_hd__clkbuf_16
+x16_29_12 co_i_29_12 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_12 sky130_fd_sc_hd__clkbuf_16
+x16_29_13 co_i_29_13 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_13 sky130_fd_sc_hd__clkbuf_16
+x16_29_14 co_i_29_14 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_14 sky130_fd_sc_hd__clkbuf_16
+x16_29_15 co_i_29_15 VGND VNB vpwr_clk_buf1_29 vpwr_clk_buf1_29 ff_29_15 sky130_fd_sc_hd__clkbuf_16
+x16_30_0  co_i_30_0  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_0  sky130_fd_sc_hd__clkbuf_16
+x16_30_1  co_i_30_1  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_1  sky130_fd_sc_hd__clkbuf_16
+x16_30_2  co_i_30_2  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_2  sky130_fd_sc_hd__clkbuf_16
+x16_30_3  co_i_30_3  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_3  sky130_fd_sc_hd__clkbuf_16
+x16_30_4  co_i_30_4  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_4  sky130_fd_sc_hd__clkbuf_16
+x16_30_5  co_i_30_5  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_5  sky130_fd_sc_hd__clkbuf_16
+x16_30_6  co_i_30_6  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_6  sky130_fd_sc_hd__clkbuf_16
+x16_30_7  co_i_30_7  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_7  sky130_fd_sc_hd__clkbuf_16
+x16_30_8  co_i_30_8  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_8  sky130_fd_sc_hd__clkbuf_16
+x16_30_9  co_i_30_9  VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_9  sky130_fd_sc_hd__clkbuf_16
+x16_30_10 co_i_30_10 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_10 sky130_fd_sc_hd__clkbuf_16
+x16_30_11 co_i_30_11 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_11 sky130_fd_sc_hd__clkbuf_16
+x16_30_12 co_i_30_12 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_12 sky130_fd_sc_hd__clkbuf_16
+x16_30_13 co_i_30_13 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_13 sky130_fd_sc_hd__clkbuf_16
+x16_30_14 co_i_30_14 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_14 sky130_fd_sc_hd__clkbuf_16
+x16_30_15 co_i_30_15 VGND VNB vpwr_clk_buf1_30 vpwr_clk_buf1_30 ff_30_15 sky130_fd_sc_hd__clkbuf_16
+x16_31_0  co_i_31_0  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_0  sky130_fd_sc_hd__clkbuf_16
+x16_31_1  co_i_31_1  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_1  sky130_fd_sc_hd__clkbuf_16
+x16_31_2  co_i_31_2  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_2  sky130_fd_sc_hd__clkbuf_16
+x16_31_3  co_i_31_3  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_3  sky130_fd_sc_hd__clkbuf_16
+x16_31_4  co_i_31_4  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_4  sky130_fd_sc_hd__clkbuf_16
+x16_31_5  co_i_31_5  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_5  sky130_fd_sc_hd__clkbuf_16
+x16_31_6  co_i_31_6  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_6  sky130_fd_sc_hd__clkbuf_16
+x16_31_7  co_i_31_7  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_7  sky130_fd_sc_hd__clkbuf_16
+x16_31_8  co_i_31_8  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_8  sky130_fd_sc_hd__clkbuf_16
+x16_31_9  co_i_31_9  VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_9  sky130_fd_sc_hd__clkbuf_16
+x16_31_10 co_i_31_10 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_10 sky130_fd_sc_hd__clkbuf_16
+x16_31_11 co_i_31_11 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_11 sky130_fd_sc_hd__clkbuf_16
+x16_31_12 co_i_31_12 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_12 sky130_fd_sc_hd__clkbuf_16
+x16_31_13 co_i_31_13 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_13 sky130_fd_sc_hd__clkbuf_16
+x16_31_14 co_i_31_14 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_14 sky130_fd_sc_hd__clkbuf_16
+x16_31_15 co_i_31_15 VGND VNB vpwr_clk_buf1_31 vpwr_clk_buf1_31 ff_31_15 sky130_fd_sc_hd__clkbuf_16
+
+xf_0_0  ff_0_0  ff_clk_0_0  VGND ff_rc m=20
+xf_0_1  ff_0_1  ff_clk_0_1  VGND ff_rc m=20
+xf_0_2  ff_0_2  ff_clk_0_2  VGND ff_rc m=20
+xf_0_3  ff_0_3  ff_clk_0_3  VGND ff_rc m=20
+xf_0_4  ff_0_4  ff_clk_0_4  VGND ff_rc m=20
+xf_0_5  ff_0_5  ff_clk_0_5  VGND ff_rc m=20
+xf_0_6  ff_0_6  ff_clk_0_6  VGND ff_rc m=20
+xf_0_7  ff_0_7  ff_clk_0_7  VGND ff_rc m=20
+xf_0_8  ff_0_8  ff_clk_0_8  VGND ff_rc m=20
+xf_0_9  ff_0_9  ff_clk_0_9  VGND ff_rc m=20
+xf_0_10 ff_0_10 ff_clk_0_10 VGND ff_rc m=20
+xf_0_11 ff_0_11 ff_clk_0_11 VGND ff_rc m=20
+xf_0_12 ff_0_12 ff_clk_0_12 VGND ff_rc m=20
+xf_0_13 ff_0_13 ff_clk_0_13 VGND ff_rc m=20
+xf_0_14 ff_0_14 ff_clk_0_14 VGND ff_rc m=20
+xf_0_15 ff_0_15 ff_clk_0_15 VGND ff_rc m=20
+xf_1_0  ff_1_0  ff_clk_1_0  VGND ff_rc m=20
+xf_1_1  ff_1_1  ff_clk_1_1  VGND ff_rc m=20
+xf_1_2  ff_1_2  ff_clk_1_2  VGND ff_rc m=20
+xf_1_3  ff_1_3  ff_clk_1_3  VGND ff_rc m=20
+xf_1_4  ff_1_4  ff_clk_1_4  VGND ff_rc m=20
+xf_1_5  ff_1_5  ff_clk_1_5  VGND ff_rc m=20
+xf_1_6  ff_1_6  ff_clk_1_6  VGND ff_rc m=20
+xf_1_7  ff_1_7  ff_clk_1_7  VGND ff_rc m=20
+xf_1_8  ff_1_8  ff_clk_1_8  VGND ff_rc m=20
+xf_1_9  ff_1_9  ff_clk_1_9  VGND ff_rc m=20
+xf_1_10 ff_1_10 ff_clk_1_10 VGND ff_rc m=20
+xf_1_11 ff_1_11 ff_clk_1_11 VGND ff_rc m=20
+xf_1_12 ff_1_12 ff_clk_1_12 VGND ff_rc m=20
+xf_1_13 ff_1_13 ff_clk_1_13 VGND ff_rc m=20
+xf_1_14 ff_1_14 ff_clk_1_14 VGND ff_rc m=20
+xf_1_15 ff_1_15 ff_clk_1_15 VGND ff_rc m=20
+xf_2_0  ff_2_0  ff_clk_2_0  VGND ff_rc m=20
+xf_2_1  ff_2_1  ff_clk_2_1  VGND ff_rc m=20
+xf_2_2  ff_2_2  ff_clk_2_2  VGND ff_rc m=20
+xf_2_3  ff_2_3  ff_clk_2_3  VGND ff_rc m=20
+xf_2_4  ff_2_4  ff_clk_2_4  VGND ff_rc m=20
+xf_2_5  ff_2_5  ff_clk_2_5  VGND ff_rc m=20
+xf_2_6  ff_2_6  ff_clk_2_6  VGND ff_rc m=20
+xf_2_7  ff_2_7  ff_clk_2_7  VGND ff_rc m=20
+xf_2_8  ff_2_8  ff_clk_2_8  VGND ff_rc m=20
+xf_2_9  ff_2_9  ff_clk_2_9  VGND ff_rc m=20
+xf_2_10 ff_2_10 ff_clk_2_10 VGND ff_rc m=20
+xf_2_11 ff_2_11 ff_clk_2_11 VGND ff_rc m=20
+xf_2_12 ff_2_12 ff_clk_2_12 VGND ff_rc m=20
+xf_2_13 ff_2_13 ff_clk_2_13 VGND ff_rc m=20
+xf_2_14 ff_2_14 ff_clk_2_14 VGND ff_rc m=20
+xf_2_15 ff_2_15 ff_clk_2_15 VGND ff_rc m=20
+xf_3_0  ff_3_0  ff_clk_3_0  VGND ff_rc m=20
+xf_3_1  ff_3_1  ff_clk_3_1  VGND ff_rc m=20
+xf_3_2  ff_3_2  ff_clk_3_2  VGND ff_rc m=20
+xf_3_3  ff_3_3  ff_clk_3_3  VGND ff_rc m=20
+xf_3_4  ff_3_4  ff_clk_3_4  VGND ff_rc m=20
+xf_3_5  ff_3_5  ff_clk_3_5  VGND ff_rc m=20
+xf_3_6  ff_3_6  ff_clk_3_6  VGND ff_rc m=20
+xf_3_7  ff_3_7  ff_clk_3_7  VGND ff_rc m=20
+xf_3_8  ff_3_8  ff_clk_3_8  VGND ff_rc m=20
+xf_3_9  ff_3_9  ff_clk_3_9  VGND ff_rc m=20
+xf_3_10 ff_3_10 ff_clk_3_10 VGND ff_rc m=20
+xf_3_11 ff_3_11 ff_clk_3_11 VGND ff_rc m=20
+xf_3_12 ff_3_12 ff_clk_3_12 VGND ff_rc m=20
+xf_3_13 ff_3_13 ff_clk_3_13 VGND ff_rc m=20
+xf_3_14 ff_3_14 ff_clk_3_14 VGND ff_rc m=20
+xf_3_15 ff_3_15 ff_clk_3_15 VGND ff_rc m=20
+xf_4_0  ff_4_0  ff_clk_4_0  VGND ff_rc m=20
+xf_4_1  ff_4_1  ff_clk_4_1  VGND ff_rc m=20
+xf_4_2  ff_4_2  ff_clk_4_2  VGND ff_rc m=20
+xf_4_3  ff_4_3  ff_clk_4_3  VGND ff_rc m=20
+xf_4_4  ff_4_4  ff_clk_4_4  VGND ff_rc m=20
+xf_4_5  ff_4_5  ff_clk_4_5  VGND ff_rc m=20
+xf_4_6  ff_4_6  ff_clk_4_6  VGND ff_rc m=20
+xf_4_7  ff_4_7  ff_clk_4_7  VGND ff_rc m=20
+xf_4_8  ff_4_8  ff_clk_4_8  VGND ff_rc m=20
+xf_4_9  ff_4_9  ff_clk_4_9  VGND ff_rc m=20
+xf_4_10 ff_4_10 ff_clk_4_10 VGND ff_rc m=20
+xf_4_11 ff_4_11 ff_clk_4_11 VGND ff_rc m=20
+xf_4_12 ff_4_12 ff_clk_4_12 VGND ff_rc m=20
+xf_4_13 ff_4_13 ff_clk_4_13 VGND ff_rc m=20
+xf_4_14 ff_4_14 ff_clk_4_14 VGND ff_rc m=20
+xf_4_15 ff_4_15 ff_clk_4_15 VGND ff_rc m=20
+xf_5_0  ff_5_0  ff_clk_5_0  VGND ff_rc m=20
+xf_5_1  ff_5_1  ff_clk_5_1  VGND ff_rc m=20
+xf_5_2  ff_5_2  ff_clk_5_2  VGND ff_rc m=20
+xf_5_3  ff_5_3  ff_clk_5_3  VGND ff_rc m=20
+xf_5_4  ff_5_4  ff_clk_5_4  VGND ff_rc m=20
+xf_5_5  ff_5_5  ff_clk_5_5  VGND ff_rc m=20
+xf_5_6  ff_5_6  ff_clk_5_6  VGND ff_rc m=20
+xf_5_7  ff_5_7  ff_clk_5_7  VGND ff_rc m=20
+xf_5_8  ff_5_8  ff_clk_5_8  VGND ff_rc m=20
+xf_5_9  ff_5_9  ff_clk_5_9  VGND ff_rc m=20
+xf_5_10 ff_5_10 ff_clk_5_10 VGND ff_rc m=20
+xf_5_11 ff_5_11 ff_clk_5_11 VGND ff_rc m=20
+xf_5_12 ff_5_12 ff_clk_5_12 VGND ff_rc m=20
+xf_5_13 ff_5_13 ff_clk_5_13 VGND ff_rc m=20
+xf_5_14 ff_5_14 ff_clk_5_14 VGND ff_rc m=20
+xf_5_15 ff_5_15 ff_clk_5_15 VGND ff_rc m=20
+xf_6_0  ff_6_0  ff_clk_6_0  VGND ff_rc m=20
+xf_6_1  ff_6_1  ff_clk_6_1  VGND ff_rc m=20
+xf_6_2  ff_6_2  ff_clk_6_2  VGND ff_rc m=20
+xf_6_3  ff_6_3  ff_clk_6_3  VGND ff_rc m=20
+xf_6_4  ff_6_4  ff_clk_6_4  VGND ff_rc m=20
+xf_6_5  ff_6_5  ff_clk_6_5  VGND ff_rc m=20
+xf_6_6  ff_6_6  ff_clk_6_6  VGND ff_rc m=20
+xf_6_7  ff_6_7  ff_clk_6_7  VGND ff_rc m=20
+xf_6_8  ff_6_8  ff_clk_6_8  VGND ff_rc m=20
+xf_6_9  ff_6_9  ff_clk_6_9  VGND ff_rc m=20
+xf_6_10 ff_6_10 ff_clk_6_10 VGND ff_rc m=20
+xf_6_11 ff_6_11 ff_clk_6_11 VGND ff_rc m=20
+xf_6_12 ff_6_12 ff_clk_6_12 VGND ff_rc m=20
+xf_6_13 ff_6_13 ff_clk_6_13 VGND ff_rc m=20
+xf_6_14 ff_6_14 ff_clk_6_14 VGND ff_rc m=20
+xf_6_15 ff_6_15 ff_clk_6_15 VGND ff_rc m=20
+xf_7_0  ff_7_0  ff_clk_7_0  VGND ff_rc m=20
+xf_7_1  ff_7_1  ff_clk_7_1  VGND ff_rc m=20
+xf_7_2  ff_7_2  ff_clk_7_2  VGND ff_rc m=20
+xf_7_3  ff_7_3  ff_clk_7_3  VGND ff_rc m=20
+xf_7_4  ff_7_4  ff_clk_7_4  VGND ff_rc m=20
+xf_7_5  ff_7_5  ff_clk_7_5  VGND ff_rc m=20
+xf_7_6  ff_7_6  ff_clk_7_6  VGND ff_rc m=20
+xf_7_7  ff_7_7  ff_clk_7_7  VGND ff_rc m=20
+xf_7_8  ff_7_8  ff_clk_7_8  VGND ff_rc m=20
+xf_7_9  ff_7_9  ff_clk_7_9  VGND ff_rc m=20
+xf_7_10 ff_7_10 ff_clk_7_10 VGND ff_rc m=20
+xf_7_11 ff_7_11 ff_clk_7_11 VGND ff_rc m=20
+xf_7_12 ff_7_12 ff_clk_7_12 VGND ff_rc m=20
+xf_7_13 ff_7_13 ff_clk_7_13 VGND ff_rc m=20
+xf_7_14 ff_7_14 ff_clk_7_14 VGND ff_rc m=20
+xf_7_15 ff_7_15 ff_clk_7_15 VGND ff_rc m=20
+xf_8_0  ff_8_0  ff_clk_8_0  VGND ff_rc m=20
+xf_8_1  ff_8_1  ff_clk_8_1  VGND ff_rc m=20
+xf_8_2  ff_8_2  ff_clk_8_2  VGND ff_rc m=20
+xf_8_3  ff_8_3  ff_clk_8_3  VGND ff_rc m=20
+xf_8_4  ff_8_4  ff_clk_8_4  VGND ff_rc m=20
+xf_8_5  ff_8_5  ff_clk_8_5  VGND ff_rc m=20
+xf_8_6  ff_8_6  ff_clk_8_6  VGND ff_rc m=20
+xf_8_7  ff_8_7  ff_clk_8_7  VGND ff_rc m=20
+xf_8_8  ff_8_8  ff_clk_8_8  VGND ff_rc m=20
+xf_8_9  ff_8_9  ff_clk_8_9  VGND ff_rc m=20
+xf_8_10 ff_8_10 ff_clk_8_10 VGND ff_rc m=20
+xf_8_11 ff_8_11 ff_clk_8_11 VGND ff_rc m=20
+xf_8_12 ff_8_12 ff_clk_8_12 VGND ff_rc m=20
+xf_8_13 ff_8_13 ff_clk_8_13 VGND ff_rc m=20
+xf_8_14 ff_8_14 ff_clk_8_14 VGND ff_rc m=20
+xf_8_15 ff_8_15 ff_clk_8_15 VGND ff_rc m=20
+xf_9_0  ff_9_0  ff_clk_9_0  VGND ff_rc m=20
+xf_9_1  ff_9_1  ff_clk_9_1  VGND ff_rc m=20
+xf_9_2  ff_9_2  ff_clk_9_2  VGND ff_rc m=20
+xf_9_3  ff_9_3  ff_clk_9_3  VGND ff_rc m=20
+xf_9_4  ff_9_4  ff_clk_9_4  VGND ff_rc m=20
+xf_9_5  ff_9_5  ff_clk_9_5  VGND ff_rc m=20
+xf_9_6  ff_9_6  ff_clk_9_6  VGND ff_rc m=20
+xf_9_7  ff_9_7  ff_clk_9_7  VGND ff_rc m=20
+xf_9_8  ff_9_8  ff_clk_9_8  VGND ff_rc m=20
+xf_9_9  ff_9_9  ff_clk_9_9  VGND ff_rc m=20
+xf_9_10 ff_9_10 ff_clk_9_10 VGND ff_rc m=20
+xf_9_11 ff_9_11 ff_clk_9_11 VGND ff_rc m=20
+xf_9_12 ff_9_12 ff_clk_9_12 VGND ff_rc m=20
+xf_9_13 ff_9_13 ff_clk_9_13 VGND ff_rc m=20
+xf_9_14 ff_9_14 ff_clk_9_14 VGND ff_rc m=20
+xf_9_15 ff_9_15 ff_clk_9_15 VGND ff_rc m=20
+xf_10_0  ff_10_0  ff_clk_10_0  VGND ff_rc m=20
+xf_10_1  ff_10_1  ff_clk_10_1  VGND ff_rc m=20
+xf_10_2  ff_10_2  ff_clk_10_2  VGND ff_rc m=20
+xf_10_3  ff_10_3  ff_clk_10_3  VGND ff_rc m=20
+xf_10_4  ff_10_4  ff_clk_10_4  VGND ff_rc m=20
+xf_10_5  ff_10_5  ff_clk_10_5  VGND ff_rc m=20
+xf_10_6  ff_10_6  ff_clk_10_6  VGND ff_rc m=20
+xf_10_7  ff_10_7  ff_clk_10_7  VGND ff_rc m=20
+xf_10_8  ff_10_8  ff_clk_10_8  VGND ff_rc m=20
+xf_10_9  ff_10_9  ff_clk_10_9  VGND ff_rc m=20
+xf_10_10 ff_10_10 ff_clk_10_10 VGND ff_rc m=20
+xf_10_11 ff_10_11 ff_clk_10_11 VGND ff_rc m=20
+xf_10_12 ff_10_12 ff_clk_10_12 VGND ff_rc m=20
+xf_10_13 ff_10_13 ff_clk_10_13 VGND ff_rc m=20
+xf_10_14 ff_10_14 ff_clk_10_14 VGND ff_rc m=20
+xf_10_15 ff_10_15 ff_clk_10_15 VGND ff_rc m=20
+xf_11_0  ff_11_0  ff_clk_11_0  VGND ff_rc m=20
+xf_11_1  ff_11_1  ff_clk_11_1  VGND ff_rc m=20
+xf_11_2  ff_11_2  ff_clk_11_2  VGND ff_rc m=20
+xf_11_3  ff_11_3  ff_clk_11_3  VGND ff_rc m=20
+xf_11_4  ff_11_4  ff_clk_11_4  VGND ff_rc m=20
+xf_11_5  ff_11_5  ff_clk_11_5  VGND ff_rc m=20
+xf_11_6  ff_11_6  ff_clk_11_6  VGND ff_rc m=20
+xf_11_7  ff_11_7  ff_clk_11_7  VGND ff_rc m=20
+xf_11_8  ff_11_8  ff_clk_11_8  VGND ff_rc m=20
+xf_11_9  ff_11_9  ff_clk_11_9  VGND ff_rc m=20
+xf_11_10 ff_11_10 ff_clk_11_10 VGND ff_rc m=20
+xf_11_11 ff_11_11 ff_clk_11_11 VGND ff_rc m=20
+xf_11_12 ff_11_12 ff_clk_11_12 VGND ff_rc m=20
+xf_11_13 ff_11_13 ff_clk_11_13 VGND ff_rc m=20
+xf_11_14 ff_11_14 ff_clk_11_14 VGND ff_rc m=20
+xf_11_15 ff_11_15 ff_clk_11_15 VGND ff_rc m=20
+xf_12_0  ff_12_0  ff_clk_12_0  VGND ff_rc m=20
+xf_12_1  ff_12_1  ff_clk_12_1  VGND ff_rc m=20
+xf_12_2  ff_12_2  ff_clk_12_2  VGND ff_rc m=20
+xf_12_3  ff_12_3  ff_clk_12_3  VGND ff_rc m=20
+xf_12_4  ff_12_4  ff_clk_12_4  VGND ff_rc m=20
+xf_12_5  ff_12_5  ff_clk_12_5  VGND ff_rc m=20
+xf_12_6  ff_12_6  ff_clk_12_6  VGND ff_rc m=20
+xf_12_7  ff_12_7  ff_clk_12_7  VGND ff_rc m=20
+xf_12_8  ff_12_8  ff_clk_12_8  VGND ff_rc m=20
+xf_12_9  ff_12_9  ff_clk_12_9  VGND ff_rc m=20
+xf_12_10 ff_12_10 ff_clk_12_10 VGND ff_rc m=20
+xf_12_11 ff_12_11 ff_clk_12_11 VGND ff_rc m=20
+xf_12_12 ff_12_12 ff_clk_12_12 VGND ff_rc m=20
+xf_12_13 ff_12_13 ff_clk_12_13 VGND ff_rc m=20
+xf_12_14 ff_12_14 ff_clk_12_14 VGND ff_rc m=20
+xf_12_15 ff_12_15 ff_clk_12_15 VGND ff_rc m=20
+xf_13_0  ff_13_0  ff_clk_13_0  VGND ff_rc m=20
+xf_13_1  ff_13_1  ff_clk_13_1  VGND ff_rc m=20
+xf_13_2  ff_13_2  ff_clk_13_2  VGND ff_rc m=20
+xf_13_3  ff_13_3  ff_clk_13_3  VGND ff_rc m=20
+xf_13_4  ff_13_4  ff_clk_13_4  VGND ff_rc m=20
+xf_13_5  ff_13_5  ff_clk_13_5  VGND ff_rc m=20
+xf_13_6  ff_13_6  ff_clk_13_6  VGND ff_rc m=20
+xf_13_7  ff_13_7  ff_clk_13_7  VGND ff_rc m=20
+xf_13_8  ff_13_8  ff_clk_13_8  VGND ff_rc m=20
+xf_13_9  ff_13_9  ff_clk_13_9  VGND ff_rc m=20
+xf_13_10 ff_13_10 ff_clk_13_10 VGND ff_rc m=20
+xf_13_11 ff_13_11 ff_clk_13_11 VGND ff_rc m=20
+xf_13_12 ff_13_12 ff_clk_13_12 VGND ff_rc m=20
+xf_13_13 ff_13_13 ff_clk_13_13 VGND ff_rc m=20
+xf_13_14 ff_13_14 ff_clk_13_14 VGND ff_rc m=20
+xf_13_15 ff_13_15 ff_clk_13_15 VGND ff_rc m=20
+xf_14_0  ff_14_0  ff_clk_14_0  VGND ff_rc m=20
+xf_14_1  ff_14_1  ff_clk_14_1  VGND ff_rc m=20
+xf_14_2  ff_14_2  ff_clk_14_2  VGND ff_rc m=20
+xf_14_3  ff_14_3  ff_clk_14_3  VGND ff_rc m=20
+xf_14_4  ff_14_4  ff_clk_14_4  VGND ff_rc m=20
+xf_14_5  ff_14_5  ff_clk_14_5  VGND ff_rc m=20
+xf_14_6  ff_14_6  ff_clk_14_6  VGND ff_rc m=20
+xf_14_7  ff_14_7  ff_clk_14_7  VGND ff_rc m=20
+xf_14_8  ff_14_8  ff_clk_14_8  VGND ff_rc m=20
+xf_14_9  ff_14_9  ff_clk_14_9  VGND ff_rc m=20
+xf_14_10 ff_14_10 ff_clk_14_10 VGND ff_rc m=20
+xf_14_11 ff_14_11 ff_clk_14_11 VGND ff_rc m=20
+xf_14_12 ff_14_12 ff_clk_14_12 VGND ff_rc m=20
+xf_14_13 ff_14_13 ff_clk_14_13 VGND ff_rc m=20
+xf_14_14 ff_14_14 ff_clk_14_14 VGND ff_rc m=20
+xf_14_15 ff_14_15 ff_clk_14_15 VGND ff_rc m=20
+xf_15_0  ff_15_0  ff_clk_15_0  VGND ff_rc m=20
+xf_15_1  ff_15_1  ff_clk_15_1  VGND ff_rc m=20
+xf_15_2  ff_15_2  ff_clk_15_2  VGND ff_rc m=20
+xf_15_3  ff_15_3  ff_clk_15_3  VGND ff_rc m=20
+xf_15_4  ff_15_4  ff_clk_15_4  VGND ff_rc m=20
+xf_15_5  ff_15_5  ff_clk_15_5  VGND ff_rc m=20
+xf_15_6  ff_15_6  ff_clk_15_6  VGND ff_rc m=20
+xf_15_7  ff_15_7  ff_clk_15_7  VGND ff_rc m=20
+xf_15_8  ff_15_8  ff_clk_15_8  VGND ff_rc m=20
+xf_15_9  ff_15_9  ff_clk_15_9  VGND ff_rc m=20
+xf_15_10 ff_15_10 ff_clk_15_10 VGND ff_rc m=20
+xf_15_11 ff_15_11 ff_clk_15_11 VGND ff_rc m=20
+xf_15_12 ff_15_12 ff_clk_15_12 VGND ff_rc m=20
+xf_15_13 ff_15_13 ff_clk_15_13 VGND ff_rc m=20
+xf_15_14 ff_15_14 ff_clk_15_14 VGND ff_rc m=20
+xf_15_15 ff_15_15 ff_clk_15_15 VGND ff_rc m=20
+xf_16_0  ff_16_0  ff_clk_16_0  VGND ff_rc m=20
+xf_16_1  ff_16_1  ff_clk_16_1  VGND ff_rc m=20
+xf_16_2  ff_16_2  ff_clk_16_2  VGND ff_rc m=20
+xf_16_3  ff_16_3  ff_clk_16_3  VGND ff_rc m=20
+xf_16_4  ff_16_4  ff_clk_16_4  VGND ff_rc m=20
+xf_16_5  ff_16_5  ff_clk_16_5  VGND ff_rc m=20
+xf_16_6  ff_16_6  ff_clk_16_6  VGND ff_rc m=20
+xf_16_7  ff_16_7  ff_clk_16_7  VGND ff_rc m=20
+xf_16_8  ff_16_8  ff_clk_16_8  VGND ff_rc m=20
+xf_16_9  ff_16_9  ff_clk_16_9  VGND ff_rc m=20
+xf_16_10 ff_16_10 ff_clk_16_10 VGND ff_rc m=20
+xf_16_11 ff_16_11 ff_clk_16_11 VGND ff_rc m=20
+xf_16_12 ff_16_12 ff_clk_16_12 VGND ff_rc m=20
+xf_16_13 ff_16_13 ff_clk_16_13 VGND ff_rc m=20
+xf_16_14 ff_16_14 ff_clk_16_14 VGND ff_rc m=20
+xf_16_15 ff_16_15 ff_clk_16_15 VGND ff_rc m=20
+xf_17_0  ff_17_0  ff_clk_17_0  VGND ff_rc m=20
+xf_17_1  ff_17_1  ff_clk_17_1  VGND ff_rc m=20
+xf_17_2  ff_17_2  ff_clk_17_2  VGND ff_rc m=20
+xf_17_3  ff_17_3  ff_clk_17_3  VGND ff_rc m=20
+xf_17_4  ff_17_4  ff_clk_17_4  VGND ff_rc m=20
+xf_17_5  ff_17_5  ff_clk_17_5  VGND ff_rc m=20
+xf_17_6  ff_17_6  ff_clk_17_6  VGND ff_rc m=20
+xf_17_7  ff_17_7  ff_clk_17_7  VGND ff_rc m=20
+xf_17_8  ff_17_8  ff_clk_17_8  VGND ff_rc m=20
+xf_17_9  ff_17_9  ff_clk_17_9  VGND ff_rc m=20
+xf_17_10 ff_17_10 ff_clk_17_10 VGND ff_rc m=20
+xf_17_11 ff_17_11 ff_clk_17_11 VGND ff_rc m=20
+xf_17_12 ff_17_12 ff_clk_17_12 VGND ff_rc m=20
+xf_17_13 ff_17_13 ff_clk_17_13 VGND ff_rc m=20
+xf_17_14 ff_17_14 ff_clk_17_14 VGND ff_rc m=20
+xf_17_15 ff_17_15 ff_clk_17_15 VGND ff_rc m=20
+xf_18_0  ff_18_0  ff_clk_18_0  VGND ff_rc m=20
+xf_18_1  ff_18_1  ff_clk_18_1  VGND ff_rc m=20
+xf_18_2  ff_18_2  ff_clk_18_2  VGND ff_rc m=20
+xf_18_3  ff_18_3  ff_clk_18_3  VGND ff_rc m=20
+xf_18_4  ff_18_4  ff_clk_18_4  VGND ff_rc m=20
+xf_18_5  ff_18_5  ff_clk_18_5  VGND ff_rc m=20
+xf_18_6  ff_18_6  ff_clk_18_6  VGND ff_rc m=20
+xf_18_7  ff_18_7  ff_clk_18_7  VGND ff_rc m=20
+xf_18_8  ff_18_8  ff_clk_18_8  VGND ff_rc m=20
+xf_18_9  ff_18_9  ff_clk_18_9  VGND ff_rc m=20
+xf_18_10 ff_18_10 ff_clk_18_10 VGND ff_rc m=20
+xf_18_11 ff_18_11 ff_clk_18_11 VGND ff_rc m=20
+xf_18_12 ff_18_12 ff_clk_18_12 VGND ff_rc m=20
+xf_18_13 ff_18_13 ff_clk_18_13 VGND ff_rc m=20
+xf_18_14 ff_18_14 ff_clk_18_14 VGND ff_rc m=20
+xf_18_15 ff_18_15 ff_clk_18_15 VGND ff_rc m=20
+xf_19_0  ff_19_0  ff_clk_19_0  VGND ff_rc m=20
+xf_19_1  ff_19_1  ff_clk_19_1  VGND ff_rc m=20
+xf_19_2  ff_19_2  ff_clk_19_2  VGND ff_rc m=20
+xf_19_3  ff_19_3  ff_clk_19_3  VGND ff_rc m=20
+xf_19_4  ff_19_4  ff_clk_19_4  VGND ff_rc m=20
+xf_19_5  ff_19_5  ff_clk_19_5  VGND ff_rc m=20
+xf_19_6  ff_19_6  ff_clk_19_6  VGND ff_rc m=20
+xf_19_7  ff_19_7  ff_clk_19_7  VGND ff_rc m=20
+xf_19_8  ff_19_8  ff_clk_19_8  VGND ff_rc m=20
+xf_19_9  ff_19_9  ff_clk_19_9  VGND ff_rc m=20
+xf_19_10 ff_19_10 ff_clk_19_10 VGND ff_rc m=20
+xf_19_11 ff_19_11 ff_clk_19_11 VGND ff_rc m=20
+xf_19_12 ff_19_12 ff_clk_19_12 VGND ff_rc m=20
+xf_19_13 ff_19_13 ff_clk_19_13 VGND ff_rc m=20
+xf_19_14 ff_19_14 ff_clk_19_14 VGND ff_rc m=20
+xf_19_15 ff_19_15 ff_clk_19_15 VGND ff_rc m=20
+xf_20_0  ff_20_0  ff_clk_20_0  VGND ff_rc m=20
+xf_20_1  ff_20_1  ff_clk_20_1  VGND ff_rc m=20
+xf_20_2  ff_20_2  ff_clk_20_2  VGND ff_rc m=20
+xf_20_3  ff_20_3  ff_clk_20_3  VGND ff_rc m=20
+xf_20_4  ff_20_4  ff_clk_20_4  VGND ff_rc m=20
+xf_20_5  ff_20_5  ff_clk_20_5  VGND ff_rc m=20
+xf_20_6  ff_20_6  ff_clk_20_6  VGND ff_rc m=20
+xf_20_7  ff_20_7  ff_clk_20_7  VGND ff_rc m=20
+xf_20_8  ff_20_8  ff_clk_20_8  VGND ff_rc m=20
+xf_20_9  ff_20_9  ff_clk_20_9  VGND ff_rc m=20
+xf_20_10 ff_20_10 ff_clk_20_10 VGND ff_rc m=20
+xf_20_11 ff_20_11 ff_clk_20_11 VGND ff_rc m=20
+xf_20_12 ff_20_12 ff_clk_20_12 VGND ff_rc m=20
+xf_20_13 ff_20_13 ff_clk_20_13 VGND ff_rc m=20
+xf_20_14 ff_20_14 ff_clk_20_14 VGND ff_rc m=20
+xf_20_15 ff_20_15 ff_clk_20_15 VGND ff_rc m=20
+xf_21_0  ff_21_0  ff_clk_21_0  VGND ff_rc m=20
+xf_21_1  ff_21_1  ff_clk_21_1  VGND ff_rc m=20
+xf_21_2  ff_21_2  ff_clk_21_2  VGND ff_rc m=20
+xf_21_3  ff_21_3  ff_clk_21_3  VGND ff_rc m=20
+xf_21_4  ff_21_4  ff_clk_21_4  VGND ff_rc m=20
+xf_21_5  ff_21_5  ff_clk_21_5  VGND ff_rc m=20
+xf_21_6  ff_21_6  ff_clk_21_6  VGND ff_rc m=20
+xf_21_7  ff_21_7  ff_clk_21_7  VGND ff_rc m=20
+xf_21_8  ff_21_8  ff_clk_21_8  VGND ff_rc m=20
+xf_21_9  ff_21_9  ff_clk_21_9  VGND ff_rc m=20
+xf_21_10 ff_21_10 ff_clk_21_10 VGND ff_rc m=20
+xf_21_11 ff_21_11 ff_clk_21_11 VGND ff_rc m=20
+xf_21_12 ff_21_12 ff_clk_21_12 VGND ff_rc m=20
+xf_21_13 ff_21_13 ff_clk_21_13 VGND ff_rc m=20
+xf_21_14 ff_21_14 ff_clk_21_14 VGND ff_rc m=20
+xf_21_15 ff_21_15 ff_clk_21_15 VGND ff_rc m=20
+xf_22_0  ff_22_0  ff_clk_22_0  VGND ff_rc m=20
+xf_22_1  ff_22_1  ff_clk_22_1  VGND ff_rc m=20
+xf_22_2  ff_22_2  ff_clk_22_2  VGND ff_rc m=20
+xf_22_3  ff_22_3  ff_clk_22_3  VGND ff_rc m=20
+xf_22_4  ff_22_4  ff_clk_22_4  VGND ff_rc m=20
+xf_22_5  ff_22_5  ff_clk_22_5  VGND ff_rc m=20
+xf_22_6  ff_22_6  ff_clk_22_6  VGND ff_rc m=20
+xf_22_7  ff_22_7  ff_clk_22_7  VGND ff_rc m=20
+xf_22_8  ff_22_8  ff_clk_22_8  VGND ff_rc m=20
+xf_22_9  ff_22_9  ff_clk_22_9  VGND ff_rc m=20
+xf_22_10 ff_22_10 ff_clk_22_10 VGND ff_rc m=20
+xf_22_11 ff_22_11 ff_clk_22_11 VGND ff_rc m=20
+xf_22_12 ff_22_12 ff_clk_22_12 VGND ff_rc m=20
+xf_22_13 ff_22_13 ff_clk_22_13 VGND ff_rc m=20
+xf_22_14 ff_22_14 ff_clk_22_14 VGND ff_rc m=20
+xf_22_15 ff_22_15 ff_clk_22_15 VGND ff_rc m=20
+xf_23_0  ff_23_0  ff_clk_23_0  VGND ff_rc m=20
+xf_23_1  ff_23_1  ff_clk_23_1  VGND ff_rc m=20
+xf_23_2  ff_23_2  ff_clk_23_2  VGND ff_rc m=20
+xf_23_3  ff_23_3  ff_clk_23_3  VGND ff_rc m=20
+xf_23_4  ff_23_4  ff_clk_23_4  VGND ff_rc m=20
+xf_23_5  ff_23_5  ff_clk_23_5  VGND ff_rc m=20
+xf_23_6  ff_23_6  ff_clk_23_6  VGND ff_rc m=20
+xf_23_7  ff_23_7  ff_clk_23_7  VGND ff_rc m=20
+xf_23_8  ff_23_8  ff_clk_23_8  VGND ff_rc m=20
+xf_23_9  ff_23_9  ff_clk_23_9  VGND ff_rc m=20
+xf_23_10 ff_23_10 ff_clk_23_10 VGND ff_rc m=20
+xf_23_11 ff_23_11 ff_clk_23_11 VGND ff_rc m=20
+xf_23_12 ff_23_12 ff_clk_23_12 VGND ff_rc m=20
+xf_23_13 ff_23_13 ff_clk_23_13 VGND ff_rc m=20
+xf_23_14 ff_23_14 ff_clk_23_14 VGND ff_rc m=20
+xf_23_15 ff_23_15 ff_clk_23_15 VGND ff_rc m=20
+xf_24_0  ff_24_0  ff_clk_24_0  VGND ff_rc m=20
+xf_24_1  ff_24_1  ff_clk_24_1  VGND ff_rc m=20
+xf_24_2  ff_24_2  ff_clk_24_2  VGND ff_rc m=20
+xf_24_3  ff_24_3  ff_clk_24_3  VGND ff_rc m=20
+xf_24_4  ff_24_4  ff_clk_24_4  VGND ff_rc m=20
+xf_24_5  ff_24_5  ff_clk_24_5  VGND ff_rc m=20
+xf_24_6  ff_24_6  ff_clk_24_6  VGND ff_rc m=20
+xf_24_7  ff_24_7  ff_clk_24_7  VGND ff_rc m=20
+xf_24_8  ff_24_8  ff_clk_24_8  VGND ff_rc m=20
+xf_24_9  ff_24_9  ff_clk_24_9  VGND ff_rc m=20
+xf_24_10 ff_24_10 ff_clk_24_10 VGND ff_rc m=20
+xf_24_11 ff_24_11 ff_clk_24_11 VGND ff_rc m=20
+xf_24_12 ff_24_12 ff_clk_24_12 VGND ff_rc m=20
+xf_24_13 ff_24_13 ff_clk_24_13 VGND ff_rc m=20
+xf_24_14 ff_24_14 ff_clk_24_14 VGND ff_rc m=20
+xf_24_15 ff_24_15 ff_clk_24_15 VGND ff_rc m=20
+xf_25_0  ff_25_0  ff_clk_25_0  VGND ff_rc m=20
+xf_25_1  ff_25_1  ff_clk_25_1  VGND ff_rc m=20
+xf_25_2  ff_25_2  ff_clk_25_2  VGND ff_rc m=20
+xf_25_3  ff_25_3  ff_clk_25_3  VGND ff_rc m=20
+xf_25_4  ff_25_4  ff_clk_25_4  VGND ff_rc m=20
+xf_25_5  ff_25_5  ff_clk_25_5  VGND ff_rc m=20
+xf_25_6  ff_25_6  ff_clk_25_6  VGND ff_rc m=20
+xf_25_7  ff_25_7  ff_clk_25_7  VGND ff_rc m=20
+xf_25_8  ff_25_8  ff_clk_25_8  VGND ff_rc m=20
+xf_25_9  ff_25_9  ff_clk_25_9  VGND ff_rc m=20
+xf_25_10 ff_25_10 ff_clk_25_10 VGND ff_rc m=20
+xf_25_11 ff_25_11 ff_clk_25_11 VGND ff_rc m=20
+xf_25_12 ff_25_12 ff_clk_25_12 VGND ff_rc m=20
+xf_25_13 ff_25_13 ff_clk_25_13 VGND ff_rc m=20
+xf_25_14 ff_25_14 ff_clk_25_14 VGND ff_rc m=20
+xf_25_15 ff_25_15 ff_clk_25_15 VGND ff_rc m=20
+xf_26_0  ff_26_0  ff_clk_26_0  VGND ff_rc m=20
+xf_26_1  ff_26_1  ff_clk_26_1  VGND ff_rc m=20
+xf_26_2  ff_26_2  ff_clk_26_2  VGND ff_rc m=20
+xf_26_3  ff_26_3  ff_clk_26_3  VGND ff_rc m=20
+xf_26_4  ff_26_4  ff_clk_26_4  VGND ff_rc m=20
+xf_26_5  ff_26_5  ff_clk_26_5  VGND ff_rc m=20
+xf_26_6  ff_26_6  ff_clk_26_6  VGND ff_rc m=20
+xf_26_7  ff_26_7  ff_clk_26_7  VGND ff_rc m=20
+xf_26_8  ff_26_8  ff_clk_26_8  VGND ff_rc m=20
+xf_26_9  ff_26_9  ff_clk_26_9  VGND ff_rc m=20
+xf_26_10 ff_26_10 ff_clk_26_10 VGND ff_rc m=20
+xf_26_11 ff_26_11 ff_clk_26_11 VGND ff_rc m=20
+xf_26_12 ff_26_12 ff_clk_26_12 VGND ff_rc m=20
+xf_26_13 ff_26_13 ff_clk_26_13 VGND ff_rc m=20
+xf_26_14 ff_26_14 ff_clk_26_14 VGND ff_rc m=20
+xf_26_15 ff_26_15 ff_clk_26_15 VGND ff_rc m=20
+xf_27_0  ff_27_0  ff_clk_27_0  VGND ff_rc m=20
+xf_27_1  ff_27_1  ff_clk_27_1  VGND ff_rc m=20
+xf_27_2  ff_27_2  ff_clk_27_2  VGND ff_rc m=20
+xf_27_3  ff_27_3  ff_clk_27_3  VGND ff_rc m=20
+xf_27_4  ff_27_4  ff_clk_27_4  VGND ff_rc m=20
+xf_27_5  ff_27_5  ff_clk_27_5  VGND ff_rc m=20
+xf_27_6  ff_27_6  ff_clk_27_6  VGND ff_rc m=20
+xf_27_7  ff_27_7  ff_clk_27_7  VGND ff_rc m=20
+xf_27_8  ff_27_8  ff_clk_27_8  VGND ff_rc m=20
+xf_27_9  ff_27_9  ff_clk_27_9  VGND ff_rc m=20
+xf_27_10 ff_27_10 ff_clk_27_10 VGND ff_rc m=20
+xf_27_11 ff_27_11 ff_clk_27_11 VGND ff_rc m=20
+xf_27_12 ff_27_12 ff_clk_27_12 VGND ff_rc m=20
+xf_27_13 ff_27_13 ff_clk_27_13 VGND ff_rc m=20
+xf_27_14 ff_27_14 ff_clk_27_14 VGND ff_rc m=20
+xf_27_15 ff_27_15 ff_clk_27_15 VGND ff_rc m=20
+xf_28_0  ff_28_0  ff_clk_28_0  VGND ff_rc m=20
+xf_28_1  ff_28_1  ff_clk_28_1  VGND ff_rc m=20
+xf_28_2  ff_28_2  ff_clk_28_2  VGND ff_rc m=20
+xf_28_3  ff_28_3  ff_clk_28_3  VGND ff_rc m=20
+xf_28_4  ff_28_4  ff_clk_28_4  VGND ff_rc m=20
+xf_28_5  ff_28_5  ff_clk_28_5  VGND ff_rc m=20
+xf_28_6  ff_28_6  ff_clk_28_6  VGND ff_rc m=20
+xf_28_7  ff_28_7  ff_clk_28_7  VGND ff_rc m=20
+xf_28_8  ff_28_8  ff_clk_28_8  VGND ff_rc m=20
+xf_28_9  ff_28_9  ff_clk_28_9  VGND ff_rc m=20
+xf_28_10 ff_28_10 ff_clk_28_10 VGND ff_rc m=20
+xf_28_11 ff_28_11 ff_clk_28_11 VGND ff_rc m=20
+xf_28_12 ff_28_12 ff_clk_28_12 VGND ff_rc m=20
+xf_28_13 ff_28_13 ff_clk_28_13 VGND ff_rc m=20
+xf_28_14 ff_28_14 ff_clk_28_14 VGND ff_rc m=20
+xf_28_15 ff_28_15 ff_clk_28_15 VGND ff_rc m=20
+xf_29_0  ff_29_0  ff_clk_29_0  VGND ff_rc m=20
+xf_29_1  ff_29_1  ff_clk_29_1  VGND ff_rc m=20
+xf_29_2  ff_29_2  ff_clk_29_2  VGND ff_rc m=20
+xf_29_3  ff_29_3  ff_clk_29_3  VGND ff_rc m=20
+xf_29_4  ff_29_4  ff_clk_29_4  VGND ff_rc m=20
+xf_29_5  ff_29_5  ff_clk_29_5  VGND ff_rc m=20
+xf_29_6  ff_29_6  ff_clk_29_6  VGND ff_rc m=20
+xf_29_7  ff_29_7  ff_clk_29_7  VGND ff_rc m=20
+xf_29_8  ff_29_8  ff_clk_29_8  VGND ff_rc m=20
+xf_29_9  ff_29_9  ff_clk_29_9  VGND ff_rc m=20
+xf_29_10 ff_29_10 ff_clk_29_10 VGND ff_rc m=20
+xf_29_11 ff_29_11 ff_clk_29_11 VGND ff_rc m=20
+xf_29_12 ff_29_12 ff_clk_29_12 VGND ff_rc m=20
+xf_29_13 ff_29_13 ff_clk_29_13 VGND ff_rc m=20
+xf_29_14 ff_29_14 ff_clk_29_14 VGND ff_rc m=20
+xf_29_15 ff_29_15 ff_clk_29_15 VGND ff_rc m=20
+xf_30_0  ff_30_0  ff_clk_30_0  VGND ff_rc m=20
+xf_30_1  ff_30_1  ff_clk_30_1  VGND ff_rc m=20
+xf_30_2  ff_30_2  ff_clk_30_2  VGND ff_rc m=20
+xf_30_3  ff_30_3  ff_clk_30_3  VGND ff_rc m=20
+xf_30_4  ff_30_4  ff_clk_30_4  VGND ff_rc m=20
+xf_30_5  ff_30_5  ff_clk_30_5  VGND ff_rc m=20
+xf_30_6  ff_30_6  ff_clk_30_6  VGND ff_rc m=20
+xf_30_7  ff_30_7  ff_clk_30_7  VGND ff_rc m=20
+xf_30_8  ff_30_8  ff_clk_30_8  VGND ff_rc m=20
+xf_30_9  ff_30_9  ff_clk_30_9  VGND ff_rc m=20
+xf_30_10 ff_30_10 ff_clk_30_10 VGND ff_rc m=20
+xf_30_11 ff_30_11 ff_clk_30_11 VGND ff_rc m=20
+xf_30_12 ff_30_12 ff_clk_30_12 VGND ff_rc m=20
+xf_30_13 ff_30_13 ff_clk_30_13 VGND ff_rc m=20
+xf_30_14 ff_30_14 ff_clk_30_14 VGND ff_rc m=20
+xf_30_15 ff_30_15 ff_clk_30_15 VGND ff_rc m=20
+xf_31_0  ff_31_0  ff_clk_31_0  VGND ff_rc m=20
+xf_31_1  ff_31_1  ff_clk_31_1  VGND ff_rc m=20
+xf_31_2  ff_31_2  ff_clk_31_2  VGND ff_rc m=20
+xf_31_3  ff_31_3  ff_clk_31_3  VGND ff_rc m=20
+xf_31_4  ff_31_4  ff_clk_31_4  VGND ff_rc m=20
+xf_31_5  ff_31_5  ff_clk_31_5  VGND ff_rc m=20
+xf_31_6  ff_31_6  ff_clk_31_6  VGND ff_rc m=20
+xf_31_7  ff_31_7  ff_clk_31_7  VGND ff_rc m=20
+xf_31_8  ff_31_8  ff_clk_31_8  VGND ff_rc m=20
+xf_31_9  ff_31_9  ff_clk_31_9  VGND ff_rc m=20
+xf_31_10 ff_31_10 ff_clk_31_10 VGND ff_rc m=20
+xf_31_11 ff_31_11 ff_clk_31_11 VGND ff_rc m=20
+xf_31_12 ff_31_12 ff_clk_31_12 VGND ff_rc m=20
+xf_31_13 ff_31_13 ff_clk_31_13 VGND ff_rc m=20
+xf_31_14 ff_31_14 ff_clk_31_14 VGND ff_rc m=20
+xf_31_15 ff_31_15 ff_clk_31_15 VGND ff_rc m=20
+
+C_0_0 co_i_0_0  VGND 0.9F
+C_0_1 co_i_0_1  VGND 0.9F
+C_0_2 co_i_0_2  VGND 0.9F
+C_0_3 co_i_0_3  VGND 0.9F
+C_0_4 co_i_0_4  VGND 0.9F
+C_0_5 co_i_0_5  VGND 0.9F
+C_0_6 co_i_0_6  VGND 0.9F
+C_0_7 co_i_0_7  VGND 0.9F
+C_0_8 co_i_0_8  VGND 0.9F
+C_0_9 co_i_0_9  VGND 0.9F
+C_0_10 co_i_0_10 VGND 0.9F
+C_0_11 co_i_0_11 VGND 0.9F
+C_0_12 co_i_0_12 VGND 0.9F
+C_0_13 co_i_0_13 VGND 0.9F
+C_0_14 co_i_0_14 VGND 0.9F
+C_0_15 co_i_0_15 VGND 0.9F
+C_1_0 co_i_1_0  VGND 0.9F
+C_1_1 co_i_1_1  VGND 0.9F
+C_1_2 co_i_1_2  VGND 0.9F
+C_1_3 co_i_1_3  VGND 0.9F
+C_1_4 co_i_1_4  VGND 0.9F
+C_1_5 co_i_1_5  VGND 0.9F
+C_1_6 co_i_1_6  VGND 0.9F
+C_1_7 co_i_1_7  VGND 0.9F
+C_1_8 co_i_1_8  VGND 0.9F
+C_1_9 co_i_1_9  VGND 0.9F
+C_1_10 co_i_1_10 VGND 0.9F
+C_1_11 co_i_1_11 VGND 0.9F
+C_1_12 co_i_1_12 VGND 0.9F
+C_1_13 co_i_1_13 VGND 0.9F
+C_1_14 co_i_1_14 VGND 0.9F
+C_1_15 co_i_1_15 VGND 0.9F
+C_2_0 co_i_2_0  VGND 0.9F
+C_2_1 co_i_2_1  VGND 0.9F
+C_2_2 co_i_2_2  VGND 0.9F
+C_2_3 co_i_2_3  VGND 0.9F
+C_2_4 co_i_2_4  VGND 0.9F
+C_2_5 co_i_2_5  VGND 0.9F
+C_2_6 co_i_2_6  VGND 0.9F
+C_2_7 co_i_2_7  VGND 0.9F
+C_2_8 co_i_2_8  VGND 0.9F
+C_2_9 co_i_2_9  VGND 0.9F
+C_2_10 co_i_2_10 VGND 0.9F
+C_2_11 co_i_2_11 VGND 0.9F
+C_2_12 co_i_2_12 VGND 0.9F
+C_2_13 co_i_2_13 VGND 0.9F
+C_2_14 co_i_2_14 VGND 0.9F
+C_2_15 co_i_2_15 VGND 0.9F
+C_3_0 co_i_3_0  VGND 0.9F
+C_3_1 co_i_3_1  VGND 0.9F
+C_3_2 co_i_3_2  VGND 0.9F
+C_3_3 co_i_3_3  VGND 0.9F
+C_3_4 co_i_3_4  VGND 0.9F
+C_3_5 co_i_3_5  VGND 0.9F
+C_3_6 co_i_3_6  VGND 0.9F
+C_3_7 co_i_3_7  VGND 0.9F
+C_3_8 co_i_3_8  VGND 0.9F
+C_3_9 co_i_3_9  VGND 0.9F
+C_3_10 co_i_3_10 VGND 0.9F
+C_3_11 co_i_3_11 VGND 0.9F
+C_3_12 co_i_3_12 VGND 0.9F
+C_3_13 co_i_3_13 VGND 0.9F
+C_3_14 co_i_3_14 VGND 0.9F
+C_3_15 co_i_3_15 VGND 0.9F
+C_4_0 co_i_4_0  VGND 0.9F
+C_4_1 co_i_4_1  VGND 0.9F
+C_4_2 co_i_4_2  VGND 0.9F
+C_4_3 co_i_4_3  VGND 0.9F
+C_4_4 co_i_4_4  VGND 0.9F
+C_4_5 co_i_4_5  VGND 0.9F
+C_4_6 co_i_4_6  VGND 0.9F
+C_4_7 co_i_4_7  VGND 0.9F
+C_4_8 co_i_4_8  VGND 0.9F
+C_4_9 co_i_4_9  VGND 0.9F
+C_4_10 co_i_4_10 VGND 0.9F
+C_4_11 co_i_4_11 VGND 0.9F
+C_4_12 co_i_4_12 VGND 0.9F
+C_4_13 co_i_4_13 VGND 0.9F
+C_4_14 co_i_4_14 VGND 0.9F
+C_4_15 co_i_4_15 VGND 0.9F
+C_5_0 co_i_5_0  VGND 0.9F
+C_5_1 co_i_5_1  VGND 0.9F
+C_5_2 co_i_5_2  VGND 0.9F
+C_5_3 co_i_5_3  VGND 0.9F
+C_5_4 co_i_5_4  VGND 0.9F
+C_5_5 co_i_5_5  VGND 0.9F
+C_5_6 co_i_5_6  VGND 0.9F
+C_5_7 co_i_5_7  VGND 0.9F
+C_5_8 co_i_5_8  VGND 0.9F
+C_5_9 co_i_5_9  VGND 0.9F
+C_5_10 co_i_5_10 VGND 0.9F
+C_5_11 co_i_5_11 VGND 0.9F
+C_5_12 co_i_5_12 VGND 0.9F
+C_5_13 co_i_5_13 VGND 0.9F
+C_5_14 co_i_5_14 VGND 0.9F
+C_5_15 co_i_5_15 VGND 0.9F
+C_6_0 co_i_6_0  VGND 0.9F
+C_6_1 co_i_6_1  VGND 0.9F
+C_6_2 co_i_6_2  VGND 0.9F
+C_6_3 co_i_6_3  VGND 0.9F
+C_6_4 co_i_6_4  VGND 0.9F
+C_6_5 co_i_6_5  VGND 0.9F
+C_6_6 co_i_6_6  VGND 0.9F
+C_6_7 co_i_6_7  VGND 0.9F
+C_6_8 co_i_6_8  VGND 0.9F
+C_6_9 co_i_6_9  VGND 0.9F
+C_6_10 co_i_6_10 VGND 0.9F
+C_6_11 co_i_6_11 VGND 0.9F
+C_6_12 co_i_6_12 VGND 0.9F
+C_6_13 co_i_6_13 VGND 0.9F
+C_6_14 co_i_6_14 VGND 0.9F
+C_6_15 co_i_6_15 VGND 0.9F
+C_7_0 co_i_7_0  VGND 0.9F
+C_7_1 co_i_7_1  VGND 0.9F
+C_7_2 co_i_7_2  VGND 0.9F
+C_7_3 co_i_7_3  VGND 0.9F
+C_7_4 co_i_7_4  VGND 0.9F
+C_7_5 co_i_7_5  VGND 0.9F
+C_7_6 co_i_7_6  VGND 0.9F
+C_7_7 co_i_7_7  VGND 0.9F
+C_7_8 co_i_7_8  VGND 0.9F
+C_7_9 co_i_7_9  VGND 0.9F
+C_7_10 co_i_7_10 VGND 0.9F
+C_7_11 co_i_7_11 VGND 0.9F
+C_7_12 co_i_7_12 VGND 0.9F
+C_7_13 co_i_7_13 VGND 0.9F
+C_7_14 co_i_7_14 VGND 0.9F
+C_7_15 co_i_7_15 VGND 0.9F
+C_8_0 co_i_8_0  VGND 0.9F
+C_8_1 co_i_8_1  VGND 0.9F
+C_8_2 co_i_8_2  VGND 0.9F
+C_8_3 co_i_8_3  VGND 0.9F
+C_8_4 co_i_8_4  VGND 0.9F
+C_8_5 co_i_8_5  VGND 0.9F
+C_8_6 co_i_8_6  VGND 0.9F
+C_8_7 co_i_8_7  VGND 0.9F
+C_8_8 co_i_8_8  VGND 0.9F
+C_8_9 co_i_8_9  VGND 0.9F
+C_8_10 co_i_8_10 VGND 0.9F
+C_8_11 co_i_8_11 VGND 0.9F
+C_8_12 co_i_8_12 VGND 0.9F
+C_8_13 co_i_8_13 VGND 0.9F
+C_8_14 co_i_8_14 VGND 0.9F
+C_8_15 co_i_8_15 VGND 0.9F
+C_9_0 co_i_9_0  VGND 0.9F
+C_9_1 co_i_9_1  VGND 0.9F
+C_9_2 co_i_9_2  VGND 0.9F
+C_9_3 co_i_9_3  VGND 0.9F
+C_9_4 co_i_9_4  VGND 0.9F
+C_9_5 co_i_9_5  VGND 0.9F
+C_9_6 co_i_9_6  VGND 0.9F
+C_9_7 co_i_9_7  VGND 0.9F
+C_9_8 co_i_9_8  VGND 0.9F
+C_9_9 co_i_9_9  VGND 0.9F
+C_9_10 co_i_9_10 VGND 0.9F
+C_9_11 co_i_9_11 VGND 0.9F
+C_9_12 co_i_9_12 VGND 0.9F
+C_9_13 co_i_9_13 VGND 0.9F
+C_9_14 co_i_9_14 VGND 0.9F
+C_9_15 co_i_9_15 VGND 0.9F
+C_10_0 co_i_10_0  VGND 0.9F
+C_10_1 co_i_10_1  VGND 0.9F
+C_10_2 co_i_10_2  VGND 0.9F
+C_10_3 co_i_10_3  VGND 0.9F
+C_10_4 co_i_10_4  VGND 0.9F
+C_10_5 co_i_10_5  VGND 0.9F
+C_10_6 co_i_10_6  VGND 0.9F
+C_10_7 co_i_10_7  VGND 0.9F
+C_10_8 co_i_10_8  VGND 0.9F
+C_10_9 co_i_10_9  VGND 0.9F
+C_10_10 co_i_10_10 VGND 0.9F
+C_10_11 co_i_10_11 VGND 0.9F
+C_10_12 co_i_10_12 VGND 0.9F
+C_10_13 co_i_10_13 VGND 0.9F
+C_10_14 co_i_10_14 VGND 0.9F
+C_10_15 co_i_10_15 VGND 0.9F
+C_11_0 co_i_11_0  VGND 0.9F
+C_11_1 co_i_11_1  VGND 0.9F
+C_11_2 co_i_11_2  VGND 0.9F
+C_11_3 co_i_11_3  VGND 0.9F
+C_11_4 co_i_11_4  VGND 0.9F
+C_11_5 co_i_11_5  VGND 0.9F
+C_11_6 co_i_11_6  VGND 0.9F
+C_11_7 co_i_11_7  VGND 0.9F
+C_11_8 co_i_11_8  VGND 0.9F
+C_11_9 co_i_11_9  VGND 0.9F
+C_11_10 co_i_11_10 VGND 0.9F
+C_11_11 co_i_11_11 VGND 0.9F
+C_11_12 co_i_11_12 VGND 0.9F
+C_11_13 co_i_11_13 VGND 0.9F
+C_11_14 co_i_11_14 VGND 0.9F
+C_11_15 co_i_11_15 VGND 0.9F
+C_12_0 co_i_12_0  VGND 0.9F
+C_12_1 co_i_12_1  VGND 0.9F
+C_12_2 co_i_12_2  VGND 0.9F
+C_12_3 co_i_12_3  VGND 0.9F
+C_12_4 co_i_12_4  VGND 0.9F
+C_12_5 co_i_12_5  VGND 0.9F
+C_12_6 co_i_12_6  VGND 0.9F
+C_12_7 co_i_12_7  VGND 0.9F
+C_12_8 co_i_12_8  VGND 0.9F
+C_12_9 co_i_12_9  VGND 0.9F
+C_12_10 co_i_12_10 VGND 0.9F
+C_12_11 co_i_12_11 VGND 0.9F
+C_12_12 co_i_12_12 VGND 0.9F
+C_12_13 co_i_12_13 VGND 0.9F
+C_12_14 co_i_12_14 VGND 0.9F
+C_12_15 co_i_12_15 VGND 0.9F
+C_13_0 co_i_13_0  VGND 0.9F
+C_13_1 co_i_13_1  VGND 0.9F
+C_13_2 co_i_13_2  VGND 0.9F
+C_13_3 co_i_13_3  VGND 0.9F
+C_13_4 co_i_13_4  VGND 0.9F
+C_13_5 co_i_13_5  VGND 0.9F
+C_13_6 co_i_13_6  VGND 0.9F
+C_13_7 co_i_13_7  VGND 0.9F
+C_13_8 co_i_13_8  VGND 0.9F
+C_13_9 co_i_13_9  VGND 0.9F
+C_13_10 co_i_13_10 VGND 0.9F
+C_13_11 co_i_13_11 VGND 0.9F
+C_13_12 co_i_13_12 VGND 0.9F
+C_13_13 co_i_13_13 VGND 0.9F
+C_13_14 co_i_13_14 VGND 0.9F
+C_13_15 co_i_13_15 VGND 0.9F
+C_14_0 co_i_14_0  VGND 0.9F
+C_14_1 co_i_14_1  VGND 0.9F
+C_14_2 co_i_14_2  VGND 0.9F
+C_14_3 co_i_14_3  VGND 0.9F
+C_14_4 co_i_14_4  VGND 0.9F
+C_14_5 co_i_14_5  VGND 0.9F
+C_14_6 co_i_14_6  VGND 0.9F
+C_14_7 co_i_14_7  VGND 0.9F
+C_14_8 co_i_14_8  VGND 0.9F
+C_14_9 co_i_14_9  VGND 0.9F
+C_14_10 co_i_14_10 VGND 0.9F
+C_14_11 co_i_14_11 VGND 0.9F
+C_14_12 co_i_14_12 VGND 0.9F
+C_14_13 co_i_14_13 VGND 0.9F
+C_14_14 co_i_14_14 VGND 0.9F
+C_14_15 co_i_14_15 VGND 0.9F
+C_15_0 co_i_15_0  VGND 0.9F
+C_15_1 co_i_15_1  VGND 0.9F
+C_15_2 co_i_15_2  VGND 0.9F
+C_15_3 co_i_15_3  VGND 0.9F
+C_15_4 co_i_15_4  VGND 0.9F
+C_15_5 co_i_15_5  VGND 0.9F
+C_15_6 co_i_15_6  VGND 0.9F
+C_15_7 co_i_15_7  VGND 0.9F
+C_15_8 co_i_15_8  VGND 0.9F
+C_15_9 co_i_15_9  VGND 0.9F
+C_15_10 co_i_15_10 VGND 0.9F
+C_15_11 co_i_15_11 VGND 0.9F
+C_15_12 co_i_15_12 VGND 0.9F
+C_15_13 co_i_15_13 VGND 0.9F
+C_15_14 co_i_15_14 VGND 0.9F
+C_15_15 co_i_15_15 VGND 0.9F
+C_16_0 co_i_16_0  VGND 0.9F
+C_16_1 co_i_16_1  VGND 0.9F
+C_16_2 co_i_16_2  VGND 0.9F
+C_16_3 co_i_16_3  VGND 0.9F
+C_16_4 co_i_16_4  VGND 0.9F
+C_16_5 co_i_16_5  VGND 0.9F
+C_16_6 co_i_16_6  VGND 0.9F
+C_16_7 co_i_16_7  VGND 0.9F
+C_16_8 co_i_16_8  VGND 0.9F
+C_16_9 co_i_16_9  VGND 0.9F
+C_16_10 co_i_16_10 VGND 0.9F
+C_16_11 co_i_16_11 VGND 0.9F
+C_16_12 co_i_16_12 VGND 0.9F
+C_16_13 co_i_16_13 VGND 0.9F
+C_16_14 co_i_16_14 VGND 0.9F
+C_16_15 co_i_16_15 VGND 0.9F
+C_17_0 co_i_17_0  VGND 0.9F
+C_17_1 co_i_17_1  VGND 0.9F
+C_17_2 co_i_17_2  VGND 0.9F
+C_17_3 co_i_17_3  VGND 0.9F
+C_17_4 co_i_17_4  VGND 0.9F
+C_17_5 co_i_17_5  VGND 0.9F
+C_17_6 co_i_17_6  VGND 0.9F
+C_17_7 co_i_17_7  VGND 0.9F
+C_17_8 co_i_17_8  VGND 0.9F
+C_17_9 co_i_17_9  VGND 0.9F
+C_17_10 co_i_17_10 VGND 0.9F
+C_17_11 co_i_17_11 VGND 0.9F
+C_17_12 co_i_17_12 VGND 0.9F
+C_17_13 co_i_17_13 VGND 0.9F
+C_17_14 co_i_17_14 VGND 0.9F
+C_17_15 co_i_17_15 VGND 0.9F
+C_18_0 co_i_18_0  VGND 0.9F
+C_18_1 co_i_18_1  VGND 0.9F
+C_18_2 co_i_18_2  VGND 0.9F
+C_18_3 co_i_18_3  VGND 0.9F
+C_18_4 co_i_18_4  VGND 0.9F
+C_18_5 co_i_18_5  VGND 0.9F
+C_18_6 co_i_18_6  VGND 0.9F
+C_18_7 co_i_18_7  VGND 0.9F
+C_18_8 co_i_18_8  VGND 0.9F
+C_18_9 co_i_18_9  VGND 0.9F
+C_18_10 co_i_18_10 VGND 0.9F
+C_18_11 co_i_18_11 VGND 0.9F
+C_18_12 co_i_18_12 VGND 0.9F
+C_18_13 co_i_18_13 VGND 0.9F
+C_18_14 co_i_18_14 VGND 0.9F
+C_18_15 co_i_18_15 VGND 0.9F
+C_19_0 co_i_19_0  VGND 0.9F
+C_19_1 co_i_19_1  VGND 0.9F
+C_19_2 co_i_19_2  VGND 0.9F
+C_19_3 co_i_19_3  VGND 0.9F
+C_19_4 co_i_19_4  VGND 0.9F
+C_19_5 co_i_19_5  VGND 0.9F
+C_19_6 co_i_19_6  VGND 0.9F
+C_19_7 co_i_19_7  VGND 0.9F
+C_19_8 co_i_19_8  VGND 0.9F
+C_19_9 co_i_19_9  VGND 0.9F
+C_19_10 co_i_19_10 VGND 0.9F
+C_19_11 co_i_19_11 VGND 0.9F
+C_19_12 co_i_19_12 VGND 0.9F
+C_19_13 co_i_19_13 VGND 0.9F
+C_19_14 co_i_19_14 VGND 0.9F
+C_19_15 co_i_19_15 VGND 0.9F
+C_20_0 co_i_20_0  VGND 0.9F
+C_20_1 co_i_20_1  VGND 0.9F
+C_20_2 co_i_20_2  VGND 0.9F
+C_20_3 co_i_20_3  VGND 0.9F
+C_20_4 co_i_20_4  VGND 0.9F
+C_20_5 co_i_20_5  VGND 0.9F
+C_20_6 co_i_20_6  VGND 0.9F
+C_20_7 co_i_20_7  VGND 0.9F
+C_20_8 co_i_20_8  VGND 0.9F
+C_20_9 co_i_20_9  VGND 0.9F
+C_20_10 co_i_20_10 VGND 0.9F
+C_20_11 co_i_20_11 VGND 0.9F
+C_20_12 co_i_20_12 VGND 0.9F
+C_20_13 co_i_20_13 VGND 0.9F
+C_20_14 co_i_20_14 VGND 0.9F
+C_20_15 co_i_20_15 VGND 0.9F
+C_21_0 co_i_21_0  VGND 0.9F
+C_21_1 co_i_21_1  VGND 0.9F
+C_21_2 co_i_21_2  VGND 0.9F
+C_21_3 co_i_21_3  VGND 0.9F
+C_21_4 co_i_21_4  VGND 0.9F
+C_21_5 co_i_21_5  VGND 0.9F
+C_21_6 co_i_21_6  VGND 0.9F
+C_21_7 co_i_21_7  VGND 0.9F
+C_21_8 co_i_21_8  VGND 0.9F
+C_21_9 co_i_21_9  VGND 0.9F
+C_21_10 co_i_21_10 VGND 0.9F
+C_21_11 co_i_21_11 VGND 0.9F
+C_21_12 co_i_21_12 VGND 0.9F
+C_21_13 co_i_21_13 VGND 0.9F
+C_21_14 co_i_21_14 VGND 0.9F
+C_21_15 co_i_21_15 VGND 0.9F
+C_22_0 co_i_22_0  VGND 0.9F
+C_22_1 co_i_22_1  VGND 0.9F
+C_22_2 co_i_22_2  VGND 0.9F
+C_22_3 co_i_22_3  VGND 0.9F
+C_22_4 co_i_22_4  VGND 0.9F
+C_22_5 co_i_22_5  VGND 0.9F
+C_22_6 co_i_22_6  VGND 0.9F
+C_22_7 co_i_22_7  VGND 0.9F
+C_22_8 co_i_22_8  VGND 0.9F
+C_22_9 co_i_22_9  VGND 0.9F
+C_22_10 co_i_22_10 VGND 0.9F
+C_22_11 co_i_22_11 VGND 0.9F
+C_22_12 co_i_22_12 VGND 0.9F
+C_22_13 co_i_22_13 VGND 0.9F
+C_22_14 co_i_22_14 VGND 0.9F
+C_22_15 co_i_22_15 VGND 0.9F
+C_23_0 co_i_23_0  VGND 0.9F
+C_23_1 co_i_23_1  VGND 0.9F
+C_23_2 co_i_23_2  VGND 0.9F
+C_23_3 co_i_23_3  VGND 0.9F
+C_23_4 co_i_23_4  VGND 0.9F
+C_23_5 co_i_23_5  VGND 0.9F
+C_23_6 co_i_23_6  VGND 0.9F
+C_23_7 co_i_23_7  VGND 0.9F
+C_23_8 co_i_23_8  VGND 0.9F
+C_23_9 co_i_23_9  VGND 0.9F
+C_23_10 co_i_23_10 VGND 0.9F
+C_23_11 co_i_23_11 VGND 0.9F
+C_23_12 co_i_23_12 VGND 0.9F
+C_23_13 co_i_23_13 VGND 0.9F
+C_23_14 co_i_23_14 VGND 0.9F
+C_23_15 co_i_23_15 VGND 0.9F
+C_24_0 co_i_24_0  VGND 0.9F
+C_24_1 co_i_24_1  VGND 0.9F
+C_24_2 co_i_24_2  VGND 0.9F
+C_24_3 co_i_24_3  VGND 0.9F
+C_24_4 co_i_24_4  VGND 0.9F
+C_24_5 co_i_24_5  VGND 0.9F
+C_24_6 co_i_24_6  VGND 0.9F
+C_24_7 co_i_24_7  VGND 0.9F
+C_24_8 co_i_24_8  VGND 0.9F
+C_24_9 co_i_24_9  VGND 0.9F
+C_24_10 co_i_24_10 VGND 0.9F
+C_24_11 co_i_24_11 VGND 0.9F
+C_24_12 co_i_24_12 VGND 0.9F
+C_24_13 co_i_24_13 VGND 0.9F
+C_24_14 co_i_24_14 VGND 0.9F
+C_24_15 co_i_24_15 VGND 0.9F
+C_25_0 co_i_25_0  VGND 0.9F
+C_25_1 co_i_25_1  VGND 0.9F
+C_25_2 co_i_25_2  VGND 0.9F
+C_25_3 co_i_25_3  VGND 0.9F
+C_25_4 co_i_25_4  VGND 0.9F
+C_25_5 co_i_25_5  VGND 0.9F
+C_25_6 co_i_25_6  VGND 0.9F
+C_25_7 co_i_25_7  VGND 0.9F
+C_25_8 co_i_25_8  VGND 0.9F
+C_25_9 co_i_25_9  VGND 0.9F
+C_25_10 co_i_25_10 VGND 0.9F
+C_25_11 co_i_25_11 VGND 0.9F
+C_25_12 co_i_25_12 VGND 0.9F
+C_25_13 co_i_25_13 VGND 0.9F
+C_25_14 co_i_25_14 VGND 0.9F
+C_25_15 co_i_25_15 VGND 0.9F
+C_26_0 co_i_26_0  VGND 0.9F
+C_26_1 co_i_26_1  VGND 0.9F
+C_26_2 co_i_26_2  VGND 0.9F
+C_26_3 co_i_26_3  VGND 0.9F
+C_26_4 co_i_26_4  VGND 0.9F
+C_26_5 co_i_26_5  VGND 0.9F
+C_26_6 co_i_26_6  VGND 0.9F
+C_26_7 co_i_26_7  VGND 0.9F
+C_26_8 co_i_26_8  VGND 0.9F
+C_26_9 co_i_26_9  VGND 0.9F
+C_26_10 co_i_26_10 VGND 0.9F
+C_26_11 co_i_26_11 VGND 0.9F
+C_26_12 co_i_26_12 VGND 0.9F
+C_26_13 co_i_26_13 VGND 0.9F
+C_26_14 co_i_26_14 VGND 0.9F
+C_26_15 co_i_26_15 VGND 0.9F
+C_27_0 co_i_27_0  VGND 0.9F
+C_27_1 co_i_27_1  VGND 0.9F
+C_27_2 co_i_27_2  VGND 0.9F
+C_27_3 co_i_27_3  VGND 0.9F
+C_27_4 co_i_27_4  VGND 0.9F
+C_27_5 co_i_27_5  VGND 0.9F
+C_27_6 co_i_27_6  VGND 0.9F
+C_27_7 co_i_27_7  VGND 0.9F
+C_27_8 co_i_27_8  VGND 0.9F
+C_27_9 co_i_27_9  VGND 0.9F
+C_27_10 co_i_27_10 VGND 0.9F
+C_27_11 co_i_27_11 VGND 0.9F
+C_27_12 co_i_27_12 VGND 0.9F
+C_27_13 co_i_27_13 VGND 0.9F
+C_27_14 co_i_27_14 VGND 0.9F
+C_27_15 co_i_27_15 VGND 0.9F
+C_28_0 co_i_28_0  VGND 0.9F
+C_28_1 co_i_28_1  VGND 0.9F
+C_28_2 co_i_28_2  VGND 0.9F
+C_28_3 co_i_28_3  VGND 0.9F
+C_28_4 co_i_28_4  VGND 0.9F
+C_28_5 co_i_28_5  VGND 0.9F
+C_28_6 co_i_28_6  VGND 0.9F
+C_28_7 co_i_28_7  VGND 0.9F
+C_28_8 co_i_28_8  VGND 0.9F
+C_28_9 co_i_28_9  VGND 0.9F
+C_28_10 co_i_28_10 VGND 0.9F
+C_28_11 co_i_28_11 VGND 0.9F
+C_28_12 co_i_28_12 VGND 0.9F
+C_28_13 co_i_28_13 VGND 0.9F
+C_28_14 co_i_28_14 VGND 0.9F
+C_28_15 co_i_28_15 VGND 0.9F
+C_29_0 co_i_29_0  VGND 0.9F
+C_29_1 co_i_29_1  VGND 0.9F
+C_29_2 co_i_29_2  VGND 0.9F
+C_29_3 co_i_29_3  VGND 0.9F
+C_29_4 co_i_29_4  VGND 0.9F
+C_29_5 co_i_29_5  VGND 0.9F
+C_29_6 co_i_29_6  VGND 0.9F
+C_29_7 co_i_29_7  VGND 0.9F
+C_29_8 co_i_29_8  VGND 0.9F
+C_29_9 co_i_29_9  VGND 0.9F
+C_29_10 co_i_29_10 VGND 0.9F
+C_29_11 co_i_29_11 VGND 0.9F
+C_29_12 co_i_29_12 VGND 0.9F
+C_29_13 co_i_29_13 VGND 0.9F
+C_29_14 co_i_29_14 VGND 0.9F
+C_29_15 co_i_29_15 VGND 0.9F
+C_30_0 co_i_30_0  VGND 0.9F
+C_30_1 co_i_30_1  VGND 0.9F
+C_30_2 co_i_30_2  VGND 0.9F
+C_30_3 co_i_30_3  VGND 0.9F
+C_30_4 co_i_30_4  VGND 0.9F
+C_30_5 co_i_30_5  VGND 0.9F
+C_30_6 co_i_30_6  VGND 0.9F
+C_30_7 co_i_30_7  VGND 0.9F
+C_30_8 co_i_30_8  VGND 0.9F
+C_30_9 co_i_30_9  VGND 0.9F
+C_30_10 co_i_30_10 VGND 0.9F
+C_30_11 co_i_30_11 VGND 0.9F
+C_30_12 co_i_30_12 VGND 0.9F
+C_30_13 co_i_30_13 VGND 0.9F
+C_30_14 co_i_30_14 VGND 0.9F
+C_30_15 co_i_30_15 VGND 0.9F
+C_31_0 co_i_31_0  VGND 0.9F
+C_31_1 co_i_31_1  VGND 0.9F
+C_31_2 co_i_31_2  VGND 0.9F
+C_31_3 co_i_31_3  VGND 0.9F
+C_31_4 co_i_31_4  VGND 0.9F
+C_31_5 co_i_31_5  VGND 0.9F
+C_31_6 co_i_31_6  VGND 0.9F
+C_31_7 co_i_31_7  VGND 0.9F
+C_31_8 co_i_31_8  VGND 0.9F
+C_31_9 co_i_31_9  VGND 0.9F
+C_31_10 co_i_31_10 VGND 0.9F
+C_31_11 co_i_31_11 VGND 0.9F
+C_31_12 co_i_31_12 VGND 0.9F
+C_31_13 co_i_31_13 VGND 0.9F
+C_31_14 co_i_31_14 VGND 0.9F
+C_31_15 co_i_31_15 VGND 0.9F
+
+
+*.lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice tt
+*.include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.lib /ciic/pdks/sky130A-xyce/libs.tech/xyce/sky130.lib.spice tt
+.include /ciic/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include ../../subckts.spice
+
+*.temp 25
+*.save all
+
+.PRINT TRAN FORMAT=RAW
+.tran 1n 50n
+
+.end
