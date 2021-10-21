@@ -51,8 +51,8 @@ XDC_clk_buf1_16_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__deca
 XDC_clk_buf1_17_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__decap_12
 XDC_clk_buf1_18_1 VGND VNB vpwr_clk_buf1_1 vpwr_clk_buf1_1 sky130_fd_sc_hd__decap_12
 
-VC_0  clk_0  VGND pulse 0 1.8 1.57n 1n 1n 48n 100n
-VC_1  clk_1  VGND pulse 0 1.8 0.19n 1n 1n 48n 100n
+VC_0  clk_0  VGND pulse 0 1.8 0.97n 1n 1n 48n 100n
+VC_1  clk_1  VGND pulse 0 1.8 1.04n 1n 1n 48n 100n
 
 x1_0  clk_0  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  co_0  sky130_fd_sc_hd__clkbuf_1
 x1_1  clk_1  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  co_1  sky130_fd_sc_hd__clkbuf_1
@@ -60,38 +60,38 @@ x1_1  clk_1  VGND VNB vpwr_clk_buf1_1  vpwr_clk_buf1_1  co_1  sky130_fd_sc_hd__c
 R_0  co_0  co_1  70
 R_1  co_1  co_2  70
 
-x_buf1_buf16_intcon_0_0  co_0 co_i_0_0  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_1  co_0 co_i_0_1  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_2  co_0 co_i_0_2  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_3  co_0 co_i_0_3  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_4  co_0 co_i_0_4  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_5  co_0 co_i_0_5  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_6  co_0 co_i_0_6  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_7  co_0 co_i_0_7  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_8  co_0 co_i_0_8  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_9  co_0 co_i_0_9  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_10 co_0 co_i_0_10 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_11 co_0 co_i_0_11 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_12 co_0 co_i_0_12 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_13 co_0 co_i_0_13 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_14 co_0 co_i_0_14 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_0_15 co_0 co_i_0_15 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_0  co_1 co_i_1_0  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_1  co_1 co_i_1_1  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_2  co_1 co_i_1_2  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_3  co_1 co_i_1_3  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_4  co_1 co_i_1_4  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_5  co_1 co_i_1_5  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_6  co_1 co_i_1_6  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_7  co_1 co_i_1_7  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_8  co_1 co_i_1_8  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_9  co_1 co_i_1_9  VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_10 co_1 co_i_1_10 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_11 co_1 co_i_1_11 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_12 co_1 co_i_1_12 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_13 co_1 co_i_1_13 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_14 co_1 co_i_1_14 VGND int_con C=8f R=120
-x_buf1_buf16_intcon_1_15 co_1 co_i_1_15 VGND int_con C=8f R=120
+x_buf1_buf16_intcon_0_0  co_0 co_i_0_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_1  co_0 co_i_0_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_2  co_0 co_i_0_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_3  co_0 co_i_0_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_4  co_0 co_i_0_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_5  co_0 co_i_0_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_6  co_0 co_i_0_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_7  co_0 co_i_0_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_8  co_0 co_i_0_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_9  co_0 co_i_0_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_10 co_0 co_i_0_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_11 co_0 co_i_0_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_12 co_0 co_i_0_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_13 co_0 co_i_0_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_14 co_0 co_i_0_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_15 co_0 co_i_0_15 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_0  co_1 co_i_1_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_1  co_1 co_i_1_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_2  co_1 co_i_1_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_3  co_1 co_i_1_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_4  co_1 co_i_1_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_5  co_1 co_i_1_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_6  co_1 co_i_1_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_7  co_1 co_i_1_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_8  co_1 co_i_1_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_9  co_1 co_i_1_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_10 co_1 co_i_1_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_11 co_1 co_i_1_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_12 co_1 co_i_1_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_13 co_1 co_i_1_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_14 co_1 co_i_1_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_1_15 co_1 co_i_1_15 VGND int_con C=8F R=120
 
 x16_0_0  co_i_0_0  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_0  sky130_fd_sc_hd__clkbuf_16
 x16_0_1  co_i_0_1  VGND VNB vpwr_clk_buf1_0  vpwr_clk_buf1_0  ff_0_1  sky130_fd_sc_hd__clkbuf_16

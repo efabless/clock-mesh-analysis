@@ -138,20 +138,20 @@ vvgnd#branch                        1.3571e-09
 vnb#branch                         2.35303e-10
 vvdd#branch                       -1.59159e-09
 
- Reference value :  1.60000e-11 Reference value :  1.44000e-09 Reference value :  2.92000e-09 Reference value :  4.92000e-09 Reference value :  7.62000e-09 Reference value :  1.05200e-08 Reference value :  1.27200e-08 Reference value :  1.47200e-08 Reference value :  1.68200e-08 Reference value :  1.89200e-08 Reference value :  2.10200e-08 Reference value :  2.31200e-08 Reference value :  2.52200e-08 Reference value :  2.73200e-08 Reference value :  2.94200e-08 Reference value :  3.14200e-08 Reference value :  3.35200e-08 Reference value :  3.55200e-08 Reference value :  3.76200e-08 Reference value :  3.97200e-08 Reference value :  4.18200e-08 Reference value :  4.39200e-08 Reference value :  4.59200e-08 Reference value :  4.80200e-08 Reference value :  4.98400e-08
-No. of Data Rows : 523
+ Reference value :  4.28000e-10 Reference value :  1.97000e-09 Reference value :  3.11360e-09 Reference value :  4.61360e-09 Reference value :  6.51360e-09 Reference value :  8.71360e-09 Reference value :  1.09136e-08 Reference value :  1.25136e-08 Reference value :  1.40136e-08 Reference value :  1.55136e-08 Reference value :  1.70136e-08 Reference value :  1.85136e-08 Reference value :  2.00136e-08 Reference value :  2.15136e-08 Reference value :  2.30136e-08 Reference value :  2.46136e-08 Reference value :  2.61136e-08 Reference value :  2.76136e-08 Reference value :  2.92136e-08 Reference value :  3.08136e-08 Reference value :  3.24136e-08 Reference value :  3.40136e-08 Reference value :  3.56136e-08 Reference value :  3.72136e-08 Reference value :  3.88136e-08 Reference value :  4.03136e-08 Reference value :  4.19136e-08 Reference value :  4.35136e-08 Reference value :  4.51136e-08 Reference value :  4.67136e-08 Reference value :  4.83136e-08 Reference value :  4.99136e-08
+No. of Data Rows : 526
 
-Total analysis time (seconds) = 3.386
+Total analysis time (seconds) = 4.267
 
-Total elapsed time (seconds) = 18.680 
+Total elapsed time (seconds) = 19.316 
 
 Total DRAM available = 241823.398 MB.
-DRAM currently available = 109589.383 MB.
-Maximum ngspice program size =  704.219 MB.
-Current ngspice program size =  666.938 MB.
+DRAM currently available = 112810.941 MB.
+Maximum ngspice program size =  704.211 MB.
+Current ngspice program size =  666.902 MB.
 
-Shared ngspice pages =   10.023 MB.
+Shared ngspice pages =    9.988 MB.
 Text (code) pages =    5.609 MB.
 Stack = 0 bytes.
-Library pages =  665.203 MB.
+Library pages =  665.195 MB.
 
