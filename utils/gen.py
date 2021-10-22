@@ -14,8 +14,8 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
     resistors = []
     decaps = []
     for i in list(range(branch_count)):
-        branch = f"vpwr_{prefix}_branch_{i}"
-        R = f"RP_{prefix}_{i} {power_source} {branch:23} ${{R_{prefix}_BASE}}"
+        branch = f"vpwr_{prefix}_branch_{i:<3}"
+        R = f"RP_{prefix}_{i} {power_source} {branch} ${{R_{prefix}_BASE}}"
         resistors.append(R)
 
     for i in list(range(load_count)):
@@ -46,13 +46,13 @@ buf16_load_cap = []
 buf1_16_intcon = []
 
 
-decaps_count = 19
+decaps_count = 3
 branches = 7
 max_skew = 2
 
-clock_source_count = 2
 clock_buffer_per_source = 16
-clock_buffer_load_flipflop = 20
+clock_source_count = 32
+clock_buffer_load_flipflop = 10
 
 ff_output_ports_index = 0
 power_index = 0
@@ -60,9 +60,9 @@ ff_index = 0
 
 power_network = gen_power_network(
     power_source="vpwr_0",
-    prefix="clk_buf1",
+    prefix="R",
     branch_count=branches,
-    load_count=clock_source_count,
+    load_count=clock_source_count * clock_buffer_per_source + clock_source_count,
     decaps_count=decaps_count
 )
 
@@ -70,13 +70,13 @@ ff_clk_pin_cap = 0.00178
 diode_pin_cap = 0.000878
 load_cap = ff_clk_pin_cap + diode_pin_cap
 
-
 for i in list(range(clock_source_count)):
     skew = str(round(uniform(0, max_skew), 2))
     pulse = f"0 1.8 {skew:>4}n 1n 1n 48n 100n"
     pulses.append(f"VC_{i:<2} clk_{i:<2} VGND pulse {pulse}")
 
-    buffer = f"x1_{i:<2} clk_{i:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
+    buffer = f"x1_{i:<2} clk_{i:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
+    power_index += 1
     buf1.append(buffer)
 
     resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{R_LOAD}}"
@@ -87,7 +87,8 @@ for i in list(range(clock_source_count)):
         int_con = f"x_buf1_buf16_intcon_{i}_{j:<2} co_{i} co_i_{i}_{j:<2} VGND int_con C=8F R=120"
         buf1_16_intcon.append(int_con)
 
-        buffer = f"x16_{i}_{j:<2} co_i_{i}_{j:<2} VGND VNB vpwr_clk_buf1_{i:<2} vpwr_clk_buf1_{i:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
+        buffer = f"x16_{i}_{j:<2} co_i_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
+        power_index += 1
         buf16.append(buffer)
 
 # C1 IN GND {C/2}
