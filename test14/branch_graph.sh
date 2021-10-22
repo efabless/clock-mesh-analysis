@@ -1,0 +1,1 @@
+-s 'v(vpwr_clk_buf1_branch_0)' -s 'v(vpwr_clk_buf1_branch_1)' -s 'v(vpwr_clk_buf1_branch_2)' -s 'v(vpwr_clk_buf1_branch_3)' -s 'v(vpwr_clk_buf1_branch_4)' -s 'v(vpwr_clk_buf1_branch_5)' -s 'v(vpwr_clk_buf1_branch_6)' 
