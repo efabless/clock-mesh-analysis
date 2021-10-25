@@ -1,0 +1,15 @@
+log: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00000/run.log
+src: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00000/mesh.spice
+in dir: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00000
+
+running  ngspice -b mesh.spice -r CORNER:tt_RO:_RB:_RBUF:_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00000/run.log
+log: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00001/run.log
+src: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00001/mesh.spice
+in dir: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00001
+
+running  ngspice -b mesh.spice -r CORNER:ss_RO:_RB:_RBUF:_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00001/run.log
+log: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00002/run.log
+src: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00002/mesh.spice
+in dir: /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00002
+
+running  ngspice -b mesh.spice -r CORNER:ff_RO:_RB:_RBUF:_TEMP:25_VDD:1.8.raw >& /ciic/designs/clock-meshing-analysis-karim/test19/mesh_saveall/00002/run.log
