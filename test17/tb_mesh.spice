@@ -1,0 +1,165 @@
+
+VVDD      vpwr_0 0  ${VDDD}
+VNB       VNB  0  0
+VVGND     VGND 0  0
+
+RP_R_0 vpwr_0 vpwr_R_branch_0   ${R_R_BASE}
+RP_R_1 vpwr_0 vpwr_R_branch_1   ${R_R_BASE}
+RP_R_2 vpwr_0 vpwr_R_branch_2   ${R_R_BASE}
+RP_R_3 vpwr_0 vpwr_R_branch_3   ${R_R_BASE}
+RP_R_4 vpwr_0 vpwr_R_branch_4   ${R_R_BASE}
+RP_R_5 vpwr_0 vpwr_R_branch_5   ${R_R_BASE}
+RP_R_6 vpwr_0 vpwr_R_branch_6   ${R_R_BASE}
+RP_R_LOAD_0  vpwr_R_branch_0 vpwr_R_0 ${R_R_BUFF}
+RP_R_LOAD_1  vpwr_R_branch_1 vpwr_R_1 ${R_R_BUFF}
+RP_R_LOAD_2  vpwr_R_branch_2 vpwr_R_2 ${R_R_BUFF}
+RP_R_LOAD_3  vpwr_R_branch_3 vpwr_R_3 ${R_R_BUFF}
+RP_R_LOAD_4  vpwr_R_branch_4 vpwr_R_4 ${R_R_BUFF}
+RP_R_LOAD_5  vpwr_R_branch_5 vpwr_R_5 ${R_R_BUFF}
+RP_R_LOAD_6  vpwr_R_branch_6 vpwr_R_6 ${R_R_BUFF}
+RP_R_LOAD_7  vpwr_R_branch_0 vpwr_R_7 ${R_R_BUFF}
+RP_R_LOAD_8  vpwr_R_branch_1 vpwr_R_8 ${R_R_BUFF}
+RP_R_LOAD_9  vpwr_R_branch_2 vpwr_R_9 ${R_R_BUFF}
+RP_R_LOAD_10 vpwr_R_branch_3 vpwr_R_10 ${R_R_BUFF}
+RP_R_LOAD_11 vpwr_R_branch_4 vpwr_R_11 ${R_R_BUFF}
+RP_R_LOAD_12 vpwr_R_branch_5 vpwr_R_12 ${R_R_BUFF}
+RP_R_LOAD_13 vpwr_R_branch_6 vpwr_R_13 ${R_R_BUFF}
+RP_R_LOAD_14 vpwr_R_branch_0 vpwr_R_14 ${R_R_BUFF}
+RP_R_LOAD_15 vpwr_R_branch_1 vpwr_R_15 ${R_R_BUFF}
+RP_R_LOAD_16 vpwr_R_branch_2 vpwr_R_16 ${R_R_BUFF}
+XDC_R_0_0 VGND VNB vpwr_R_0 vpwr_R_0 sky130_fd_sc_hd__decap_12
+XDC_R_1_0 VGND VNB vpwr_R_0 vpwr_R_0 sky130_fd_sc_hd__decap_12
+XDC_R_2_0 VGND VNB vpwr_R_0 vpwr_R_0 sky130_fd_sc_hd__decap_12
+XDC_R_0_1 VGND VNB vpwr_R_1 vpwr_R_1 sky130_fd_sc_hd__decap_12
+XDC_R_1_1 VGND VNB vpwr_R_1 vpwr_R_1 sky130_fd_sc_hd__decap_12
+XDC_R_2_1 VGND VNB vpwr_R_1 vpwr_R_1 sky130_fd_sc_hd__decap_12
+XDC_R_0_2 VGND VNB vpwr_R_2 vpwr_R_2 sky130_fd_sc_hd__decap_12
+XDC_R_1_2 VGND VNB vpwr_R_2 vpwr_R_2 sky130_fd_sc_hd__decap_12
+XDC_R_2_2 VGND VNB vpwr_R_2 vpwr_R_2 sky130_fd_sc_hd__decap_12
+XDC_R_0_3 VGND VNB vpwr_R_3 vpwr_R_3 sky130_fd_sc_hd__decap_12
+XDC_R_1_3 VGND VNB vpwr_R_3 vpwr_R_3 sky130_fd_sc_hd__decap_12
+XDC_R_2_3 VGND VNB vpwr_R_3 vpwr_R_3 sky130_fd_sc_hd__decap_12
+XDC_R_0_4 VGND VNB vpwr_R_4 vpwr_R_4 sky130_fd_sc_hd__decap_12
+XDC_R_1_4 VGND VNB vpwr_R_4 vpwr_R_4 sky130_fd_sc_hd__decap_12
+XDC_R_2_4 VGND VNB vpwr_R_4 vpwr_R_4 sky130_fd_sc_hd__decap_12
+XDC_R_0_5 VGND VNB vpwr_R_5 vpwr_R_5 sky130_fd_sc_hd__decap_12
+XDC_R_1_5 VGND VNB vpwr_R_5 vpwr_R_5 sky130_fd_sc_hd__decap_12
+XDC_R_2_5 VGND VNB vpwr_R_5 vpwr_R_5 sky130_fd_sc_hd__decap_12
+XDC_R_0_6 VGND VNB vpwr_R_6 vpwr_R_6 sky130_fd_sc_hd__decap_12
+XDC_R_1_6 VGND VNB vpwr_R_6 vpwr_R_6 sky130_fd_sc_hd__decap_12
+XDC_R_2_6 VGND VNB vpwr_R_6 vpwr_R_6 sky130_fd_sc_hd__decap_12
+XDC_R_0_7 VGND VNB vpwr_R_7 vpwr_R_7 sky130_fd_sc_hd__decap_12
+XDC_R_1_7 VGND VNB vpwr_R_7 vpwr_R_7 sky130_fd_sc_hd__decap_12
+XDC_R_2_7 VGND VNB vpwr_R_7 vpwr_R_7 sky130_fd_sc_hd__decap_12
+XDC_R_0_8 VGND VNB vpwr_R_8 vpwr_R_8 sky130_fd_sc_hd__decap_12
+XDC_R_1_8 VGND VNB vpwr_R_8 vpwr_R_8 sky130_fd_sc_hd__decap_12
+XDC_R_2_8 VGND VNB vpwr_R_8 vpwr_R_8 sky130_fd_sc_hd__decap_12
+XDC_R_0_9 VGND VNB vpwr_R_9 vpwr_R_9 sky130_fd_sc_hd__decap_12
+XDC_R_1_9 VGND VNB vpwr_R_9 vpwr_R_9 sky130_fd_sc_hd__decap_12
+XDC_R_2_9 VGND VNB vpwr_R_9 vpwr_R_9 sky130_fd_sc_hd__decap_12
+XDC_R_0_10 VGND VNB vpwr_R_10 vpwr_R_10 sky130_fd_sc_hd__decap_12
+XDC_R_1_10 VGND VNB vpwr_R_10 vpwr_R_10 sky130_fd_sc_hd__decap_12
+XDC_R_2_10 VGND VNB vpwr_R_10 vpwr_R_10 sky130_fd_sc_hd__decap_12
+XDC_R_0_11 VGND VNB vpwr_R_11 vpwr_R_11 sky130_fd_sc_hd__decap_12
+XDC_R_1_11 VGND VNB vpwr_R_11 vpwr_R_11 sky130_fd_sc_hd__decap_12
+XDC_R_2_11 VGND VNB vpwr_R_11 vpwr_R_11 sky130_fd_sc_hd__decap_12
+XDC_R_0_12 VGND VNB vpwr_R_12 vpwr_R_12 sky130_fd_sc_hd__decap_12
+XDC_R_1_12 VGND VNB vpwr_R_12 vpwr_R_12 sky130_fd_sc_hd__decap_12
+XDC_R_2_12 VGND VNB vpwr_R_12 vpwr_R_12 sky130_fd_sc_hd__decap_12
+XDC_R_0_13 VGND VNB vpwr_R_13 vpwr_R_13 sky130_fd_sc_hd__decap_12
+XDC_R_1_13 VGND VNB vpwr_R_13 vpwr_R_13 sky130_fd_sc_hd__decap_12
+XDC_R_2_13 VGND VNB vpwr_R_13 vpwr_R_13 sky130_fd_sc_hd__decap_12
+XDC_R_0_14 VGND VNB vpwr_R_14 vpwr_R_14 sky130_fd_sc_hd__decap_12
+XDC_R_1_14 VGND VNB vpwr_R_14 vpwr_R_14 sky130_fd_sc_hd__decap_12
+XDC_R_2_14 VGND VNB vpwr_R_14 vpwr_R_14 sky130_fd_sc_hd__decap_12
+XDC_R_0_15 VGND VNB vpwr_R_15 vpwr_R_15 sky130_fd_sc_hd__decap_12
+XDC_R_1_15 VGND VNB vpwr_R_15 vpwr_R_15 sky130_fd_sc_hd__decap_12
+XDC_R_2_15 VGND VNB vpwr_R_15 vpwr_R_15 sky130_fd_sc_hd__decap_12
+XDC_R_0_16 VGND VNB vpwr_R_16 vpwr_R_16 sky130_fd_sc_hd__decap_12
+XDC_R_1_16 VGND VNB vpwr_R_16 vpwr_R_16 sky130_fd_sc_hd__decap_12
+XDC_R_2_16 VGND VNB vpwr_R_16 vpwr_R_16 sky130_fd_sc_hd__decap_12
+
+VC_0  clk_0  VGND pulse 0 1.8 1.83n 1n 1n 48n 100n
+
+x1_0  clk_0  VGND VNB vpwr_R_0  vpwr_R_0  co_0  sky130_fd_sc_hd__clkbuf_1
+
+R_0  co_0  co_1  ${R_LOAD}
+
+x_buf1_buf16_intcon_0_0  co_0 co_i_0_0  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_1  co_0 co_i_0_1  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_2  co_0 co_i_0_2  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_3  co_0 co_i_0_3  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_4  co_0 co_i_0_4  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_5  co_0 co_i_0_5  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_6  co_0 co_i_0_6  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_7  co_0 co_i_0_7  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_8  co_0 co_i_0_8  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_9  co_0 co_i_0_9  VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_10 co_0 co_i_0_10 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_11 co_0 co_i_0_11 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_12 co_0 co_i_0_12 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_13 co_0 co_i_0_13 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_14 co_0 co_i_0_14 VGND int_con C=8F R=120
+x_buf1_buf16_intcon_0_15 co_0 co_i_0_15 VGND int_con C=8F R=120
+
+x16_0_0  co_i_0_0  VGND VNB vpwr_R_1  vpwr_R_1  ff_0_0  sky130_fd_sc_hd__clkbuf_16
+x16_0_1  co_i_0_1  VGND VNB vpwr_R_2  vpwr_R_2  ff_0_1  sky130_fd_sc_hd__clkbuf_16
+x16_0_2  co_i_0_2  VGND VNB vpwr_R_3  vpwr_R_3  ff_0_2  sky130_fd_sc_hd__clkbuf_16
+x16_0_3  co_i_0_3  VGND VNB vpwr_R_4  vpwr_R_4  ff_0_3  sky130_fd_sc_hd__clkbuf_16
+x16_0_4  co_i_0_4  VGND VNB vpwr_R_5  vpwr_R_5  ff_0_4  sky130_fd_sc_hd__clkbuf_16
+x16_0_5  co_i_0_5  VGND VNB vpwr_R_6  vpwr_R_6  ff_0_5  sky130_fd_sc_hd__clkbuf_16
+x16_0_6  co_i_0_6  VGND VNB vpwr_R_7  vpwr_R_7  ff_0_6  sky130_fd_sc_hd__clkbuf_16
+x16_0_7  co_i_0_7  VGND VNB vpwr_R_8  vpwr_R_8  ff_0_7  sky130_fd_sc_hd__clkbuf_16
+x16_0_8  co_i_0_8  VGND VNB vpwr_R_9  vpwr_R_9  ff_0_8  sky130_fd_sc_hd__clkbuf_16
+x16_0_9  co_i_0_9  VGND VNB vpwr_R_10 vpwr_R_10 ff_0_9  sky130_fd_sc_hd__clkbuf_16
+x16_0_10 co_i_0_10 VGND VNB vpwr_R_11 vpwr_R_11 ff_0_10 sky130_fd_sc_hd__clkbuf_16
+x16_0_11 co_i_0_11 VGND VNB vpwr_R_12 vpwr_R_12 ff_0_11 sky130_fd_sc_hd__clkbuf_16
+x16_0_12 co_i_0_12 VGND VNB vpwr_R_13 vpwr_R_13 ff_0_12 sky130_fd_sc_hd__clkbuf_16
+x16_0_13 co_i_0_13 VGND VNB vpwr_R_14 vpwr_R_14 ff_0_13 sky130_fd_sc_hd__clkbuf_16
+x16_0_14 co_i_0_14 VGND VNB vpwr_R_15 vpwr_R_15 ff_0_14 sky130_fd_sc_hd__clkbuf_16
+x16_0_15 co_i_0_15 VGND VNB vpwr_R_16 vpwr_R_16 ff_0_15 sky130_fd_sc_hd__clkbuf_16
+
+xf_0_0  ff_0_0  ff_clk_0_0  VGND ff_rc m=10
+xf_0_1  ff_0_1  ff_clk_0_1  VGND ff_rc m=10
+xf_0_2  ff_0_2  ff_clk_0_2  VGND ff_rc m=10
+xf_0_3  ff_0_3  ff_clk_0_3  VGND ff_rc m=10
+xf_0_4  ff_0_4  ff_clk_0_4  VGND ff_rc m=10
+xf_0_5  ff_0_5  ff_clk_0_5  VGND ff_rc m=10
+xf_0_6  ff_0_6  ff_clk_0_6  VGND ff_rc m=10
+xf_0_7  ff_0_7  ff_clk_0_7  VGND ff_rc m=10
+xf_0_8  ff_0_8  ff_clk_0_8  VGND ff_rc m=10
+xf_0_9  ff_0_9  ff_clk_0_9  VGND ff_rc m=10
+xf_0_10 ff_0_10 ff_clk_0_10 VGND ff_rc m=10
+xf_0_11 ff_0_11 ff_clk_0_11 VGND ff_rc m=10
+xf_0_12 ff_0_12 ff_clk_0_12 VGND ff_rc m=10
+xf_0_13 ff_0_13 ff_clk_0_13 VGND ff_rc m=10
+xf_0_14 ff_0_14 ff_clk_0_14 VGND ff_rc m=10
+xf_0_15 ff_0_15 ff_clk_0_15 VGND ff_rc m=10
+
+C_0_0 co_i_0_0  VGND 0.9F
+C_0_1 co_i_0_1  VGND 0.9F
+C_0_2 co_i_0_2  VGND 0.9F
+C_0_3 co_i_0_3  VGND 0.9F
+C_0_4 co_i_0_4  VGND 0.9F
+C_0_5 co_i_0_5  VGND 0.9F
+C_0_6 co_i_0_6  VGND 0.9F
+C_0_7 co_i_0_7  VGND 0.9F
+C_0_8 co_i_0_8  VGND 0.9F
+C_0_9 co_i_0_9  VGND 0.9F
+C_0_10 co_i_0_10 VGND 0.9F
+C_0_11 co_i_0_11 VGND 0.9F
+C_0_12 co_i_0_12 VGND 0.9F
+C_0_13 co_i_0_13 VGND 0.9F
+C_0_14 co_i_0_14 VGND 0.9F
+C_0_15 co_i_0_15 VGND 0.9F
+
+
+.lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
+.include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include ../../subckts.spice
+
+.temp ${TEMP}
+.save all
+.tran 0.1n 50n
+
+.end
