@@ -1,6 +1,21 @@
 #!/usr/bin/env python3
+import os
+import sys
 import textwrap
 from random import uniform
+
+script_path = os.path.dirname(os.path.realpath(__file__))
+buf16_file = os.path.join(script_path, "buf16.txt")
+ff_file = os.path.join(script_path, "dfxtp2.txt")
+
+with open(buf16_file) as reader:
+    lines = reader.readlines()
+buf16_count = list(map(int, lines))
+
+with open(ff_file) as f:
+    lines = f.readlines()
+
+ff_per_buf16_count = [list(map(int, list(line.split()))) for line in lines]
 
 
 def print_array(array):
@@ -82,7 +97,7 @@ for i in list(range(clock_source_count)):
     resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{R_LOAD}}"
     co_resistor.append(resistor)
 
-    for j in list(range(clock_buffer_per_source)):
+    for j in list(range(buf16_count[i])):
         # .subckt int_con IN OUT GND C=2F R=30
         int_con = f"x_buf1_buf16_intcon_{i}_{j:<2} co_{i} co_i_{i}_{j:<2} VGND int_con C=8F R=120"
         buf1_16_intcon.append(int_con)
@@ -96,7 +111,7 @@ for i in list(range(clock_source_count)):
         diodes_buf.append(diode)
 
     # .subckt ff_rc IN CLK GND
-        flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={clock_buffer_load_flipflop}"
+        flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_count[i][j]}"
         buf16_ff.append(flipflop)
 
 #        for k in list(range(clock_buffer_load_flipflop)):
