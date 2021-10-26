@@ -53,17 +53,14 @@ pulses = []
 buf16 = []
 buf1 = []
 co_resistor = []
-leafs = []
 buf16_ff = []
-load_caps = []
 diodes_buf = []
-buf16_load_cap = []
 buf1_16_intcon = []
 
 
 decaps_count = 3
 branches = 7
-max_skew = 2
+max_skew = 1.5
 
 clock_buffer_per_source = 16
 clock_source_count = 32
@@ -106,21 +103,11 @@ for i in list(range(clock_source_count)):
         power_index += 1
         buf16.append(buffer)
 
-# C1 IN GND {C/2}
         diode = f"C_{i}_{j} co_i_{i}_{j:<2} VGND 0.9F"
         diodes_buf.append(diode)
 
-    # .subckt ff_rc IN CLK GND
         flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_count[i][j]}"
         buf16_ff.append(flipflop)
-
-#        for k in list(range(clock_buffer_load_flipflop)):
-#            flipflop = f"xf_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VGDN VGND vpwr_0 vpwr_0 Q{ff_index} sky130_fd_sc_hd__dfxtp_2"
-#            buf16_ff.append(flipflop)
-#            ff_index += 1
-#
-#            diode = f"xdiode_{i}_{j}_{k:<2} ff_{i}_{j:<2} VGND VNB vpwr_0 vpwr_0 sky130_fd_sc_hd__diode_2"
-#            diodes_ff.append(diode)
 
 
 print(textwrap.dedent("""
