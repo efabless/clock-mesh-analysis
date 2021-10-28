@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
+import sys
 import re
 
 matches = set()
 
-file = "tb_mesh.spice"
-pattern = 'vpwr_clk_buf1_\d+'
-pattern = "ff_\d+_\d+"
+#pattern = 'vpwr_clk_buf1_\d+'
+#pattern = "ff_\d+_\d+"
+file = sys.argv[2]
+pattern = sys.argv[1]
 lines = None
 with open(file, 'r') as f:
     lines = f.readlines()
