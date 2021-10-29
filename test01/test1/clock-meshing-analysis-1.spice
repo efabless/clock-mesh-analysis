@@ -1,0 +1,123 @@
+**Clock Meshing Analysis 1
+
+VVDD      vpwr 0  1.8
+VNB       VNB  0  0
+VVGND     VGND 0  0
+
+RS0 vpwr   vpwr1 100
+RS1 vpwr1  vpwr2 100
+RS2 vpwr2  vpwr3 100
+RS3 vpwr3  vpwr4 100
+RS4 vpwr4  vpwr5 100
+RS5 vpwr5  vpwr6 100
+RS6 vpwr6  vpwr7 100
+RS7 vpwr7  vpwr8 100
+
+** decoupling caps - available cells  3 4 6 8 12
+
+XDC1 VGND VNB vpwr1 vpwr1 sky130_fd_sc_hd__decap_3
+XDC2 VGND VNB vpwr2 vpwr2 sky130_fd_sc_hd__decap_3
+XDC3 VGND VNB vpwr3 vpwr3 sky130_fd_sc_hd__decap_3
+XDC4 VGND VNB vpwr4 vpwr4 sky130_fd_sc_hd__decap_3
+XDC5 VGND VNB vpwr5 vpwr5 sky130_fd_sc_hd__decap_3
+XDC6 VGND VNB vpwr6 vpwr6 sky130_fd_sc_hd__decap_3
+XDC7 VGND VNB vpwr7 vpwr7 sky130_fd_sc_hd__decap_3
+XDC8 VGND VNB vpwr8 vpwr8 sky130_fd_sc_hd__decap_3
+
+
+VC1 CLK1 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC2 CLK2 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC3 CLK3 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC4 CLK4 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC5 CLK5 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC6 CLK6 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC7 CLK7 0 pulse 0 1.8 1n 1n 1n 48n 100n
+VC8 CLK8 0 pulse 0 1.8 1n 1n 1n 48n 100n
+
+
+x31 CLK1 VGND VNB VPWR1 VPWR1	cm1 sky130_fd_sc_hd__clkbuf_1
+x32 CLK2 VGND VNB VPWR2 VPWR2	cm2 sky130_fd_sc_hd__clkbuf_1
+x33 CLK3 VGND VNB VPWR3 VPWR3	cm3 sky130_fd_sc_hd__clkbuf_1
+x34 CLK4 VGND VNB VPWR4 VPWR4	cm4 sky130_fd_sc_hd__clkbuf_1
+x35 CLK5 VGND VNB VPWR5 VPWR5	cm5 sky130_fd_sc_hd__clkbuf_1
+x36 CLK6 VGND VNB VPWR6 VPWR6	cm6 sky130_fd_sc_hd__clkbuf_1
+x37 CLK7 VGND VNB VPWR7 VPWR7	cm7 sky130_fd_sc_hd__clkbuf_1
+x38 CLK8 VGND VNB VPWR8 VPWR8	cm8 sky130_fd_sc_hd__clkbuf_1
+
+RX1 cm1  cm2 50
+RX2 cm2  cm3 50
+RX3 cm3  cm4 50
+RX4 cm4  cm5 50
+RX5 cm5  cm6 50
+RX6 cm6  cm7 50
+RX7 cm7  cm8 50
+
+x20 cm1 VGND VNB VPWR VPWR cff1 sky130_fd_sc_hd__clkbuf_16
+x21 cm2 VGND VNB VPWR VPWR cff2 sky130_fd_sc_hd__clkbuf_16
+x22 cm3 VGND VNB VPWR VPWR cff3 sky130_fd_sc_hd__clkbuf_16
+x23 cm3 VGND VNB VPWR VPWR cff4 sky130_fd_sc_hd__clkbuf_16
+x24 cm5 VGND VNB VPWR VPWR cff5 sky130_fd_sc_hd__clkbuf_16
+x25 cm6 VGND VNB VPWR VPWR cff6 sky130_fd_sc_hd__clkbuf_16
+x26 cm7 VGND VNB VPWR VPWR cff7 sky130_fd_sc_hd__clkbuf_16
+x27 cm8 VGND VNB VPWR VPWR cff8 sky130_fd_sc_hd__clkbuf_16
+
+.lib /ciic/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /ciic/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+.save cm1
+.save cm2
+.save cm3
+.save cm3
+.save cm5
+.save cm6
+.save cm7
+.save cm8
+
+.save CLK1
+.save CLK2
+.save CLK3
+.save CLK4
+.save CLK5
+.save CLK6
+.save CLK7
+.save CLK8
+
+.save cff1
+.save cff2
+.save cff3
+.save cff4
+.save cff5
+.save cff6
+.save cff7
+.save cff8
+
+.save CLK1
+.save CLK2
+.save CLK3
+.save CLK4
+.save CLK5
+.save CLK6
+.save CLK7
+.save CLK8
+
+
+.save VVDD
+.save vpwr
+.save vpwr1
+.save vpwr2
+.save vpwr3
+.save vpwr4
+.save vpwr5
+.save vpwr6
+.save vpwr7
+.save vpwr8
+
+
+.options savecurrents
+.tran 0.01n 250n
+
+
+**** end user architecture code
+** flattened .save nodes
+.end
