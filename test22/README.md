@@ -1,0 +1,4 @@
+- opt buffers
+- opt interconnect one layer
+- opt flipflops
+- opt didoes

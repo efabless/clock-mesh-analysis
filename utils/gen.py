@@ -120,22 +120,27 @@ for i in list(range(clock_source_count)):
 
 opt_interconnect = []
 buf16_opt_0 = []
+diodes_opt = []
 buf16_opt_1 = []
 ff_opt = []
 
 for i in list(range(len(buf16_opt_count))):
     for j in list(range(buf16_opt_count[i])):
-        interconnect = f"x_buf16_opt_intcon_{i:<2} co_{i} co_i_opt_{i}_{j:<2} VGND int_con C=8F R=120"
+        interconnect = f"x_buf16_opt_intcon_{i<2} co_{i} co_i_opt_{i}_{j:<2} VGND int_con C=8F R=120"
         buf16_0 = f"x_opt_0_{i}_{j:<2} co_i_opt_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_0_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
         buf16_1 = f"x_opt_1_{i}_{j:<2} co_opt_0_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_1_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
         flipflop = f"xf_opt_{i}_{j:<2} co_opt_1_{i}_{j:<2} ff_opt_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_opt_count[i][j]}"
+        diode_0 = f"C_opt_0_{i}_{j:<2} co_i_opt_{i}_{j:<2} VGND 0.9F"
+        diode_1 = f"C_opt_1_{i}_{j:<2} co_opt_0_{i}_{j:<2} VGND 0.9F"
 
         ff_opt.append(flipflop)
         opt_interconnect.append(interconnect)
         buf16_opt_0.append(buf16_0)
         buf16_opt_1.append(buf16_1)
+        diodes_opt.append(diode_0)
+        diodes_opt.append(diode_1)
 
 print(textwrap.dedent("""
     VVDD      vpwr_0 0  ${VDDD}
@@ -156,6 +161,7 @@ netlist.append(opt_interconnect)
 netlist.append(buf16_opt_0)
 netlist.append(buf16_opt_1)
 netlist.append(ff_opt)
+netlist.append(diodes_opt)
 
 for component in netlist:
     print_array(component)
