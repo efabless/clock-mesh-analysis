@@ -126,7 +126,7 @@ ff_opt = []
 
 for i in list(range(len(buf16_opt_count))):
     for j in list(range(buf16_opt_count[i])):
-        interconnect = f"x_buf16_opt_intcon_{i<2} co_{i} co_i_opt_{i}_{j:<2} VGND int_con C=8F R=120"
+        interconnect = f"x_buf16_opt_intcon_{i}_{j:<2} co_{i} co_i_opt_{i}_{j:<2} VGND int_con C=8F R=120"
         buf16_0 = f"x_opt_0_{i}_{j:<2} co_i_opt_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_0_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
         buf16_1 = f"x_opt_1_{i}_{j:<2} co_opt_0_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_1_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"

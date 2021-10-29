@@ -2187,38 +2187,38 @@ XDC_R_0_543 VGND VNB vpwr_R_543 vpwr_R_543 sky130_fd_sc_hd__decap_12
 XDC_R_1_543 VGND VNB vpwr_R_543 vpwr_R_543 sky130_fd_sc_hd__decap_12
 XDC_R_2_543 VGND VNB vpwr_R_543 vpwr_R_543 sky130_fd_sc_hd__decap_12
 
-VC_0  clk_0  VGND pulse 0 1.8 1.47n 1n 1n 48n 100n
-VC_1  clk_1  VGND pulse 0 1.8 1.08n 1n 1n 48n 100n
-VC_2  clk_2  VGND pulse 0 1.8 0.03n 1n 1n 48n 100n
-VC_3  clk_3  VGND pulse 0 1.8 0.82n 1n 1n 48n 100n
-VC_4  clk_4  VGND pulse 0 1.8 0.79n 1n 1n 48n 100n
-VC_5  clk_5  VGND pulse 0 1.8 0.02n 1n 1n 48n 100n
-VC_6  clk_6  VGND pulse 0 1.8  0.5n 1n 1n 48n 100n
-VC_7  clk_7  VGND pulse 0 1.8 0.42n 1n 1n 48n 100n
-VC_8  clk_8  VGND pulse 0 1.8 1.27n 1n 1n 48n 100n
-VC_9  clk_9  VGND pulse 0 1.8 1.24n 1n 1n 48n 100n
-VC_10 clk_10 VGND pulse 0 1.8 0.79n 1n 1n 48n 100n
-VC_11 clk_11 VGND pulse 0 1.8 1.11n 1n 1n 48n 100n
-VC_12 clk_12 VGND pulse 0 1.8 0.67n 1n 1n 48n 100n
-VC_13 clk_13 VGND pulse 0 1.8 0.16n 1n 1n 48n 100n
-VC_14 clk_14 VGND pulse 0 1.8 1.28n 1n 1n 48n 100n
-VC_15 clk_15 VGND pulse 0 1.8 1.19n 1n 1n 48n 100n
-VC_16 clk_16 VGND pulse 0 1.8 0.24n 1n 1n 48n 100n
-VC_17 clk_17 VGND pulse 0 1.8 0.02n 1n 1n 48n 100n
-VC_18 clk_18 VGND pulse 0 1.8 0.19n 1n 1n 48n 100n
-VC_19 clk_19 VGND pulse 0 1.8 1.36n 1n 1n 48n 100n
-VC_20 clk_20 VGND pulse 0 1.8 0.44n 1n 1n 48n 100n
-VC_21 clk_21 VGND pulse 0 1.8 0.34n 1n 1n 48n 100n
-VC_22 clk_22 VGND pulse 0 1.8 0.94n 1n 1n 48n 100n
-VC_23 clk_23 VGND pulse 0 1.8 0.03n 1n 1n 48n 100n
-VC_24 clk_24 VGND pulse 0 1.8 0.68n 1n 1n 48n 100n
-VC_25 clk_25 VGND pulse 0 1.8 1.02n 1n 1n 48n 100n
-VC_26 clk_26 VGND pulse 0 1.8 1.31n 1n 1n 48n 100n
-VC_27 clk_27 VGND pulse 0 1.8 0.08n 1n 1n 48n 100n
-VC_28 clk_28 VGND pulse 0 1.8 0.94n 1n 1n 48n 100n
-VC_29 clk_29 VGND pulse 0 1.8 0.18n 1n 1n 48n 100n
-VC_30 clk_30 VGND pulse 0 1.8 0.73n 1n 1n 48n 100n
-VC_31 clk_31 VGND pulse 0 1.8 0.56n 1n 1n 48n 100n
+VC_0  clk_0  VGND pulse 0 1.8 0.09n 1n 1n 48n 100n
+VC_1  clk_1  VGND pulse 0 1.8 1.21n 1n 1n 48n 100n
+VC_2  clk_2  VGND pulse 0 1.8 1.27n 1n 1n 48n 100n
+VC_3  clk_3  VGND pulse 0 1.8 1.47n 1n 1n 48n 100n
+VC_4  clk_4  VGND pulse 0 1.8 1.03n 1n 1n 48n 100n
+VC_5  clk_5  VGND pulse 0 1.8 0.65n 1n 1n 48n 100n
+VC_6  clk_6  VGND pulse 0 1.8  0.6n 1n 1n 48n 100n
+VC_7  clk_7  VGND pulse 0 1.8 1.05n 1n 1n 48n 100n
+VC_8  clk_8  VGND pulse 0 1.8 1.24n 1n 1n 48n 100n
+VC_9  clk_9  VGND pulse 0 1.8 0.96n 1n 1n 48n 100n
+VC_10 clk_10 VGND pulse 0 1.8  1.0n 1n 1n 48n 100n
+VC_11 clk_11 VGND pulse 0 1.8 1.44n 1n 1n 48n 100n
+VC_12 clk_12 VGND pulse 0 1.8 0.61n 1n 1n 48n 100n
+VC_13 clk_13 VGND pulse 0 1.8 1.07n 1n 1n 48n 100n
+VC_14 clk_14 VGND pulse 0 1.8 0.16n 1n 1n 48n 100n
+VC_15 clk_15 VGND pulse 0 1.8  0.2n 1n 1n 48n 100n
+VC_16 clk_16 VGND pulse 0 1.8 0.23n 1n 1n 48n 100n
+VC_17 clk_17 VGND pulse 0 1.8 1.16n 1n 1n 48n 100n
+VC_18 clk_18 VGND pulse 0 1.8  1.0n 1n 1n 48n 100n
+VC_19 clk_19 VGND pulse 0 1.8 0.97n 1n 1n 48n 100n
+VC_20 clk_20 VGND pulse 0 1.8 1.12n 1n 1n 48n 100n
+VC_21 clk_21 VGND pulse 0 1.8 0.04n 1n 1n 48n 100n
+VC_22 clk_22 VGND pulse 0 1.8 0.18n 1n 1n 48n 100n
+VC_23 clk_23 VGND pulse 0 1.8 0.12n 1n 1n 48n 100n
+VC_24 clk_24 VGND pulse 0 1.8 0.77n 1n 1n 48n 100n
+VC_25 clk_25 VGND pulse 0 1.8 0.55n 1n 1n 48n 100n
+VC_26 clk_26 VGND pulse 0 1.8 0.76n 1n 1n 48n 100n
+VC_27 clk_27 VGND pulse 0 1.8 0.25n 1n 1n 48n 100n
+VC_28 clk_28 VGND pulse 0 1.8 1.13n 1n 1n 48n 100n
+VC_29 clk_29 VGND pulse 0 1.8 0.21n 1n 1n 48n 100n
+VC_30 clk_30 VGND pulse 0 1.8 1.33n 1n 1n 48n 100n
+VC_31 clk_31 VGND pulse 0 1.8 0.39n 1n 1n 48n 100n
 
 x1_0  clk_0  VGND VNB vpwr_R_0  vpwr_R_0  co_0  sky130_fd_sc_hd__clkbuf_1
 x1_1  clk_1  VGND VNB vpwr_R_10 vpwr_R_10 co_1  sky130_fd_sc_hd__clkbuf_1
@@ -3562,36 +3562,36 @@ C_31_10 co_i_31_10 VGND 0.9F
 C_31_11 co_i_31_11 VGND 0.9F
 C_31_12 co_i_31_12 VGND 0.9F
 
-x_buf16_opt_intcon_True co_0 co_i_opt_0_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_True co_1 co_i_opt_1_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_2 co_i_opt_2_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_3 co_i_opt_3_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_3 co_i_opt_3_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_3 co_i_opt_3_2  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_4 co_i_opt_4_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_4 co_i_opt_4_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_4 co_i_opt_4_2  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_5 co_i_opt_5_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_5 co_i_opt_5_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_6 co_i_opt_6_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_7 co_i_opt_7_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_7 co_i_opt_7_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_8 co_i_opt_8_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_9 co_i_opt_9_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_9 co_i_opt_9_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_10 co_i_opt_10_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_10 co_i_opt_10_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_11 co_i_opt_11_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_11 co_i_opt_11_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_12 co_i_opt_12_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_12 co_i_opt_12_1  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_13 co_i_opt_13_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_14 co_i_opt_14_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_15 co_i_opt_15_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_16 co_i_opt_16_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_17 co_i_opt_17_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_18 co_i_opt_18_0  VGND int_con C=8F R=120
-x_buf16_opt_intcon_False co_18 co_i_opt_18_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_0_0  co_0 co_i_opt_0_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_1_0  co_1 co_i_opt_1_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_2_0  co_2 co_i_opt_2_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_3_0  co_3 co_i_opt_3_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_3_1  co_3 co_i_opt_3_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_3_2  co_3 co_i_opt_3_2  VGND int_con C=8F R=120
+x_buf16_opt_intcon_4_0  co_4 co_i_opt_4_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_4_1  co_4 co_i_opt_4_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_4_2  co_4 co_i_opt_4_2  VGND int_con C=8F R=120
+x_buf16_opt_intcon_5_0  co_5 co_i_opt_5_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_5_1  co_5 co_i_opt_5_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_6_0  co_6 co_i_opt_6_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_7_0  co_7 co_i_opt_7_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_7_1  co_7 co_i_opt_7_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_8_0  co_8 co_i_opt_8_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_9_0  co_9 co_i_opt_9_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_9_1  co_9 co_i_opt_9_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_10_0  co_10 co_i_opt_10_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_10_1  co_10 co_i_opt_10_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_11_0  co_11 co_i_opt_11_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_11_1  co_11 co_i_opt_11_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_12_0  co_12 co_i_opt_12_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_12_1  co_12 co_i_opt_12_1  VGND int_con C=8F R=120
+x_buf16_opt_intcon_13_0  co_13 co_i_opt_13_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_14_0  co_14 co_i_opt_14_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_15_0  co_15 co_i_opt_15_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_16_0  co_16 co_i_opt_16_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_17_0  co_17 co_i_opt_17_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_18_0  co_18 co_i_opt_18_0  VGND int_con C=8F R=120
+x_buf16_opt_intcon_18_1  co_18 co_i_opt_18_1  VGND int_con C=8F R=120
 
 x_opt_0_0_0  co_i_opt_0_0  VGND VNB vpwr_R_350 vpwr_R_350 co_opt_0_0_0  sky130_fd_sc_hd__clkbuf_16
 x_opt_0_1_0  co_i_opt_1_0  VGND VNB vpwr_R_352 vpwr_R_352 co_opt_0_1_0  sky130_fd_sc_hd__clkbuf_16
