@@ -148,6 +148,17 @@ print(textwrap.dedent("""
     VVGND     VGND 0  0
     """))
 
+# xf_opt_0_0  co_opt_1_0_0  ff_opt_clk_0_0  VGND ff_rc m=10
+
+#    .CLK(clknet_5_0_1_core_clk),
+#    .CLK(clknet_5_0_1_core_clk),
+#    .CLK(clknet_5_8_1_core_clk),
+#    .CLK(clknet_5_9_1_core_clk),
+#    .CLK(clknet_5_22_1_core_clk),
+#    .CLK(clknet_5_27_1_core_clk),
+#    .CLK(clknet_5_30_1_core_clk),
+#  x_buf1_buf16_intcon_0_0  co_0 co_i_0_0  VGND int_con C=8F R=120
+
 netlist.append(power_network)
 netlist.append(pulses)
 netlist.append(buf1)
@@ -166,6 +177,16 @@ netlist.append(diodes_opt)
 for component in netlist:
     print_array(component)
     print('')
+
+print(textwrap.dedent("""
+    x_ff_static_0 co_i_0_0 ff_clk_static_0 VGND ff_rc
+    x_ff_static_1 co_i_0_1 ff_clk_static_1 VGND ff_rc
+    x_ff_static_2 co_i_1_0 ff_clk_static_2 VGND ff_rc
+    x_ff_static_3 co_i_2_0 ff_clk_static_3 VGND ff_rc
+    x_ff_static_4 co_i_3_0 ff_clk_static_4 VGND ff_rc
+    x_ff_static_5 co_i_4_0 ff_clk_static_5 VGND ff_rc
+    x_ff_static_6 co_i_5_0 ff_clk_static_6 VGND ff_rc
+    """))
 
 print(textwrap.dedent("""
     .lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
