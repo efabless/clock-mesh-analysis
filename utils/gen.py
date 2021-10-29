@@ -4,19 +4,6 @@ import sys
 import textwrap
 from random import uniform
 
-script_path = os.path.dirname(os.path.realpath(__file__))
-buf16_file = os.path.join(script_path, "buf16.txt")
-ff_file = os.path.join(script_path, "dfxtp2.txt")
-
-with open(buf16_file) as reader:
-    lines = reader.readlines()
-buf16_count = list(map(int, lines))
-
-with open(ff_file) as f:
-    lines = f.readlines()
-
-ff_per_buf16_count = [list(map(int, list(line.split()))) for line in lines]
-
 
 def print_array(array):
     for item in array:
@@ -47,6 +34,28 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
 
     return resistors + decaps
 
+
+script_path = os.path.dirname(os.path.realpath(__file__))
+buf16_file = os.path.join(script_path, "buf16.txt")
+ff_file = os.path.join(script_path, "dfxtp2.txt")
+buf16_opt_file = os.path.join(script_path, "buf16_opt.txt")
+ff_opt_file = os.path.join(script_path, "dfxtp2_opt.txt")
+
+with open(buf16_file) as reader:
+    lines = reader.readlines()
+buf16_count = list(map(int, lines))
+
+with open(ff_file) as f:
+    lines = f.readlines()
+ff_per_buf16_count = [list(map(int, list(line.split()))) for line in lines]
+
+with open(buf16_opt_file) as reader:
+    lines = reader.readlines()
+buf16_opt_count = list(map(int, lines))
+
+with open(ff_opt_file) as f:
+    lines = f.readlines()
+ff_per_buf16_opt_count = [list(map(int, list(line.split()))) for line in lines]
 
 netlist = []
 pulses = []
@@ -109,6 +118,24 @@ for i in list(range(clock_source_count)):
         flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_count[i][j]}"
         buf16_ff.append(flipflop)
 
+opt_interconnect = []
+buf16_opt = []
+ff_opt = []
+
+for i in list(range(len(buf16_opt_count))):
+    interconnect = f"x_buf16_opt_intcon_{i:<2} co_{i} co_i_opt_{i:<2} VGN int_con C=8F R=120"
+    buf16_0 = f"x_opt_0_{i:<2} co_i_opt_{i} VGN VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_0_{i:<2} sky130_fd_sc_hd__clkbuf_16"
+    power_index += 1
+    buf16_1 = f"x_opt_1_{i:<2} co_opt_0_{i} VGN VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_1_{i:<2} sky130_fd_sc_hd__clkbuf_16"
+    power_index += 1
+
+    for j in list(range(buf16_opt_count[i])):
+        flipflop = f"xf_opt_{i}_{j} co_opt_1_{i:<2} ff_opt_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_opt_count[i][j]}"
+        ff_opt.append(flipflop)
+
+    opt_interconnect.append(interconnect)
+    buf16_opt.append(buf16_0)
+    buf16_opt.append(buf16_1)
 
 print(textwrap.dedent("""
     VVDD      vpwr_0 0  ${VDDD}
@@ -124,6 +151,11 @@ netlist.append(buf1_16_intcon)
 netlist.append(buf16)
 netlist.append(buf16_ff)
 netlist.append(diodes_buf)
+
+netlist.append(opt_interconnect)
+netlist.append(buf16_opt)
+netlist.append(ff_opt)
+
 for component in netlist:
     print_array(component)
     print('')
