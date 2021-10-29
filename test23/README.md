@@ -2,3 +2,4 @@
 - opt interconnect one layer
 - opt flipflops
 - opt didoes
+- 6 direct flipflops
