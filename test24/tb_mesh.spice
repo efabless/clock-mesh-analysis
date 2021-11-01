@@ -1,0 +1,20 @@
+
+VVDD      vpwr_0 0  ${VDDD}
+VNB       VNB  0  0
+VVGND     VGND 0  0
+
+VC CLK VGND pulse 0 1.8  5.9n 5.9n 15n 48n 100n
+
+* .subckt sky130_fd_sc_hd__dfxtp_2 CLK D VGND VNB VPB VPWR Q
+
+X_ff CLK vpwr_0 VGND VNB vpwr_0 vpwr_0 ff_out sky130_fd_sc_hd__dfxtp_2
+
+.lib     ../../../pdks/sky130A-1.0.227.01/libs.tech/ngspice/sky130.lib.spice ${CORNER}
+.include ../../../pdks/sky130A-1.0.227.01/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include ../../subckts.spice
+
+.temp ${TEMP}
+.save all
+.tran 0.1n 50n
+
+.end
