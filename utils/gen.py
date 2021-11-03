@@ -34,6 +34,7 @@ def gen_power_network(power_source, prefix, branch_count, load_count, decaps_cou
 
     return resistors + decaps
 
+# read the count of the single and double buffered flipflops
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 buf16_file = os.path.join(script_path, "buf16.txt")
@@ -91,30 +92,38 @@ ff_clk_pin_cap = 0.00178
 diode_pin_cap = 0.000878
 load_cap = ff_clk_pin_cap + diode_pin_cap
 
+# first group
 for i in list(range(clock_source_count)):
+    # randomly generated pulses from 0 to max_skew
     skew = str(round(uniform(0, max_skew), 2))
     pulse = f"0 1.8 {skew:>4}n 1n 1n 48n 100n"
     pulses.append(f"VC_{i:<2} clk_{i:<2} VGND pulse {pulse}")
 
+    # pulses are output of clkbuf_1
     buffer = f"x1_{i:<2} clk_{i:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_{i:<2} sky130_fd_sc_hd__clkbuf_1"
     power_index += 1
     buf1.append(buffer)
 
+    # clkbuf_1 are shorted creating a mesh
     resistor = f"R_{i:<2} co_{i:<2} co_{i+1:<2} ${{R_LOAD}}"
     co_resistor.append(resistor)
 
     for j in list(range(buf16_count[i])):
         # .subckt int_con IN OUT GND C=2F R=30
+        # interconnect between clkbuf_1 and clkbuf_16
         int_con = f"x_buf1_buf16_intcon_{i}_{j:<2} co_{i} co_i_{i}_{j:<2} VGND int_con C=8F R=120"
         buf1_16_intcon.append(int_con)
 
+        # clkbuf_16 load on each clkbuf_1 based on buf16.txt
         buffer = f"x16_{i}_{j:<2} co_i_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} ff_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
         buf16.append(buffer)
 
+        # diode capacitance model on each buf16 input
         diode = f"C_{i}_{j} co_i_{i}_{j:<2} VGND 0.9F"
         diodes_buf.append(diode)
 
+        # flipflop(model) load on each buf16  based on dfxtp2.txt
         flipflop = f"xf_{i}_{j:<2} ff_{i}_{j:<2} ff_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_count[i][j]}"
         buf16_ff.append(flipflop)
 
@@ -124,15 +133,24 @@ diodes_opt = []
 buf16_opt_1 = []
 ff_opt = []
 
+# second group
 for i in list(range(len(buf16_opt_count))):
     for j in list(range(buf16_opt_count[i])):
+        # interconnect between clkbuf_1 and clkbuf_16
         interconnect = f"x_buf16_opt_intcon_{i}_{j:<2} co_{i} co_i_opt_{i}_{j:<2} VGND int_con C=8F R=120"
+        # first clkbuf_16
         buf16_0 = f"x_opt_0_{i}_{j:<2} co_i_opt_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_0_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
+        # second clkbuf_16
         buf16_1 = f"x_opt_1_{i}_{j:<2} co_opt_0_{i}_{j:<2} VGND VNB vpwr_R_{power_index:<2} vpwr_R_{power_index:<2} co_opt_1_{i}_{j:<2} sky130_fd_sc_hd__clkbuf_16"
         power_index += 1
+
+        # flipflop(model) load on ech buf16 based on dfxtp2_opt.txt
         flipflop = f"xf_opt_{i}_{j:<2} co_opt_1_{i}_{j:<2} ff_opt_clk_{i}_{j:<2} VGND ff_rc m={ff_per_buf16_opt_count[i][j]}"
+
+        # diode model on first clkbuf_16
         diode_0 = f"C_opt_0_{i}_{j:<2} co_i_opt_{i}_{j:<2} VGND 0.9F"
+        # diode model on second clkbuf_16
         diode_1 = f"C_opt_1_{i}_{j:<2} co_opt_0_{i}_{j:<2} VGND 0.9F"
 
         ff_opt.append(flipflop)
@@ -178,6 +196,7 @@ for component in netlist:
     print_array(component)
     print('')
 
+# third group
 print(textwrap.dedent("""
     x_ff_static_0 co_i_0_0 ff_clk_static_0 VGND ff_rc
     x_ff_static_1 co_i_0_1 ff_clk_static_1 VGND ff_rc

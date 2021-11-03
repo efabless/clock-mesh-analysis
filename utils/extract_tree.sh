@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# A single-use script to capture the count of first group of single
+# buffered fliplfop in mgmt_core.v appends count to dfxtp2.txt 
+# and buf16.txt
+
 nets=(
 clknet_5_0_1_core_clk
 clknet_5_1_1_core_clk

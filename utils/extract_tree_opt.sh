@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# A single-use script to capture the count of second group of double
+# buffered fliplfop in mgmt_core.v appends count to dfxtp2_opt.txt 
+# and buf16_opt.txt
+
 nets=(
 clknet_5_0_1_core_clk
 clknet_5_1_1_core_clk
@@ -69,8 +73,5 @@ for net in "${nets[@]}"; do
         echo "${#matches[@]}" >> buf16_opt.txt
         printf '\t%s\n' "${matches[@]}"
     fi
-    #echo "" >> dfxtp2.txt
-    #count=$(echo "$leaf" | wc -l)
-    #echo $count >> buf16.txt
 done
 

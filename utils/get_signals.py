@@ -3,9 +3,12 @@
 import sys
 import re
 
+# Prints unique matching <pattern> in a file
+# Usage: python3 get_signals.py <regex_pattern> <input file> 
+# Example: python3 get_signals.py 'ff_\d+_\d+' tb_mesh.spice
+
 matches = set()
 
-#pattern = 'vpwr_clk_buf1_\d+'
 #pattern = "ff_\d+_\d+"
 file = sys.argv[2]
 pattern = sys.argv[1]
